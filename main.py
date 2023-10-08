@@ -1,4 +1,3 @@
-from re import I
 import streamlit as st
 
 from pathlib import Path
@@ -15,6 +14,9 @@ st.set_page_config(
     page_title="Data Driven and Personality Driven Characters",
     page_icon="👋",
 )
+
+if "debug_info" not in st.session_state:
+    st.session_state.debug_info = ""
 
 persona_pages = [
         Page("pages/Homer_Simpson.py", "Homer Simpson"),

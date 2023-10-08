@@ -33,28 +33,7 @@ if "openai_api_key_p" not in st.session_state:
 if "user_name_p" not in st.session_state:
     st.session_state["user_name_p"] = st.session_state.user_name
 
-
-# api_key = st.sidebar.text_input("OpenAI API Key", type="password", key="openai_api_key_p")
-# user_name = st.sidebar.text_input("Your Name", key="user_name_p")
-
-# if not api_key:
-#     api_key = "test"
-
-
-# if not st.session_state.openai_api_key:
-#     st.session_state.sidebar_state = "expanded"
-#     st.error("Please add your OpenAI API key to the sidebar.")
-#     st.stop()
-
-# if st.session_state.openai_api_key and st.session_state.user_name:
-#     st.session_state.sidebar_state = "collapsed"
-
-view_info = st.expander("What's this all about?", expanded=True)
-
-with view_info:
-    """
-    This builds on a previous demonstration where we instructed a pre-trained model to mimic a character implicitly through semantically similar few-shot examples. In this demo, we will explore how to combine explicit instructions with implicit instructions to further improve the model's ability to mimic a character.
-    """
+view_info = st.expander("retrieval debug information", expanded=False)
 
 msgs = StreamlitChatMessageHistory(key=f"langchain_messages_{character_first_name.lower()}")
 memory = ConversationBufferMemory(
@@ -105,3 +84,6 @@ if prompt := st.chat_input():
     st.chat_message("human", avatar=user_avatar).write(prompt)
     response = llm_chain.run(prompt)
     st.chat_message("ai", avatar=character_avatar).write(response)
+
+with view_info:
+  st.code(st.session_state.debug_info)
