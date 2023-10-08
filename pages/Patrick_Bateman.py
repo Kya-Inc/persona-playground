@@ -1,9 +1,8 @@
 # Only need to change this for each character/page
-from re import I
 from data.patrick_bateman.character_data import character_data
 
 import streamlit as st
-from typing import Literal, LiteralString
+# from typing import Literal, LiteralString
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
@@ -77,7 +76,8 @@ character_avatar = f"img/{character_first_name.lower()}.png"
 user_avatar = "img/anon.png"
 
 for msg in msgs.messages:
-    AVATAR: LiteralString | Literal['img/anon.png'] = character_avatar if msg.type == "ai" else user_avatar
+    # AVATAR: LiteralString | Literal['img/anon.png'] = character_avatar if msg.type == "ai" else user_avatar
+    AVATAR = character_avatar if msg.type == "ai" else user_avatar
     st.chat_message(msg.type, avatar=AVATAR).write(msg.content)
 
 if prompt := st.chat_input():
