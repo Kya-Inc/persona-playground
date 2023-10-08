@@ -6,7 +6,6 @@ from sentence_transformers import SentenceTransformer
 from langchain.prompts.example_selector.base import BaseExampleSelector
 import streamlit as st
 from pydantic import BaseModel
-from icecream import ic
 
 semantic_model = SentenceTransformer("thenlper/gte-large")
 
@@ -47,7 +46,6 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         )
 
         for prompt in prompts:
-            ic(prompt.payload)
 
             examples.append(prompt.payload)
             p_payload = SimpleNamespace(**prompt.payload) 
@@ -71,7 +69,6 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
 
        
             for response in responses:
-                ic(response.payload) 
                 # we only want responses that aren't included,  there will always be at least one exact match.
                 if response.payload["response"] != p_payload.response:
 
