@@ -102,7 +102,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
             examples.append(solo.payload)
 
         # followed by actual chunks from the thoughts collection
-        if len(toughts) > 0:
+        if len(thoughts) > 0:
             for thought in thoughts:
                 # this is a quick hacky way to handle this.. now it will be treated similarly to how a internal monologue or something a character says without a cue
                 # I just have to make a custom few shot template to handle it
