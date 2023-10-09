@@ -2,7 +2,7 @@ import re
 import pandas as pd
 
 # Read the script
-with open('american_psycho.txt', 'r') as file:
+with open('../raw/american_psycho.txt', 'r') as file:
     script = file.read()
 
 # Split the script into chunks based on double newlines
@@ -18,10 +18,12 @@ for chunk in chunks:
     # If the first line is a character name
     if re.match(r'^[A-Z\s]+(\s\(V\.O\.\))?$', lines[0]):
         # The rest of the lines are the dialogue
-        dialogue = ' '.join(line for line in lines[1:] if not re.match(r'\(.*\)', line))
+        dialogue = ' '.join(
+            line for line in lines[1:] if not re.match(r'\(.*\)', line))
         dialogues.append((lines[0].strip(), dialogue.strip().strip('"')))
 # Convert the list of dialogues into a DataFrame
 df = pd.DataFrame(dialogues, columns=['character', 'line'])
 
 # Save the DataFrame to a CSV file
-df.to_csv('american_psycho.csv', index=False, quoting=3,sep="‚",escapechar="‚")
+df.to_csv('../raw/american_psycho.csv', index=False,
+          quoting=3, sep="‚", escapechar="‚")
