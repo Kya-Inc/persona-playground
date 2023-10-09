@@ -81,7 +81,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                         all_responses.append(response)
                         examples.append(response.payload)
 
-        toughts = qdrant.search(
+        thoughts = qdrant.search(
             collection_name="thoughts",
             query_filter=Filter(
                 must=[
@@ -101,7 +101,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         for solo in deferred:
             examples.append(solo.payload)
 
-        # followed by actual chunks from the passages collection
+        # followed by actual chunks from the thoughts collection
         if len(toughts) > 0:
             for thought in thoughts:
                 # this is a quick hacky way to handle this.. now it will be treated similarly to how a internal monologue or something a character says without a cue
@@ -111,7 +111,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                 examples.append(thought.payload)
 
         # combine them so we have info about both in the debug_info
-        combined = [*deferred, *passages]
+        combined = [*deferred, *thoughts]
 
         debug_info = create_debug_info(
             input_variables["human_input"], prompts, all_responses, combined)
@@ -135,9 +135,9 @@ def create_debug_info(human_input, prompts, responses, solos):
                 output += f"      - response: {response.payload['response']}\n"
                 output += f"        score: {response.score}\n"
 
-    output += "  passages matching cue:\n"
+    output += "  thoughts matching cue:\n"
     for solo in solos:
-        output += f"  - passage: {solo.payload['response']}"
+        output += f"  - thought: {solo.payload['response']}"
         output += f"    score: {solo.score}\n"
 
     return output
