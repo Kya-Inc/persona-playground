@@ -8,7 +8,10 @@ import streamlit as st
 from pydantic import BaseModel
 from sympy import DeferredVector
 
-semantic_model = SentenceTransformer("thenlper/gte-large")
+
+@st.cache_resource
+def load_model():
+    return SentenceTransformer("thenlper/gte-large")
 
 
 class PersonaExampleSelector(BaseExampleSelector, BaseModel):
@@ -24,6 +27,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         """Select which examples to use based on the inputs."""
         examples = []
 
+        semantic_model = load_model()
         qdrant = QdrantClient(
             url=st.secrets.qdrant_url, api_key=st.secrets.qdrant_api_key
         )

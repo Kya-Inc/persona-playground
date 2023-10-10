@@ -47,12 +47,13 @@ prompt_records = []
 response_records = []
 
 for doc in documents:
+    id = uuid.uuid4().hex
     prompt_record = models.Record(
-        id=uuid.uuid4().hex, vector=semantic_model.encode(doc["prompt"]).tolist(), payload=doc
+        id=id, vector=semantic_model.encode(doc["prompt"]).tolist(), payload=doc
     )
 
     response_record = models.Record(
-        id=uuid.uuid4().hex, vector=semantic_model.encode(doc["response"]).tolist(), payload=doc
+        id=id, vector=semantic_model.encode(doc["response"]).tolist(), payload=doc
     )
 
     prompt_records.append(prompt_record)

@@ -20,7 +20,8 @@ persona_pages = [
     Page("pages/Homer_Simpson.py", "Homer Simpson"),
     Page("pages/Patrick_Bateman.py", "Patrick Bateman"),
     Page("pages/Dwight_Schrute.py", "Dwight Schrute"),
-    Page("pages/Marcus_Aurelius.py", "Marcus Aurelius")
+    Page("pages/Marcus_Aurelius.py", "Marcus Aurelius"),
+    Page("pages/Satoshi_Nakamoto.py", "Satoshi Nakamoto")
     # Page("pages/Raymond_Reddington.py", "Raymond Reddington"),
     # Page("pages/Confucius.py", "Confucius"),
 ]
@@ -36,7 +37,7 @@ st.text_input("Your Name", value="Anon", key="user_name")
 
 if not st.session_state.openai_api_key:
     hide_pages(["Homer Simpson", "Patrick Bateman",
-               "Dwight Schrute", "Marcus Aurelius"])
+               "Dwight Schrute", "Marcus Aurelius", "Satoshi Nakamoto"])
 
 st.write("# Personality and Data Driven Characters")
 

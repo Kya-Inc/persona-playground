@@ -127,4 +127,3 @@ def page_template(character_data):
 
     with view_info:
         st.code(st.session_state[debug_info_key])
-        st.code(st.session_state)

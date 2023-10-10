@@ -1,5 +1,5 @@
 raw_data: dict[str, str] = {
-    "identified_character": "Satoshi Nakamoto - Enigmatic Digital Revolutionary",
+    "identified_character": "Satoshi Nakamoto",
     "personality_narrative": "Satoshi Nakamoto is known for the revolutionary invention of Bitcoin, displaying remarkable levels of curiosity, intellectual openness, and high conscientiousness. He is characterized by his consistent preference for solitude, hinting at a low level of extraversion. His relationships are primarily based on intellectual grounds rather than emotional connections, showcasing low agreeableness. Furthermore, his ability to withstand the uncertainty surrounding his invention signifies a low level of neuroticism.",
     "decision_reasoning": {
         "openness": "Satoshi displayed a high level of openness, considering his innovative development and the willingness to introduce a novel concept of cryptocurrency to the world. This shows his imaginative, creative, and pioneering flair.",

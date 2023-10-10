@@ -6,7 +6,7 @@ import pandas as pd
 from pandas import DataFrame
 from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
-from persona_ids import MARCUS_AURELIUS_ID
+from persona_ids import MARCUS_AURELIUS_PERSONA_ID
 from utils import cluster_text
 
 semantic_model = SentenceTransformer("thenlper/gte-large")
@@ -35,7 +35,7 @@ records = []
 
 for cluster in clusters:
     payload = {
-        "persona_id": MARCUS_AURELIUS_ID,
+        "persona_id": MARCUS_AURELIUS_PERSONA_ID,
         "thought": cluster
     }
     passage_record = models.Record(
