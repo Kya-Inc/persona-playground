@@ -73,9 +73,7 @@ def page_template(character_data):
         example_prompt=ChatPromptTemplate.from_messages(
             [("human", "{prompt}"), ("ai", "{response}")]
         ),
-        single_prompt=ChatPromptTemplate.from_messages(
-            [("ai", "{response}")]
-        ),
+        single_prompt=ChatPromptTemplate.from_messages([("ai", "{response}")]),
         input_variables=["human_input"],
     )
 
@@ -106,7 +104,14 @@ def page_template(character_data):
 
     llm_chain = LLMChain(
         llm=ChatOpenAI(
-            openai_api_key=st.session_state.openai_api_key_p, model="gpt-4"),
+            openai_api_key=st.session_state.openai_api_key_p,
+            model="gpt-4",
+            temperature=0.9,
+            model_kwargs={
+                "frequency_penalty": 0.7,
+                "presence_penalty": 0.7,
+            },
+        ),
         prompt=chat_prompt,
         memory=memory,
         verbose=True,
