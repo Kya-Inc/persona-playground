@@ -27,7 +27,7 @@ PERSONA_IDS = {
     "Dwight Schrute": DWIGHT_SCHRUTE_PERSONA_ID,
     "Patrick Bateman": PATRICK_BATEMAN_PERSONA_ID,
     "Confucius": CONFUCIUS_PERSONA_ID,
-    "Marcus Aurelius Antoninus": MARCUS_AURELIUS_PERSONA_ID,
+    "Marcus Aurelius": MARCUS_AURELIUS_PERSONA_ID,
     "Satoshi Nakamoto": SATOSHI_NAKAMOTO_PERSONA_ID,
     "Nedward Flanders": NEDWARD_FLANDERS_PERSONA_ID,
     "Montgomery Burns": MONTGOMERY_BURNS_PERSONA_ID,
