@@ -1,5 +1,5 @@
 # Only need to change this for each character/page
-from data.patrick_bateman.character_data import character_data
+from data.patrick_bateman import character_data
 from page import page_template
 
 

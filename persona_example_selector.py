@@ -1,4 +1,6 @@
-from typing import Dict, List
+from __future__ import annotations
+from typing import Dict, List, Optional, ForwardRef
+from typing_extensions import Literal  # just to be safe
 from types import SimpleNamespace
 from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue
@@ -6,7 +8,37 @@ from sentence_transformers import SentenceTransformer
 from langchain.prompts.example_selector.base import BaseExampleSelector
 import streamlit as st
 from pydantic import BaseModel
-from sympy import DeferredVector
+import os
+
+
+class DialogueExample(BaseModel):
+    type: Literal["cue", "response", "thought"]
+    text: str
+    score: Optional[float] = None
+    pair: Optional[DialogueExample] = None
+    similar: List[DialogueExample] = []
+
+    # we have to avoid the circular reference when printing, so overriding these methods
+    def __repr__(self):
+        pair_repr = repr(
+            self.pair) if self.pair is None else "DialogueExample(...)"
+        similar_repr = repr(self.similar) if not (
+            self.similar and self in self.similar) else "DialogueExample(...)"
+        return f"DialogueExample(type={repr(self.type)}, text={repr(self.text)}, pair={pair_repr}, similar={similar_repr})"
+
+    def __str__(self):
+        pair_str = str(self.pair) if self.pair is None else "..."
+        return f"DialogueExample(type={self.type}, text={self.text}, pair={pair_str}, similar={self.similar})"
+
+    class Config:
+        arbitrary_types_allowed = True
+
+    @staticmethod
+    def parse_obj(obj):
+        return DialogueExample(**obj)
+
+
+DialogueExample.model_rebuild()
 
 
 @st.cache_resource
@@ -25,17 +57,19 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
 
     def select_examples(self, input_variables: Dict[str, str]) -> List[dict]:
         """Select which examples to use based on the inputs."""
-        examples = []
-
         semantic_model = load_model()
+
         qdrant = QdrantClient(
-            url=st.secrets.qdrant_url, api_key=st.secrets.qdrant_api_key
+            url=os.environ.get("QDRANT_URL") or st.secrets.qdrant_url,
+            api_key=os.environ.get(
+                "QDRANT_API_KEY") or st.secrets.qdrant_api_key
         )
 
-        all_responses = []
+        examples = []
         deferred = []
-        prompts = qdrant.search(
-            collection_name="prompts",
+
+        cues = qdrant.search(
+            collection_name="cues",
             query_filter=Filter(
                 must=[
                     FieldCondition(
@@ -51,13 +85,16 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
             score_threshold=0.75,
         )
 
-        for prompt in prompts:
+        for cue in cues:
 
-            if prompt.payload["prompt"] == prompt.payload["response"]:
-                deferred.append(prompt)
+            if cue.payload["cue"] == cue.payload["response"]:
+                deferred.append(cue)
             else:
-                examples.append(prompt.payload)
-                p_payload = SimpleNamespace(**prompt.payload)
+
+                dialogue_example = DialogueExample(
+                    type="cue", text=cue.payload["cue"], score=cue.score)
+                dialogue_example.pair = DialogueExample(
+                    type="response", text=cue.payload["response"])
 
                 responses = qdrant.search(
                     collection_name="responses",
@@ -69,21 +106,18 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                         ]
                     ),
                     query_vector=semantic_model.encode(
-                        p_payload.response).tolist(),
-                    limit=2,
-                    with_payload={
-                        "exclude": ["precontext", "postcontext", "prompting_character"]
-                    },
+                        cue.payload["response"]).tolist(),
+                    limit=3,
                     score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
                 )
 
                 for response in responses:
                     # we only want responses that aren't included,  there will always be at least one exact match.
-                    if response.payload["response"] != p_payload.response:
+                    if response.payload["response"] != cue.payload["response"]:
+                        dialogue_example.pair.similar.append(DialogueExample(
+                            type="response", text=response.payload["response"], score=response.score))
 
-                        response.payload["original_response_matched"] = p_payload.response
-                        all_responses.append(response)
-                        examples.append(response.payload)
+                examples.append(dialogue_example)
 
         thoughts = qdrant.search(
             collection_name="thoughts",
@@ -102,46 +136,85 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         )
 
         # now let's move internal dialogue, monologues, etc to the end
-        for solo in deferred:
-            examples.append(solo.payload)
+        if len(deferred) > 0:
+            for solo in deferred:
+                print(solo)
+                examples.append(DialogueExample(
+                    type="thought", text=solo.payload["response"], score=solo.score))
 
         # followed by actual chunks from the thoughts collection
         if len(thoughts) > 0:
             for thought in thoughts:
                 # this is a quick hacky way to handle this.. now it will be treated similarly to how a internal monologue or something a character says without a cue
                 # I just have to make a custom few shot template to handle it
-                thought.payload["prompt"] = thought.payload["thought"]
+                thought.payload["cue"] = thought.payload["thought"]
                 thought.payload["response"] = thought.payload["thought"]
-                examples.append(thought.payload)
 
-        # combine them so we have info about both in the debug_info
-        combined = [*deferred, *thoughts]
+                examples.append(DialogueExample(
+                    type="thought", text=thought.payload["thought"], score=thought.score))
+
+        similar_content = qdrant.search(
+            collection_name="responses",
+            query_filter=Filter(
+                must=[
+                    FieldCondition(
+                            key="persona_id", match=MatchValue(value=self.persona_id)
+                    )
+                ]
+            ),
+            query_vector=semantic_model.encode(
+                input_variables.get("human_input")).tolist(),
+            limit=5,
+            with_payload=True,
+            score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
+        )
+
+        if len(similar_content) > 0:
+            for content in similar_content:
+                examples.append(DialogueExample(
+                    type="thought", text=content.payload["response"], score=content.score))
 
         debug_info = create_debug_info(
-            input_variables["human_input"], prompts, all_responses, combined)
+            input_variables["human_input"], examples)
         st.session_state[f"debug_info_{self.persona_id}"] = debug_info
+
         return examples
 
 
-def create_debug_info(human_input, prompts, responses, solos):
+def create_debug_info(human_input, examples):
+    cues = [ex for ex in examples if ex.type == "cue"]
+    thoughts = [ex for ex in examples if ex.type == "thought"]
 
     output = f"- human input: {human_input.strip()}\n"
-    output += "  examples matching cue:\n"
+    output += "  retrieval_results:\n"
+    if len(cues) > 0:
+        output += "  # The following cues are similar to the user's last message and show the character's response and other semantically similar responses.\n"
 
-    for prompt in prompts:
-        output += f"  - cue: {prompt.payload['prompt']}\n"
-        output += f"    score: {prompt.score}\n"
-        output += f"    response: {prompt.payload['response']}\n"
-        output += "    similar responses:\n"
+        for cue in cues:
+            output += f"    - cue: \"{cue.text}\"\n"
+            output += f"      score: \"{cue.score}\"\n"
+            output += f"      response: \"{cue.pair.text}\"\n"
 
-        for response in responses:
-            if response.payload["original_response_matched"] == prompt.payload["response"]:
-                output += f"      - response: {response.payload['response']}\n"
-                output += f"        score: {response.score}\n"
+            if len(cue.pair.similar) > 0:
+                output += "      similar_responses:\n"
+                output += "        # The following responses, don't necessarily respond to the same cue, but are semantically similar to the response to the above cue.\n"
+                for response in cue.pair.similar:
+                    output += f"        - response: \"{response.text}\"\n"
+                    output += f"          score: \"{response.score}\"\n"
 
-    output += "  thoughts matching cue:\n"
-    for solo in solos:
-        output += f"  - thought: {solo.payload['response']}"
-        output += f"    score: {solo.score}\n"
+    if len(thoughts) > 0:
+        output += "\n    # The remaining example messages are independant thoughts semantically matching the user's last message.\n"
+        for thought in thoughts:
+            output += f"    - thought: \"{thought.text}\"\n"
+            output += f"      score: \"{thought.score}\"\n"
 
     return output
+
+
+if __name__ == "__main__":
+    selector = PersonaExampleSelector(persona_id="6513a240c54d7ab4cc90e370")
+
+    examples = selector.select_examples(
+        input_variables={"human_input": "What's your favorite drink?"})
+
+    print(create_debug_info("What's your favorite drink?", examples))

@@ -1,11 +1,12 @@
+from typing import Optional
+import hashlib
 import numpy as np
 import spacy
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load("en_core_web_sm")
 
 
 def cluster_text(text, threshold=0.3):
-
     def process(text):
         doc = nlp(text)
         sents = list(doc.sents)
@@ -15,7 +16,7 @@ def cluster_text(text, threshold=0.3):
     def cluster(sents, vecs, threshold):
         clusters = [[0]]
         for i in range(1, len(sents)):
-            if np.dot(vecs[i], vecs[i-1]) < threshold:
+            if np.dot(vecs[i], vecs[i - 1]) < threshold:
                 clusters.append([])
             clusters[-1].append(i)
         return clusters
@@ -30,7 +31,7 @@ def cluster_text(text, threshold=0.3):
 
     final_texts = []
     for cluster in clusters:
-        cluster_text = clean(' '.join([sents[i].text for i in cluster]))
+        cluster_text = clean(" ".join([sents[i].text for i in cluster]))
         if 60 < len(cluster_text) < 3000:
             final_texts.append(cluster_text)
 
@@ -40,7 +41,7 @@ def cluster_text(text, threshold=0.3):
         clusters = cluster(sents, vecs, threshold)
 
         for cluster in clusters:
-            cluster_text = clean(' '.join([sents[i].text for i in cluster]))
+            cluster_text = clean(" ".join([sents[i].text for i in cluster]))
             if 60 < len(cluster_text) < 3000:
                 final_texts.append(cluster_text)
 

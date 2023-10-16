@@ -1,6 +1,4 @@
 # Only need to change this for each character/page
-from data.dwight_schrute.character_data import character_data
-
 import streamlit as st
 
 # from typing import Literal, LiteralString
@@ -71,9 +69,10 @@ def page_template(character_data):
     examples_prompt = CustomFewShotChatMessagePromptTemplate(
         example_selector=example_selector,
         example_prompt=ChatPromptTemplate.from_messages(
-            [("human", "{prompt}"), ("ai", "{response}")]
+            [("human", "{cue}"), ("ai", "{response}")]
         ),
-        single_prompt=ChatPromptTemplate.from_messages([("ai", "{response}")]),
+        single_prompt=ChatPromptTemplate.from_messages([("ai", "{text}")]),
+        system_prompt=ChatPromptTemplate.from_messages([("system", "{text}")]),
         input_variables=["human_input"],
     )
 
@@ -117,7 +116,8 @@ def page_template(character_data):
         verbose=True,
     )
 
-    character_avatar = f"img/{character_first_name.lower()}.png"
+    character_avatar = f"img/{character_name.lower().replace(' ', '_')}.png"
+    print(character_avatar)
     user_avatar = "img/anon.png"
 
     for msg in msgs.messages:

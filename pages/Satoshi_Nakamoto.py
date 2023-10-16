@@ -1,5 +1,5 @@
 # Only need to change this for each character/page
-from data.satoshi_nakamoto.character_data import character_data
+from data.satoshi_nakamoto import satoshi_nakamoto
 from page import page_template
 
-page_template(character_data)
+page_template(satoshi_nakamoto)
