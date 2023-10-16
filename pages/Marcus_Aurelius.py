@@ -2,4 +2,4 @@
 from data.marcus_aurelius import character_data
 from page import page_template
 
-page_template(marcus_aurelius)
+page_template(character_data)
