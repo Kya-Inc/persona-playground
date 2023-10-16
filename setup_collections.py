@@ -1,11 +1,15 @@
 
 # when you run this if you have errors set PYTHONPATH=../../../
+import os
 from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
-import streamlit as st
 
-qdrant = QdrantClient(url=st.secrets.qdrant_url,
-                      api_key=st.secrets.qdrant_api_key)
+from dotenv import load_dotenv
+
+load_dotenv()
+
+qdrant = QdrantClient(url=os.environ.get("QDRANT_URL"),
+                      api_key=os.environ.get("QDRANT_API_KEY")
 
 semantic_model = SentenceTransformer("thenlper/gte-large")
 

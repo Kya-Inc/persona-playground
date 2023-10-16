@@ -1,6 +1,9 @@
 """
 This is generated during another step, so just usin the results for now
 """
+import os
+
+
 raw_data: dict[str, any] = {
     "identified_character": "Marcus Aurelius",
     "personality_narrative": "Marcus Aurelius Antoninus, a thoughtful and self-reflective leader, continuously strives towards self-improvement and understanding of human nature. As an emperor and philosopher, his focus is on fulfilling his duties to society and living in accordance with his Stoic beliefs. His humility, considered decision-making, and acceptance of life's cycles reflect high conscientiousness and openness, along with moderate extraversion, agreeableness, and low neuroticism.",
@@ -43,18 +46,20 @@ if __name__ == "__main__":
     # when you run this if you have errors set PYTHONPATH=../../../
     import uuid
     from bson import ObjectId
-    import streamlit as st  # yes I'm lazy and doing this for the global secrets
     import pandas as pd
     from pandas import DataFrame
     from qdrant_client import models, QdrantClient
     from sentence_transformers import SentenceTransformer
     from persona_ids import MARCUS_AURELIUS_PERSONA_ID
     from utils import cluster_text
+    from dotenv import load_dotenv
+
+    load_dotenv()
 
     semantic_model = SentenceTransformer("thenlper/gte-large")
 
-    qdrant = QdrantClient(url=st.secrets.qdrant_url,
-                          api_key=st.secrets.qdrant_api_key)
+    qdrant = QdrantClient(url=os.environ.get("QDRANT_URL"),
+                          api_key=os.environ.get("QDRANT_API_KEY"))
 
     qdrant.recreate_collection(
         collection_name="thoughts",

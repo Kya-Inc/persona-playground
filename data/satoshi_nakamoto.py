@@ -67,9 +67,12 @@ if __name__ == "__main__":
     from qdrant_client import models, QdrantClient
     from sentence_transformers import SentenceTransformer
     from persona_ids import SATOSHI_NAKAMOTO_PERSONA_ID
+    from dotenv import load_dotenv
 
-    qdrant = QdrantClient(url=st.secrets.qdrant_url,
-                          api_key=st.secrets.qdrant_api_key)
+    load_dotenv()
+
+    qdrant = QdrantClient(url=os.environ.get("QDRANT_URL"),
+                          api_key=os.environ.get("QDRANT_API_KEY"))
 
     semantic_model = SentenceTransformer("thenlper/gte-large")
 

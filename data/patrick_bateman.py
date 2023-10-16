@@ -43,6 +43,9 @@ if __name__ == "__main__":
     from sentence_transformers import SentenceTransformer
 
     from persona_ids import PATRICK_BATEMAN_PERSONA_ID
+    from dotenv import load_dotenv
+
+    load_dotenv()
 
     data: DataFrame = pd.read_csv(
         "../raw/american_psycho.csv", sep="‚"
@@ -52,8 +55,8 @@ if __name__ == "__main__":
     bateman_df: DataFrame = df[df["character"].isin(
         ["BATEMAN", "BATEMAN (V.O.)"])]
 
-    qdrant = QdrantClient(url=st.secrets.qdrant_url,
-                          api_key=st.secrets.qdrant_api_key)
+    qdrant = QdrantClient(url=os.environ.get("QDRANT_URL"),
+                          api_key=os.environ.get("QDRANT_API_KEY"))
 
     semantic_model = SentenceTransformer("thenlper/gte-large")
 

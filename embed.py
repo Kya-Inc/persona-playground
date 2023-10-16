@@ -1,9 +1,13 @@
+import os
 import streamlit as st  # yes I'm lazy and doing this for the global secrets
 import pandas as pd
 import uuid
 from pandas import DataFrame
 from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def embed_character_dialogue(
@@ -23,8 +27,8 @@ def embed_character_dialogue(
         lines[speaker_name_col] == persona_name_in_data
     ].dropna(subset=[line_col])
 
-    qdrant = QdrantClient(url=st.secrets.qdrant_url,
-                          api_key=st.secrets.qdrant_api_key)
+    qdrant = QdrantClient(url=os.environ.get("QDRANT_URL"),
+                          api_key=os.environ.get("QDRANT_API_KEY"))
 
     semantic_model = SentenceTransformer("thenlper/gte-large")
 
