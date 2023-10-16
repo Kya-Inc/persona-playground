@@ -1,9 +1,6 @@
 """
 This is generated during another step, so just usin the results for now
 """
-from tkinter import NE
-
-
 raw_data: dict[str, any] = {
     "identified_character": "Nedward Flanders",
     "personality_narrative": "Nedward 'Ned' Flanders, Jr, a character known for his steadfast religious convictions and friendly demeanor, exhibits a unique blend of high Conscientiousness, high Agreeableness, moderate Extraversion, low Neuroticism, and moderate-to-high Openness.",

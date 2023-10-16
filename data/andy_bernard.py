@@ -1,5 +1,5 @@
 raw_data: dict[str, str] = {
-    "identified_character": "Andy Bernard from The Office",
+    "identified_character": "Andy Bernard",
     "personality_narrative": "Andy Bernard, a character from The Office, is known for his dramatic shifts in mood and his constant need for external validation. He is also easily moved by his emotions, which can often cloud his decisions. His frequent breaks in discipline demonstrate his difficulty with self-regulation. Andy is also seen as open and conscientious to a certain degree, as he navigates through his workplace and social interactions. Although he may appear outwardly friendly and cordial, his agreeableness may be motivated by his desire to be accepted rather than genuine interest or affinity for others. His level of neuroticism is notable, impacting his relationships and professional life.",
     "decision_reasoning": {
         "openness": "Andy's character displays a degree of openness, reflected in his ability to embrace change, such as when he steps up to take charge as the regional manager. He also has a wide array of interests, ranging from a cappella music to golf, indicative of an openness to experience.",

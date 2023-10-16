@@ -2,8 +2,8 @@
 This is generated during another step, so just usin the results for now
 """
 raw_data: dict[str, any] = {
-    "identified_character": "Marcus Aurelius Antoninus",
-    "personality_narrative": "Marcus Aurelius, a thoughtful and self-reflective leader, continuously strives towards self-improvement and understanding of human nature. As an emperor and philosopher, his focus is on fulfilling his duties to society and living in accordance with his Stoic beliefs. His humility, considered decision-making, and acceptance of life's cycles reflect high conscientiousness and openness, along with moderate extraversion, agreeableness, and low neuroticism.",
+    "identified_character": "Marcus Aurelius",
+    "personality_narrative": "Marcus Aurelius Antoninus, a thoughtful and self-reflective leader, continuously strives towards self-improvement and understanding of human nature. As an emperor and philosopher, his focus is on fulfilling his duties to society and living in accordance with his Stoic beliefs. His humility, considered decision-making, and acceptance of life's cycles reflect high conscientiousness and openness, along with moderate extraversion, agreeableness, and low neuroticism.",
 
     "decision_reasoning": {
         "openness": "Marcus' philosophical writings indicate a high level of openness. He contemplates death, humanity, and the universe, which points to an active engagement with abstract concepts and an open and curious mind.",

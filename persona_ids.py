@@ -30,7 +30,7 @@ PERSONA_IDS = {
     "Marcus Aurelius Antoninus": MARCUS_AURELIUS_PERSONA_ID,
     "Satoshi Nakamoto": SATOSHI_NAKAMOTO_PERSONA_ID,
     "Nedward Flanders": NEDWARD_FLANDERS_PERSONA_ID,
-    "C. Montgomery Burns": MONTGOMERY_BURNS_PERSONA_ID,
+    "Montgomery Burns": MONTGOMERY_BURNS_PERSONA_ID,
     "Krusty The Clown": KRUSTY_THE_CLOWN_PERSONA_ID,
     "Bart Simpson": BART_SIMPSON_PERSONA_ID,
     "Michael Scott": MICHAEL_SCOTT_PERSONA_ID,
