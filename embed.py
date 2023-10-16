@@ -91,7 +91,7 @@ def embed_character_dialogue(
 
         else:  # the line before this response was the likely cue since it was a speaking line
             # check if the line before the cue line was the same speaker as the cue line, if so concatenate them
-            row_before_cue = df.iloc[prev_row - 1]
+            row_before_cue = df.iloc[prev_row - 2]
             if (
                 row_before_cue[is_spoken_line_col]
                 and prev_row[speaker_name_col]
