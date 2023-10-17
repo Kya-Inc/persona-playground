@@ -1,8 +1,3 @@
-
-
-from tkinter import BUTT
-
-
 raw_data: dict[str, str] = {
     "identified_character": "Butters Stotch",
     "personality_narrative": "Butters is an innocent and naive character, often exploited by his friends due to his trustworthy nature. His personality is a mix of extreme levels of agreeableness, conscientiousness, and openness, along with minimal extraversion and neuroticism levels. His naivety, optimism, and imaginative nature characterizes his high openness, while his meticulousness, dependability, and rule-abiding behavior highlights his conscientiousness. His willingness to help his friends despite their frequent manipulation portrays his extreme agreeableness. Butters' low levels of extraversion emerge from his tendency to be in the background, coupled with his reserved and timid nature. Lastly, his low neuroticism is signified by his ability to remain cheerful and optimistic, regardless of the circumstances.",
