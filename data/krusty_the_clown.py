@@ -67,5 +67,4 @@ if __name__ == "__main__":
         line_col="spoken_words",
         speaker_name_col="raw_character_text",
         is_spoken_line_col="speaking_line",
-        dry_run=True
     )
