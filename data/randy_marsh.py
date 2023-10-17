@@ -1,5 +1,3 @@
-
-
 raw_data: dict[str, str] = {
     "identified_character": "Randy Marsh",
     "personality_narrative": "Randy Marsh is an easily excitable, somewhat impulsive, and zestful character. He possesses a high degree of openness with his penchant for trying new experiences and his creative, somewhat less conventional thought process. He has a relatively low degree of conscientiousness, often throwing himself into new experiences without much planning or consideration for possible consequences. Despite his eccentricities, Randy is very extroverted, enjoying the company of others and often being the life of the party. He is also quite agreeable, despite often finding himself in conflict due to his impulsive decisions, but this may be partly due to his low level of control over his emotions, hinting towards a higher level of neuroticism.",
