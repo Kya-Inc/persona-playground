@@ -37,7 +37,7 @@ character_data = {
 
 if __name__ == "__main__":
     # make sure the root directory is in your python path
-    from persona_ids import C_MONTGOMERY_BURNS_PERSONA_ID
+    from persona_ids import MONTGOMERY_BURNS_PERSONA_ID
     from embed import embed_character_dialogue
     import pandas as pd
     from pandas import DataFrame
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     # then we pass the data frame to the character/data agnostic function that creates the embeddings
     embed_character_dialogue(
         df=df,
-        persona_id=C_MONTGOMERY_BURNS_PERSONA_ID,
+        persona_id=MONTGOMERY_BURNS_PERSONA_ID,
         persona_name_in_data="C. Montgomery Burns",
         line_col="spoken_words",
         speaker_name_col="raw_character_text",
