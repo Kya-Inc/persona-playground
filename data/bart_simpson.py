@@ -51,6 +51,11 @@ if __name__ == "__main__":
         index_col="id",
     ).sort_index().reset_index()
 
+    df.fillna({
+        'location_id': 0,
+        'raw_location_text': 'Not Specified'
+    }, inplace=True)
+
     # then we pass the data frame to the character/data agnostic function that creates the embeddings
     embed_character_dialogue(
         df=df,

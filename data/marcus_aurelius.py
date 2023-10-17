@@ -1,7 +1,6 @@
 """
 This is generated during another step, so just usin the results for now
 """
-import os
 
 
 raw_data: dict[str, any] = {
@@ -53,6 +52,7 @@ if __name__ == "__main__":
     from persona_ids import MARCUS_AURELIUS_PERSONA_ID
     from utils import cluster_text
     from dotenv import load_dotenv
+    import os
 
     load_dotenv()
 
