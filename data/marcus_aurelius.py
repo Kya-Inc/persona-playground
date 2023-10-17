@@ -61,15 +61,6 @@ if __name__ == "__main__":
     qdrant = QdrantClient(url=os.environ.get("QDRANT_URL"),
                           api_key=os.environ.get("QDRANT_API_KEY"))
 
-    qdrant.recreate_collection(
-        collection_name="thoughts",
-        vectors_config=models.VectorParams(
-            # Vector size is defined by used model
-            size=semantic_model.get_sentence_embedding_dimension(),
-            distance=models.Distance.COSINE,
-        ),
-    )
-
     file = open("marcus_aurelius/meditations.txt")
     writing = file.read()
     file.close()
@@ -84,9 +75,13 @@ if __name__ == "__main__":
             "thought": cluster
         }
         passage_record = models.Record(
-            id=uuid.uuid4().hex, vector=semantic_model.encode(cluster).tolist(), payload=payload
+            id=uuid.uuid4().hex,
+            vector=semantic_model.encode(cluster).tolist(),
+            payload=payload
         )
 
         records.append(passage_record)
 
     qdrant.upload_records(collection_name="thoughts", records=records)
+
+    print("thoughts: ", len(records))

@@ -68,6 +68,7 @@ if __name__ == "__main__":
     from sentence_transformers import SentenceTransformer
     from persona_ids import SATOSHI_NAKAMOTO_PERSONA_ID
     from dotenv import load_dotenv
+    import os
 
     load_dotenv()
 
@@ -77,7 +78,7 @@ if __name__ == "__main__":
     semantic_model = SentenceTransformer("thenlper/gte-large")
 
     # cue and response pairs
-    data: DataFrame = pd.read_json("../raw/cue-response-pairs.json")
+    data: DataFrame = pd.read_json("satoshi_nakamoto/cue-response-pairs.json")
     df = pd.DataFrame(data)
 
     documents = []
@@ -105,11 +106,15 @@ if __name__ == "__main__":
 
             id = uuid.uuid4().hex
             cue_record = models.Record(
-                id=id, vector=semantic_model.encode(doc["cue"]).tolist(), payload=doc
+                id=id,
+                vector=semantic_model.encode(doc["cue"]).tolist(),
+                payload=doc
             )
 
             response_record = models.Record(
-                id=id, vector=semantic_model.encode(doc["response"]).tolist(), payload=doc
+                id=id,
+                vector=semantic_model.encode(doc["response"]).tolist(),
+                payload=doc
             )
 
         cue_records.append(cue_record)
@@ -118,3 +123,6 @@ if __name__ == "__main__":
     qdrant.upload_records(collection_name="cues", records=cue_records)
     qdrant.upload_records(collection_name="responses",
                           records=response_records)
+
+    print("cues: ", len(cue_records))
+    print("responses: ", len(response_records))

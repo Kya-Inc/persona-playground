@@ -1,7 +1,8 @@
+import json
 import os
-import streamlit as st  # yes I'm lazy and doing this for the global secrets
 import pandas as pd
 import uuid
+from typing import Optional
 from pandas import DataFrame
 from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
@@ -14,6 +15,7 @@ def embed_character_dialogue(
     df: DataFrame,
     persona_id: str,
     persona_name_in_data: str,
+    voice_over_name_in_data: Optional[str] = None,
     line_col: str = "line",
     speaker_name_col: str = "speaker",
     is_spoken_line_col: str = "speaking_line",
@@ -22,10 +24,9 @@ def embed_character_dialogue(
     # filter out non-speaking lines
     lines: DataFrame = df[df[is_spoken_line_col]]
 
-    # filter out non-character lines
-    character_df: DataFrame = lines[
-        lines[speaker_name_col] == persona_name_in_data
-    ].dropna(subset=[line_col])
+    # filter out non-character lines (this includes lines that they say outloud and internally)
+    character_df: DataFrame = lines[lines[speaker_name_col].isin(
+        [persona_name_in_data, voice_over_name_in_data])].dropna(subset=[line_col])
 
     qdrant = QdrantClient(url=os.environ.get("QDRANT_URL"),
                           api_key=os.environ.get("QDRANT_API_KEY"))
@@ -66,7 +67,7 @@ def embed_character_dialogue(
                 concat_rows.append(i + 1)
 
         # if this is the first line of a scene change or episode then treat it like a standalone thought
-        if not prev_row[is_spoken_line_col]:
+        if not prev_row[is_spoken_line_col] or row[speaker_name_col] == voice_over_name_in_data:
             if not dry_run:
                 thought_vec = semantic_model.encode(response)
 
@@ -112,7 +113,7 @@ def embed_character_dialogue(
                 "responding_to": prev_char,
                 "response": response,
                 "persona_id": persona_id,
-                "meta": {**row},
+                "meta": {k: v for k, v in row.items() if not pd.isna(v) or not pd.isnull(v)}
             }
 
             if not dry_run:
@@ -141,53 +142,59 @@ def embed_character_dialogue(
             response_records.append(response_record)
 
     # just info to make sure things are adding up
-    print("cue/response pairs: ", len(cue_records))
-    print("thoughts", len(thought_records))
-
-    print("total records: ", len(cue_records) + len(thought_records))
-
-    print("merged lines: ", len(concat_rows))
-    print("total lines: ", len(cue_records) +
-          len(thought_records) + len(concat_rows))
 
     if not dry_run:
+        print("cue/response pairs: ", len(cue_records))
+        print("thoughts", len(thought_records))
+
+        print("total records: ", len(cue_records) + len(thought_records))
+
+        print("merged lines: ", len(concat_rows))
+        print("total lines: ", len(cue_records) +
+              len(thought_records) + len(concat_rows))
+
         qdrant.upload_records(collection_name="cues", records=cue_records)
         qdrant.upload_records(collection_name="responses",
                               records=response_records)
         qdrant.upload_records(collection_name="thoughts",
                               records=thought_records)
-    # else:
-        # print({
-        #     "cues": cue_records,
-        #     "responses": response_records,
-        #     "thoughts": thought_records
-        # })
+    else:
+        print(json.dumps({
+            "cues": [x.dict() for x in cue_records],
+            "responses": [x.dict() for x in response_records],
+            "thoughts": [x.dict() for x in thought_records],
+            "count": {
+                "cues": len(cue_records),
+                "responses": len(response_records),
+                "thoughts": len(thought_records),
+            }
+        }))
 
 
 # if __name__ == "__main__":
-"""Example usage ... this part won't be in this file"""
-# # from persona_ids import NEDWARD_FLANDERS_PERSONA_ID
-# from persona_ids import C_MONTGOMERY_BURNS_PERSONA_ID
-# # from persona_ids import HOMER_SIMPSON_PERSONA_ID
+    """Example usage"""
+    # # from persona_ids import NEDWARD_FLANDERS_PERSONA_ID
+    # from persona_ids import C_MONTGOMERY_BURNS_PERSONA_ID
+    # # from persona_ids import HOMER_SIMPSON_PERSONA_ID
 
-# # prepare dataframe for the specific character by loading from source, handling dtypes if needed, sorting, whatever else might be needed
-# dtypes = {
-#     "speaking_line": "boolean",
-# }
+    # # prepare dataframe for the specific character by loading from source, handling dtypes if needed, sorting, whatever else might be needed
+    # dtypes = {
+    #     "speaking_line": "boolean",
+    # }
 
-# df: DataFrame = pd.read_csv(
-#     "data/shared/the_simpsons_lines.csv",
-#     low_memory=False,
-#     dtype=dtypes,
-#     index_col="id",
-# ).sort_index().reset_index()
+    # df: DataFrame = pd.read_csv(
+    #     "data/shared/the_simpsons_lines.csv",
+    #     low_memory=False,
+    #     dtype=dtypes,
+    #     index_col="id",
+    # ).sort_index().reset_index()
 
-# # then we pass the data frame to the character/data agnostic function that creates the embeddings
-# embed_character_dialogue(
-#     df=df,
-#     persona_id=C_MONTGOMERY_BURNS_PERSONA_ID,
-#     persona_name_in_data="C. Montgomery Burns",
-#     line_col="spoken_words",
-#     speaker_name_col="raw_character_text",
-#     is_spoken_line_col="speaking_line",
-# )
+    # # then we pass the data frame to the character/data agnostic function that creates the embeddings
+    # embed_character_dialogue(
+    #     df=df,
+    #     persona_id=C_MONTGOMERY_BURNS_PERSONA_ID,
+    #     persona_name_in_data="C. Montgomery Burns",
+    #     line_col="spoken_words",
+    #     speaker_name_col="raw_character_text",
+    #     is_spoken_line_col="speaking_line",
+    # )
