@@ -167,6 +167,8 @@ def embed_character_dialogue(
                 "cues": len(cue_records),
                 "responses": len(response_records),
                 "thoughts": len(thought_records),
+                "merged": len(concat_rows),
+                "total": len(cue_records) + len(thought_records) + len(concat_rows)
             }
         }))
 
