@@ -33,7 +33,7 @@ character_data = {
 }
 
 if __name__ == "__main__":
-    from persona_ids import SPONGEBOB_SQUAREPANTS_PERSONA_ID
+    from persona_ids import MR_KRABS_PERSONA_ID
     from embed import embed_character_dialogue
     import pandas as pd
     from pandas import DataFrame
@@ -49,8 +49,8 @@ if __name__ == "__main__":
     # then we pass the data frame to the character/data agnostic function that creates the embeddings
     embed_character_dialogue(
         df=df,
-        persona_id=SPONGEBOB_SQUAREPANTS_PERSONA_ID,
-        persona_name_in_data="SpongeBob",
+        persona_id=MR_KRABS_PERSONA_ID,
+        persona_name_in_data="Mr. Krabs",
         line_col="line",
         speaker_name_col="character",
         is_spoken_line_col="spoken_line",
