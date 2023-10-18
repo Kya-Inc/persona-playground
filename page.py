@@ -51,6 +51,9 @@ def page_template(character_data):
     if "user_name_p" not in st.session_state:
         st.session_state["user_name_p"] = st.session_state.user_name
 
+    with st.expander("personality assessment", expanded=False):
+        st.json(character_data)
+
     view_info = st.expander("retrieval debug information", expanded=False)
 
     msgs = StreamlitChatMessageHistory(key=messages_key)

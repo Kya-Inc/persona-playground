@@ -40,16 +40,17 @@ st.text_input("Your Name", value="Anon", key="user_name")
 if not st.session_state.openai_api_key:
     hide_pages(persona_names)
 
-st.write("# Data Driven Characters")
 
 if st.session_state.openai_api_key:
     st.sidebar.success("Select a character above")
 else:
     st.sidebar.warning("Enter your OpenAI API key to see the character list")
 
+st.markdown("""# Data Driven Characters
+            
+31 characters. 261,494 embeddings, very minimal prompt.
+            
+Add your api key, fill out your name if you wish, and then select a character on the left to start chatting. 
 
-st.markdown(
-    """
-    huzzah
-    """
-)
+Use the dropdowns to see extra information provided to the model about the personalities and the embeddings that were retrieved for each message.
+""")
