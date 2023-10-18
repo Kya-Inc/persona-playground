@@ -21,7 +21,7 @@ persona_pages = []
 persona_names = []
 
 
-for filename in os.listdir("pages"):
+for filename in sorted(os.listdir("pages")):
     persona_name = filename.replace(".py", "").replace("_", " ")
     persona_pages.append(
         Page(f"pages/{filename}", persona_name))
