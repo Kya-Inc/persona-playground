@@ -17,6 +17,7 @@ def embed_character_dialogue(
     persona_name_in_data: str,
     voice_over_name_in_data: Optional[str] = None,
     line_col: str = "line",
+    line_raw_col: Optional[str] = None,
     speaker_name_col: str = "speaker",
     is_spoken_line_col: str = "speaking_line",
     dry_run: bool = False,
@@ -107,6 +108,9 @@ def embed_character_dialogue(
                         " " + prev_row[line_col]
             else:
                 cue: str = prev_row[line_col]
+
+            if pd.isna(cue) and line_raw_col:
+                cue = prev_row[line_raw_col]
 
             payload = {
                 "cue": cue,

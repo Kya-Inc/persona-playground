@@ -52,6 +52,7 @@ if __name__ == "__main__":
         persona_id=MR_KRABS_PERSONA_ID,
         persona_name_in_data="Mr. Krabs",
         line_col="line",
+        line_raw_col="raw_text",
         speaker_name_col="character",
         is_spoken_line_col="spoken_line",
     )
