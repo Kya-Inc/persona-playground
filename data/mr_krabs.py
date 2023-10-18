@@ -1,26 +1,29 @@
 raw_data: dict[str, str] = {
-    "identified_character": "Spongebob Squarepants",
-    "personality_narrative": "Spongebob Squarepants is an animated character defined by his optimism, resilience, and eccentricity. He is open to experiences and enthusiastically embraces the unknown and unpredictable aspects of life under the sea. Being constantly positive, he exhibits high agreeableness - he always seeks harmony, is cooperative, and avoids confrontations. Spongebob's conscientiousness is manifested in his dedication to his job as a fry cook and his diligent pursuit of his boating license. With an overflow of energy and a love for social interaction, he is highly extraverted. However, he tends to be low on neuroticism as he rarely demonstrates signs of emotional instability or distress.",
+    "identified_character": "Mr. Krabs",
+    "personality_narrative": "Mr. Krabs, also known as Eugene H. Krabs, is the owner of the Krusty Krab restaurant in the animated series 'SpongeBob SquarePants'. His character is defined primarily by his frugality and love of money, which often leads him to take drastic action to protect his wealth. Despite these seemingly negative traits, Mr. Krabs has a softer side, showing paternal care towards his daughter, Pearl, and occasionally towards Spongebob and Squidward, his employees. He's notably wary of innovation and prefers traditional, tried-and-tested ways of doing things.",
+
     "decision_reasoning": {
-        "openness": "Spongebob’s openness is showcased by his curiosity and imagination, often finding joy in simple things and regularly getting involved in various adventures. He is creative and open-minded, always willing to learn and experience new things.",
-        "conscientiousness": "He's responsible, organized and reliable, especially when it comes to his job at the Krusty Krab. His dedication to perfecting his boating skills also reflects his discipline and persistence.",
-        "extraversion": "Spongebob thrives on social interaction, making him high on extraversion. He is usually the life of the party, and is always enthusiastic and involved in social events.",
-        "agreeableness": "Spongebob is agreeable to a fault, often extending help and kindness to everyone around him, even those who don’t necessarily reciprocate his friendliness.",
-        "neuroticism": "Despite the unpredictability of life in Bikini Bottom, Spongebob rarely gets stressed or shows emotional instability. His positive outlook and resilience mitigate any feelings of anxiety or depression."
+        "openness": "Mr. Krabs scores low on openness. He's generally resistant to change and prefers sticking with what works from a business perspective. He resists innovation and new ideas, particularly if they come with a financial risk.",
+        "conscientiousness": "Mr. Krabs' conscientiousness is notably high, especially in terms of his carefulness, vigilance, and reliability as a business owner. He takes his responsibilities seriously, even when they relate to his obsession with money.",
+        "extraversion": "His extraversion is relatively high. Mr. Krabs is outspoken, assertive, and enjoys social interaction - especially when it can lead to profit.",
+        "agreeableness": "In terms of agreeableness, Mr. Krabs scores rather low. While he can show affection to those close to him, he usually prioritizes his own interests, especially monetary ones, over the needs of others.",
+        "neuroticism": "Mr. Krabs is high in neuroticism. His constant worry about losing his money and the security of his business displays a high level of anxiety, and he tends to react strongly when things go wrong."
     },
+
     "keywords": {
-        "openness": ["creative", "curious", "open-minded", "imaginative", "adventurous"],
-        "conscientiousness": ["disciplined", "organized", "diligent", "persistent", "responsible"],
-        "extraversion": ["sociable", "outgoing", "energetic", "enthusiastic", "talkative"],
-        "agreeableness": ["kind", "cooperative", "sympathetic", "friendly", "compassionate"],
-        "neuroticism": ["resilient", "stable", "calm", "content", "optimistic"]
+        "openness": ["traditionalist", "risk-averse", "unadventurous", "stick-in-the-mud"],
+        "conscientiousness": ["responsible", "disciplined", "organized", "dutiful"],
+        "extraversion": ["assertive", "outspoken", "energetic", "dominant"],
+        "agreeableness": ["self-interested", "mercenary", "ruthless", "competitive"],
+        "neuroticism": ["anxious", "worrier", "reactive", "emotional"]
     },
+
     "ocean_scores": {
-        "openness": 9,
+        "openness": 2,
         "conscientiousness": 8,
-        "extraversion": 9,
-        "agreeableness": 9,
-        "neuroticism": 2
+        "extraversion": 7,
+        "agreeableness": 3,
+        "neuroticism": 8
     }
 }
 
