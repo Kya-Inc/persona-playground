@@ -1,0 +1,4 @@
+Share
+Last week we made an announcement stating that we do not support ETC on GDAX, but we would make ETC withdrawals available for customers who had ETH on GDAX prior to the hard fork.
+It is important to us that our customers trust GDAX to safeguard digital currency assets. Therefore GDAX customers will be credited the full amount of ETC associated with their account, both pre and post hard fork. We are working as swiftly as possible to create a simple process which will allow users to send an ETC credit to an off-platform ETC address of your choosing.
+At this time, GDAX is not planning to support ETC trading or transactions on our platform. We will only be making this credit available to send off-platform. Customers should avoid sending additional ETC to GDAX. We will update this post as the credit process becomes available. Please visit our FAQ page for further details. Coinbase customers, please see our corresponding update.

@@ -1,0 +1,6 @@
+Coinbase ships a lot of product for a small team. We have 24 engineers, 3 designers, and 3 product managers (in addition to a number of other very talented teams) who help build our buy/sell service (across web and mobile), exchange, developer platform, and merchant tools which serve 2.8M customers in 32 countries.
+In this post I’d like to give a peek behind the curtain at how we ship product. We’ve evolved this process over the past 3 years, and I’m sure have a lot more room to improve it as we continue growing.
+This is the process that our product managers (roughly) follow.
+Hopefully this gives some insight into how we work. I’m sure we’ll continue to improve it as we go.
+If you’re interested in learning more about working at Coinbase, please visit our careers page. You can also email us directly at talent at ourdomain.com.
+We’re working toward a future where the world has an open system for money and payments.

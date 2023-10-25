@@ -1,0 +1,9 @@
+If I was limited to only having one area to focus on as CEO, it would be people. The root cause of every challenge or issue in a company, can be traced back to people (needing to hire someone for a new role or having the wrong person in a role).
+Focusing on people is arguably the highest leverage activity to spend time on as CEO, since great people build great products, which leads to great profits (in that order).
+Many of these ideas come from Laszlo Bock’s book, Work Rules (Laszlo was the former head of HR at Google) and the Netflix culture deck. I’d recommend reading both. Many of these we already do at Coinbase. Others I plan to try in the future.
+And the questions they are trying to answer…
+It helps to assign a 1–5 point scale to each open hire, with a 5 point hire being worth roughly 5 times as much as a 1 point hire. This helps prioritize effort on higher value hires.
+Seek to minimize these metrics, while holding the same (or higher) quality bar in hiring, to make the existing team even more productive.
+These are some of the lessons we’ve learned about hiring at Coinbase. We’re continually learning and improving our processes, so I’m sure these will evolve over time.
+What have you found that works best? Leave me a comment below.
+You can read more about open roles at Coinbase here.

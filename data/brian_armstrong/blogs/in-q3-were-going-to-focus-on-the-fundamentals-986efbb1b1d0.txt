@@ -1,0 +1,6 @@
+Coinbase and GDAX have been going through some incredible growth.
+Our original plan was to focus on adding new features in Q3 (new assets, trading features, etc). But the growth has brought it’s own set of challenges. So we regrouped last week and decided this quarter it would be best to focus on the fundamentals.
+What does this mean? It means operational excellence, scaling, and providing a better customer experience, including…
+We’ll measure these with a handful of metrics (net promoter score, apdex, recruiting funnel etc), create a clear owner for each, and review progress at every all hands meeting.
+This industry is moving fast, and it’s tempting to continue adding more and more features at a breakneck pace. But we’ve become a core piece of infrastructure in this industry, and we need to scale with it as it grows. This solid foundation will allow digital currency to keep growing and help create the next wave of adoption.
+I’m incredibly proud of the team, who have been working overtime to rise to this challenge. We’re looking to fill dozens of new roles by the end of this year. After focusing on the fundamentals this quarter, we can resume a more balanced approach and continue adding new features in Q4.

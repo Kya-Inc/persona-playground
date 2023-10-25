@@ -1,0 +1,17 @@
+I have a hypothesis that digital currency will be widely used in virtual reality, especially in virtual worlds.
+The reason is simple. When people transact in virtual worlds, it doesn’t make sense to use the currency of one country. People from all over the world will gather in these virtual spaces, and it would be exclusionary (or perhaps even rude) to use one country’s currency in a digital world. Furthermore, digital currency will create an incentive for people to spend more time in these worlds (where they can earn “real money”) creating a virtuous cycle for companies building these worlds.
+Virtual worlds are things like Second Life. Or if you’ve read books like Ready Player One or Cryptonomicon, they describe a metaverse where people spend a great deal of their time in the future.
+VR is not required to have a virtual world (Second Life is an example here), but VR will likely accelerate the usage of virtual worlds dramatically.
+The Second Life economy still is about $800M USD equivalent annually. People can buy all sorts of things in virtual worlds, like real estate, vehicles, special abilities (teleportation), access to events or clubs, and entertainment (new levels, songs, experiences).
+There are a handful of people working on building virtual worlds in VR today, including High Fidelity, Alt Space, and VR Chat.
+Developers of these virtual worlds have a few options.
+The main arguments for developers of these virtual worlds to use a digital currency are:
+Although digital currency makes sense in virtual worlds, it may also make sense in any app that has a marketplace for digital goods (or user generated content). This is a popular business model in games today and helps app developers unleash a lot of diversity/creativity from their community. By using a digital currency for this, it would allow a large number of people to actually earn a living in VR, and convert their earnings to their local currency.
+In virtual worlds people will buy all sorts of things
+Artists might release a limited edition shoe in VR (your avatar can wear it). Or you may hire an interior decorator to upgrade your house.
+Each of these can be represented as a provably unique digital token (not an entry in a database) that it’s owner truly owns. Cryptocurrency can be used to represent items as easily as money itself.
+We might see skeuomorphism in virtual worlds that reminds us of the traditional financial world. Perhaps we’ll see virtual bank buildings with pillars, virtual bank vaults that spin when you open them, and virtual tellers with glasses.
+Perhaps the wallet where you keep your coins will have them pile up, or jostle around when you move.
+Ready Player One had a great visual of coins being collected in the game, and spilling out of characters when they were killed (leaving a big pile of loot on the ground).
+Virtual reality and cryptocurrency seem like a match made in heaven; it’s a purely digital version of money for a purely digital world.
+By allowing customers of virtual reality apps to really own their own items and wealth (not have it just be a database entry that is controlled by the app’s creator) we will bridge one more gap with the “real world”. Customers of these products can take the money they generate in virtual worlds, and convert it to traditional money to pay their bills in real life. This will help take virtual reality from a hobby or entertainment to a full time job or lifestyle.

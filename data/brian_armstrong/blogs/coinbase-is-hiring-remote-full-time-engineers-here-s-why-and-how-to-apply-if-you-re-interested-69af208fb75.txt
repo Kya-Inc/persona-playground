@@ -1,0 +1,9 @@
+Historically, our engineering team at Coinbase has been entirely based in San Francisco, CA. We’ve gotten a lot done and kept a high bar over the past three years.
+But in the past year we’ve had a few engineers who needed to move (due to various life events). We didn’t want to lose them, so they became remote employees on our team. In some cases it worked really well.
+This caused us to reconsider the idea of remote engineers and we’ve decided to reach out to a wider pool of applicants around the world.
+We don’t have a ton of experience with this yet, but here are a few factors we’ve noticed that seemed to help:
+We’re looking for people with some work experience who have great communication skills, and have either tried remote work before or feel they might enjoy it.
+If you have a passion for bitcoin, a computer science degree, or experience with one of the languages we use the most (ruby, node.js), these are all nice to have but not required.
+If hired, we plan to fly you out for a week or two every quarter to spend some in-person time in San Francisco. You will also attend regular meetings (Monday standup, Friday all hands) and go through the same hiring process that in house engineers go through, including an on site work trial.
+If you’re interested in speaking with us about a role we’ve set up a coding challenge that you can take in about 30–45 minutes to show us your skills. You can also apply through our careers site if you prefer to start the conversation that way. Thank you.
+Update: If you are outside the U.S. and are concerned about work visas, we’ve become quite adept at securing these for people and are happy to sponsor them —please don’t let this stop you from applying if you are interested. Thanks!

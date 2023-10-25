@@ -1,0 +1,20 @@
+Last week, I sent a note to the Coinbase team about what we accomplished in Q4. I’m sharing it here with our customers and the crypto community more broadly as I’ve done in the past .
+Team,
+I spent time at the last All Hands of the year reflecting on 2018 as a whole. This year we added a lot of headcount. As expected, this put some strain on communication, decision making, and even trust. We’re a largely new team that still needs to come together and gel, and this will be a major focus of 2019. At the same time, we had incredible successes including everything we launched (see below), outstanding hiring, and a well timed fundraise that sets us up for success.
+Below, I’ll do my best to capture everything we accomplished in Q4.
+WE LAUNCHED:
+In Q4, we launched everything from new products to requested features to integrations that scale our ability to serve customers. Together with the assets, rails, and geographies we’re adding, we’re building the infrastructure to continue our role as the bridge from fiat to crypto for people all around the world:
+WE ACHIEVED:
+There is so much work that goes on at Coinbase that enables us to launch features, products, and add assets, all while ensuring we live up to our reputation as most trusted and easiest to use. The following are just a few examples of this kind of work from Q4:
+WE RAISED
+We raised $300M+ from a set of world-class investors. This Series E round is a testament to the work you have been doing over the last year (and longer) to establish Coinbase as a company with great potential to create an open financial system.
+WE INVESTED:
+Our investments represent our commitment to advancing the ecosystem toward the utility phase of crypto, and fueling projects that get us closer to an open financial system. This quarter, we invested in another round of organizations, including:
+WE ADDED:
+Our goal is to maintain the trusted experience our customers have come to expect while adding the assets our customers have come to demand. This quarter, we added more assets than in our entire prior history as a company, and expanded our services to more people in different countries.
+…And Coinbase is now available in the following additional regions:
+SO IN CONCLUSION…
+I continue to be so impressed by the ability of this team to execute on aggressive timelines, all while solving problems that have never been solved before. This was a year of scaling Coinbase up to meet the demand of the market and efficiently executing to serve our customers.
+We asked a lot of everyone on the team. I’m proud of how we rose to the occasion to meet the challenges and opportunities before us this year. I hope everyone has a wonderful holiday with family and friends. Can’t wait to do it all again in 2019.
+As with last quarter, I’ll be sharing some of this externally in a blog post in the next couple of days.
+Brian

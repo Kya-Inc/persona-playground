@@ -1,0 +1,26 @@
+Yesterday I sent a note to the Coinbase team about what we accomplished in Q2. I’m sharing it here with our customers and the crypto community more broadly to help provide transparency into our operations.
+***
+Dear Team,
+Just as it’s important to look ahead and set ambitious, measurable goals each quarter (our OKRs), it’s important to look back and reflect on all that we’ve accomplished over the course of that time.
+We’re all about efficient execution! So it makes sense that we’ve moved so fast, and completed so much. It’s easy to forget how much we’ve really been able to achieve in just three months.
+I want to start sharing these thoughts on a quarterly basis, and this is a great quarter to start, because we accomplished a ton in Q2 2018:
+WE HIRED:
+This quarter we made huge strides in bringing on leaders who will be crucial as our business grows and becomes more sophisticated — as well as adding many team members who will help us scale in our next chapter. In Q2, we added:
+WE ACQUIRED:
+We acquired four companies (Earn.com, Cipher Browser, Paradex, and Keystone) in one quarter! We’re at the beginning of imagining what might be possible when we combine all of the brilliance of these teams with all the opportunity ahead of Coinbase.
+WE INVESTED:
+We’re way ahead of schedule with Coinbase Ventures, because there are just so many teams doing compelling work out there. The investments we’ve made are a testament to how much the Coinbase name means to founders — they’re incredibly excited to partner with us, and can feel our team’s passion and commitment to investing in the space to help accelerate innovation. So far, we’ve invested in:
+WE LAUNCHED NEW BUSINESS UNITS:
+As part of broadening our portfolio of products and serving every kind of investor — casual, professional, institutional — we successfully launched both the Coinbase Index Fund and Coinbase Custody. We’re thrilled about both of these products, which are already finding success.
+WE ADAPTED EXISTING BUSINESS UNITS:
+To meet the needs of our different customer bases, we evolved GDAX into two separate offerings: Coinbase Pro, for active traders, and Coinbase Prime, for institutional investors.
+WE REMAINED COMMITTED TO BEING THE MOST TRUSTED:
+This quarter, we successfully kept pace with the regulation in the states and countries in which we operate, continuing on our journey of striving to be the most trusted, and most compliant in our space. We took the first steps on our path towards supporting trading in crypto securities. FINRA — the Financial Industry Regulatory Authority — approved our acquisition of Keystone Capital Corp. and Venovate Marketplace Inc., including the entities’ broker-dealer and alternative trading system licenses. Additionally, Digital Wealth LLC notified the SEC of the change of ownership. Coinbase also spearheaded policy work in North Carolina and Wyoming to successfully update laws to allow for efficient operation of cryptocurrency businesses in those places. We expect to re-open our business for Wyoming customers in the coming weeks.
+WE BUILT A STRONG FOUNDATION:
+We worked incredibly hard this quarter to address the backlog of support tickets, to shore up our support team for the busiest times and increase our responsiveness. In Q2, we increased our support team by over 150%, decreased our average time to first response to <10 hours for 95% of incoming volume today, and because of these moves, we are able to resolve issues faster and decreased the backlog by 95%.
+WE OPENED NEW OFFICES:
+Our Markets team marked the opening of our Chicago office, and multiple waves of team members have joined us in our newly opened Portland office. Our New York office is moving into their permanent office soon too!
+SO IN CONCLUSION…
+We’re on the right path, doing the right work. I hope you’ll take a moment this weekend to reflect on the past quarter and all that we’ve accomplished.
+I’ll be sharing some of this externally in a blog post this week. The world needs to know more about the incredible story that is being written here at Coinbase. I’m so proud to be on this journey with all of you!
+Brian

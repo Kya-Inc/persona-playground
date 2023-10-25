@@ -1,0 +1,8 @@
+My goal is to set you up for success as a new product manager.
+First, you’re going to have to dedicate yourself to the art of product management. It is one of those things, like people management, that seems simple, but can take many years to really master. The only way to learn it is to actually do it.
+That being said, reading about it and learning from others does help. One suggestion would be to speak with 2–3 product managers (here or at other companies) to get their view. Become a knowledge sponge. Copy others before you try to find your own voice and do something unique (that can come after you’ve achieved mastery).
+The main parts of the job in my view are:
+On a practical note, you are responsible for the following tasks on the team: running product review, maintaining/updating the product roadmap, and doing sprint planning.
+Here are two slides that help clarify your role vs the engineering manager.
+Good luck! This will be a big challenge but I have confidence that you can do it. I expect a few bumps along the way, but I expect by the end of next quarter you will well on your way to having a happy/healthy/productive team that is delighting its customers.
+Note: this is adapted from an actual email sent to a new product manager at Coinbase.

@@ -1,0 +1,23 @@
+I’ve been thinking more about how to accelerate the world’s transition to an open financial system (this is our mission at Coinbase).
+One way to do this is via a non-profit that distributes small amounts of cryptocurrency to people in developing countries. There is good evidence that unconditional cash transfers are an effective way to help people, and it may help spark economic growth, along with additional usage of cryptocurrency, in those regions.
+Cryptocurrency has produced a handful of billionaires already, and I suspect it may produce the world’s first trillionaires in the next decade. The Forbes list of wealthiest people is going to be shaken up by early digital currency holders. Similar to the GivingPledge, many of these early holders will want to engage in philanthropy. The Pineapple Fund was a recent example of this, and I think we’ll see more.
+Most charities don’t accept digital currency today, and those that do often sell the digital currency into USD so they can start to utilize it right away. They aren’t in the speculative investment business.
+But early crypto holders are long crypto. It would be nice if there was a non-profit which:
+Given the enormous wealth creation from cryptocurrency, and the future potential upside, I believe there is a rare opportunity to create a large non-profit fund.
+(Note that the following is not investment advice. The value of cryptocurrency could go to zero.)
+Suspend disbelief for a moment, and imagine the following could happen:
+You would now have a ~$1T USD fund that rivals the size of the U.S. social security fund ($2.79T USD). Note that as an evergreen fund, it would have to give away a smaller % of growth in the early days, and increase that percentage as the fund matured, to capture most of the upside.
+Similar to GiveDirectly.org, the fund could be distributed via one time or recurring small cash payments to people in need. Especially in emerging markets. I think this fits well with digital currency’s strengths (cross border, small payments, in real time, that go directly to an individual).
+One major challenge is how to distribute funds fairly (avoiding fraud, or people farming lots of accounts). Anyone who has tried to give away money, such as through a referral program or bitcoin faucet, knows that fraud is a major challenge.
+Here are a few ideas to help distribute funds fairly:
+These ideas probably aren’t quite right, but could be a start.
+*Note: this was done in the context of microfinance (loans) not charity.
+One downside of this approach is that then people receive crypto, they still need to exchange it to their local currency before they can make use of it.
+To solve this, a network of local exchangers would need to be created in emerging markets. Imagine if every corner store or kiosk in the developing world, where people top their cell phone minutes or send MoneyGram payments today, was also a local exchanger of cryptocurrency.
+Initial recipients would likely convert cryptocurrency to cash right away. But over time, with critical mass, people may start to transact in crypto itself, sparking a local crypto economy.
+One of the theories I want to test with this idea is whether it’s possible to increase economic growth in these regions by improving property rights. By this I mean allowing anyone to store their own wealth securely (or bank the un-banked, in a sense) without fear of it being stolen or inflated away.
+Cryptocurrency plus the smartphone could be the best way to bring this to various regions around the world. A user controlled wallet on a cell phone may turn out to be an effective way to spread capitalism. Or as Paul Graham says, enabling people who work hard to keep the fruits of their labor seems to be a “necessary, if not sufficient” condition for progress.
+There are many things I don’t know about the non-profit world, and I’m sure the idea needs much improvement. But it feels worth trying.
+There are so many early holders of cryptocurrency who’ve become wealthy, I’m excited to see them begin to engage in philanthropy. If it helps further cryptocurrency adoption at the same time, that’s a win-win.
+If you’re interested in this idea, or have suggestions on how to improve it, please add your email address to this Google Form to receive further updates. Thank you!
+Thank you to Rose Broome, Scott Phoenix, Marc Andreessen, David Marcus, Fred Ehrsam, Sam Altman, Balaji Srinivasan, Dan Romero, and Elizabeth Rhodes for reading or discussing drafts of this post.

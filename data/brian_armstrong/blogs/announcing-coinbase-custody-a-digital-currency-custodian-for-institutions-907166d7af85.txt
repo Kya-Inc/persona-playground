@@ -1,0 +1,15 @@
+Today, we’re announcing the launch of a new company to help institutional investors securely store digital assets: Coinbase Custody.
+Coinbase is already storing more than $9B of digital currency on behalf of our customers, and we’re excited to bring a new product built specifically for institutional investors.
+Over 100 hedge funds have been created in the past year exclusively to trade digital currency. An even greater number of traditional institutional investors are starting to look at trading digital assets (including family offices, sovereign wealth funds, traditional hedge funds, and more). By some estimates there is $10B of institutional money waiting on the sidelines to invest in digital currency today.
+When we speak with these institutions, they tell us that the number one thing preventing them from getting started is the existence of a digital asset custodian that they can trust to store client funds securely.
+This is why I’m excited to announce Coinbase Custody. The next step to accelerating the world’s adoption of digital currencies is to unlock the institutional money preparing to enter the space.
+We are designing Coinbase Custody to meet the needs of institutional clients. In particular, we feel that institutional clients require:
+Coinbase is well positioned to launch this product. We already store billions of dollars worth of digital assets on behalf of our customers. We serve thousands of institutions via our GDAX product, the leading digital currency exchange in the U.S. We’ve raised $216M from venture capital firms and financial institutions like the NYSE/ICE, USAA, BBVA, Westpac, and MUFG. And we have approximately 200 employees working across our three offices in New York, London, and San Francisco with deep industry knowledge.
+Our goal with Coinbase Custody is to help dramatically accelerate the flow of institutional money into digital currencies over the coming years.
+If you are an institution looking for the best custody solution for digital currencies, we would love to speak with you. Please sign up to get started. We will be gradually rolling out access to our product in 2018.
+https://custody.coinbase.com/
+If you are an individual looking to join our team, we are hiring for individual contributor and leadership roles. Please send us a note if you are interested in joining the team.
+Is this product available to retail customers?
+No, Coinbase Custody is only available to institutional investors with a minimum of $10M in deposits. Retail customers can utilize Coinbase.com as a custody solution.
+What is the pricing?
+There is an initial setup fee of $100,000 USD, and a fee of 10 basis points per month on assets stored. Note that pricing is subject to change as we continue rolling out early access.

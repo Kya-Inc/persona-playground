@@ -1,0 +1,10 @@
+Over the past few months, we’ve seen an unprecedented increase in the number of customers signing up to use Coinbase (4x since January 2017). As a result, our systems have been pushed to the limit. This has caused many customers to have a negative experience.
+I’m writing today to apologize for the experience you’re having and tell you what we’re doing to improve the situation.
+First, it’s worth acknowledging the gravity of the situation. Our goal with Coinbase is to build the product that is the most trusted and easiest to use in the space. It erodes trust when customers can’t get a timely response to customer support inquiries, or when there are delays in pay ins, pay outs, limit increase requests, or getting access to your account.
+We’re storing customer funds, and I can understand how incredibly frustrating (and scary) it is when an issue arises and you can’t get a prompt response.
+We haven’t done enough to keep up with the growth, and we’re taking steps now to correct it. I want to share with you specifically what we’re doing to improve the situation.
+Near Term:
+Q3 Plan
+Q4 Plan
+We understand that trust has to be earned, not given, and that we haven’t done enough lately to earn that trust. Thank you for your support as we continue to scale.
+Thank you!

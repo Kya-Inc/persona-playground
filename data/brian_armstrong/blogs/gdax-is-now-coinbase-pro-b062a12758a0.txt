@@ -1,0 +1,5 @@
+Today we’re announcing that GDAX — our professional trading platform for individuals — will evolve to become Coinbase Pro.
+Since launching in 2015, GDAX has built liquidity and stability in the space and also helped us understand the needs of active crypto traders. Switching to the name Coinbase Pro is a recognition that the individual active trader requires a product completely dedicated to their specific needs.
+The platform will offer professional trading tools and services, delivered through a completely reengineered UI that will make the trading experience easier and more intuitive.
+Anyone with an existing individual account on GDAX will automatically become a Coinbase Pro member.
+Institutional customers can take advantage of our suite of products that were announced last week.

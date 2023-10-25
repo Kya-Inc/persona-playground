@@ -1,0 +1,73 @@
+To build a great company you’ll need to hire great people — it’s one of the top three priorities of the CEO. Executives have outsized influence on your company, and there is a slightly different process to hire them versus most employees.
+Today I’ll share my experience hiring executives to clarify my thinking, learn it one level deeper, and teach others (continuous learning is one of our values at Coinbase). These are the steps I like to follow.
+As you can see, it can take 3–6 months to hire an executive. Let’s dive into each section in more detail.
+When hiring an exec, it will likely be outside your area of expertise. You’ll first need to get a crash course in that role.
+Let’s say you’re trying to hire a great VP Finance. You’ll want to reach out to your network and speak with three great VPs of Finance, CFOs, or CEOs who’ve hired finance leaders before. Ask them questions like:
+At the end of the call it may be tempting to ask subject matter experts if they are interested in the role themselves (I’ve tried this a number of times, haven’t had it work yet!). But you probably aren’t ready for this yet since you don’t have the role defined yet. This will come in step 3.
+After your crash course, you’ll understand some of the basics, but you’ll still be far from an expert. That’s ok — keep going.
+Next you need to decide who will evaluate the candidates. You won’t usually decide on a new hire unilaterally, so you’ll need to gather input from various stakeholders.
+Aim for 4–7 people on the hiring committee. Enough people to get a range of input, but also not so many that you’re wasting people’s time (it will take 1–2 hours per candidate per member of the hiring committee, so it adds up quickly).
+A common mistake here is to decide what you want in a candidate first, and then later bring in the hiring committee to tell them what they should be looking for. In my experience, you need to genuinely gather their input, and incorporate it, to get them bought into the process (I’ll cover this more in the next step).
+It helps to get clear on what you want each member of the hiring committee to interview for. You may even want to assign specific competencies for them each to drill down into.
+It’s time to gather input from the hiring committee and reach consensus on what you’re all looking for.
+MOC is just one term (some people call it a job spec, candidate profile, etc which are all the same thing). The goal is to answer the following questions:
+I like to first solicit input from the hiring committee on what outcomes and competencies we should be looking for. Then I consolidate everyone’s input into an initial draft of the MOC, and have the hiring committee meet in person to discuss the draft. Use this input to create your second and final draft. Make sure everyone feels heard, but look for consensus (you don’t have to include something if just one person thinks it is important).
+If your company has a diversity and inclusion program, now is a good time to get clear on what sourcing targets you have as part of this search. Clearly articulate this as a must have or nice to have in the MOC.
+I typically choose the top three competencies as “must haves”. If you have more than this it can be difficult to find candidates which meet all of them.
+Now that you’ve completed the MOC document, the hiring committee should be in sync on what you’re all looking for. This is easier said than done — in almost every search I’ve done, there is a moment later in the search where the hiring committee has to come back to this document to review/update it, and get back in sync.
+Now that you know what you’re looking for, it’s time to get candidates in the pipeline.
+There are many ways to do this. In each case, use your MOC document to help people understand exactly what you’re looking for.
+If it is VP or C-level and speed is important, I’d recommend using an exec recruiting firm. Otherwise the first two options can work (and will be cheaper).
+A whole article could be written just about how to work with exec recruiting firms, but here are a few things I’ve learned:
+From here on out in the search, you’re going to cycle through the following steps in a loop: source, build relationship, evaluate, close. At any step, you can ask yourself the following question:
+Are there at least three candidates in the pipeline this week that I’m excited about?
+If the answer is no, that is your clue to go back to the sourcing step and get more candidates in the top of the funnel.
+Keep going through this cycle until you close someone.
+Like making any hire, you’ll need to get the candidate excited about what you are building, and the idea of working with you.
+People join companies because of the mission and who they get to work with. They need to like you and want to work with you. Other factors like compensation come into play, but they are a lot farther down the list.
+The steps I like to go through here are:
+Throughout the process you’ll need to ensure the candidate forms a positive impression of you and the company.
+Steps 4, 5, and 6 sometimes blur together. You are doing a dance back and forth between finding candidates, convincing them to join, and evaluating them, at the same time.
+Evaluating candidates happens in five main ways:
+During sourcing
+Evaluating first starts during step 4 (sourcing). I like to be quantitative about whether the sourced candidates are matching the MOC document (otherwise the discussion can feel too unstructured). For each of the must haves and nice to haves in the MOC, assign a 1 to 5 score. Then you can sort candidates by total points, and decide who to reach out to first (weight the must haves higher using the spreadsheet).
+See this sample spreadsheet. I like to start the weekly sync meeting for the search by reviewing this document.
+This will help you determine if your sourcing process (or exec search firm) is delivering candidates who are “on profile”, and next steps for each candidate.
+Interview scorecards
+Once candidates start coming in to interview, use an applicant tracking system like Greenhouse to create scorecards that each interviewer fills out.
+This will help encourage the hiring committee to interview based on what you’ve agreed is important. It also starts to build a dataset that can be valuable over time (for example, you may not realize that someone at your company has already interviewed this candidate, or you can start to look at trends around unconscious bias).
+Presentation to the hiring committee
+If the in person interviews go well, I like to have candidates give a presentation to the hiring committee as a next step. This provides a lot of signal about what it might be like to work with this person.
+Can they clearly convey information to a group of people? Can they avoid going over the allotted time, or getting flustered if something doesn’t work perfectly with their slides? Are they humble and open to alternative viewpoints in the Q&A?
+Here is a sample prompt we might use:
+This is intentionally a lot of information to cover in half an hour. We like to see if candidates can reduce a lot of information down to the key points, and be concise (this is more specific to our culture).
+An alternative presentation format that can work is to have the candidates present a plan for their first 180 days on the job, acting as if this is their first day on the job. (Note: this may require the candidate to have a good amount of context about your organization to be effective.)
+The roundup (hiring committee voting and discussion)
+During this process, every member of the hiring committee starts by showing a thumbs up, sideways, or down (everyone at the same time), to indicate whether they are a yes, maybe, or no on hiring this candidate. You can then go around the room and share more detailed thoughts, starting with the most junior people first (to avoid group think).
+There doesn’t have to be a unanimous yes, but there should be at least some people who are a hell yes, and ideally no hard nos, to move forward.
+These discussions can sometimes get heated. It’s a good idea to provide clarity up front about how the hiring decision will actually get made. Requiring a unanimous yes vote from the committee is probably a bad idea. I prefer to have the final decision get made by the following group (sometimes you’ll only have 2 out of 3 of these, which is also ok):
+A unanimous yes is required from the group above to make the hire (or put another way — any one of those three can veto the hire).
+Reference checks
+If the roundup gets to a yes, you should now ensure that your reference checks are in place.
+You don’t need to wait until the roundup to start reference checks. In fact, you should probably start them right after the first in person meeting with a candidate (it will save you time the sooner you start since it may cut someone out of the process before you invest more time).
+An entire article could be written on reference checks alone, but I’ll summarize the key points here.
+You should ask the candidate for “front door” references (these can be helpful to better understand how to work with them), but they will usually be 100% positive. In my view, it’s far more important to get backchannel references.
+Under no circumstances should you skip backchannel references when hiring a senior candidate.
+You’ll need to look for people they’ve previously worked with, through your network, while being cautious not to create any issues with their current employer. This can be tricky, but it is worth the effort. For example, you can ask a trusted reference whether they would be willing to keep a call strictly confidential, before revealing a candidate’s name.
+It’s a good idea to ask for dates of employment to see if they match the candidate’s resume. Some candidates will remove work history from their resume when there was an issue — and these could be the most valuable references you find.
+A single negative backchannel reference is not a deal breaker, but you should be looking for recurring negative patterns. Ideal candidates find a way to maturely bring up and discuss prior work experiences that didn’t go well, without blame or criticism.
+Finally, you’ll want to do a criminal background check to ensure there is nothing you’re missing (this may only hit one in a hundred times, but is worth doing).
+Some quick final thoughts on evaluating candidates:
+Improving how you evaluate candidates is where you’ll really get your success rate up on hiring executives.
+If the hiring committee gets to a yes and the references check out, you’ll need to construct an offer for the candidate that is compelling.
+It’s a good idea to work with a compensation firm (such as Radford, Compensia, Connery, etc) or your investors who can provide market data. Otherwise you’ll just be guessing based off a few anecdotal data points. Construct the offer based on your leveling system, market data from the compensation firm, and your compensation policy (for example, you might target 75th percentile for equity, and 50th percentile for cash).
+Go for a walk with the candidate or schedule some time to discuss the offer by phone (in person is better). You’ll need to get good at explaining the value of the equity. Not all candidates understand how to value equity. It’s a good idea to use a table of outcomes. Be as transparent as you can (I think you should always disclose the total number of outstanding shares) but work with your legal team to ensure you don’t create any issues for the company while doing this. For example, you’ll need to create a disclaimer that more shares could be issued between when the offer was made and when the equity grant gets approved by the board.
+Some people like to bracket the compensation negotiation by coming in low. However, this can lead to unfair outcomes (some candidates are much better at negotiating than others) and it can start the relationship off on a sour note. So I prefer to simply come in with a good offer from the start based on the compensation data and philosophy that you have.
+During the close, a few things that seem to help:
+It’s a lot of work to recruit great executives! Most of my exec searches have taken between 6–12 months, although I’ve seen others do it consistently in about 3 months (this is where I’d like to get to next).
+It’s a good idea to schedule a half hour weekly meeting while the search is ongoing, where you invite all relevant parties (the exec search firm, your in house recruiter, any investors who are helping refer candidates, etc). This will ensure the search keeps moving forward, and you don’t forget to follow up with anyone. Start this meeting by pulling up the sample sourcing spreadsheet shown in step 6 to get everyone in sync.
+Here are a few common mistakes I’ve made (or seen others make) during exec searches:
+Finally, when a new exec joins your organization, it’s a good idea to spend extra time with them during their first 30 days on the job. For example, if you normally meet with reports every two weeks, meet with your new hire several times a week for the first 30 days to ensure they successfully integrate into the organization.
+I hope this guide helps you improve your success rate hiring executives, and growing your company!
+Thank you to the following people for reviewing drafts of this post and teaching me about hiring: Adam White, Aurora Harshner, Barry Kwok, Barry Schuler, Bruce Wallace, Dan Romero, Jeff Stump, Jonathan Downey, Matt Levy, Matt Oberhardt, and Nathalie McGrath.
+If this sounds like an organization you’d like to be a part of, check out our open roles at Coinbase and GDAX. Thank you!

@@ -1,0 +1,7 @@
+Update: the idea proposed in this blog post has now launched at https://www.researchhub.com/. Please go check it out and join to show your support.
+Academic research could be much more efficient. It struggles with:
+In this post, I’ll explore some ideas on how to improve scientific research, including how to make it work more like open source software.
+Scientists often live in their own world, producing insights that are only read by other scientists. At the same time, business people often live in their own world, creating products that lack any real technological innovation. There isn’t much information flow between the groups¹.
+Most new products that get created rely on marketing and branding to differentiate. This is common in the cosmetics, food, and fitness/diet industries, for instance, where private label manufacturers make many of the same products under different labels.
+Here are a bunch of drinks sold at Whole Foods. They are marketed as improving energy, passion, and healing but really they are all repackaging the same few FDA approved ingredients (caffeine, theanine, sugar, etc). Where is the drink with some kind of proprietary molecule or intellectual property in it?
+The exceptions to this proves the rule. Companies that bridge the divide (or successfully marry technology with business) tend to be the most valuable: Tesla, Genentech, Google, Apple, SpaceX, etc. Often these seem to require a technical founder (or founding team), with sufficient understanding of both science and business².

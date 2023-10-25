@@ -1,0 +1,52 @@
+This year Fred and I have been working on articulating what Coinbase is all about.
+As organizations grow, it can be easy for people to start rowing in different directions, and doing too many things. We’re about 100 people now, which is still small, but even at our size we can’t communicate 1 on 1 with everyone on a regular basis. So we decided to craft a clear vision, mission, and strategy for the company.
+If you’re like me, these words sounded a bit silly the first time you heard them. They sound like “jargony stuff that big companies do”. However, if done right, they can help align everyone behind a common goal and attract the right people to the team.
+To wrap my head around this I spoke with some other CEOs and executive coaches. There doesn’t seem to be any consistent definition of these terms in business. Everyone has their own flavor. So I tried to narrow them down to their simplest form.
+Now when I hear “vision, mission, and strategy”, I translate this into “why, what, and how”.
+Vision: the why
+Why are you doing what you’re doing? How do you want the world to be different in ten years?
+Mission: the what
+What are you going to do to help create that future? What single broad statement sums up what you doing?
+Strategy: the how
+How are you going to accomplish that mission? What different steps will you take to get there year over year?
+In an ideal outcome, at least 80% of employees end up knowing the mission by heart and believe in it. The vision and strategy, on the other hand, should be generally understood by employees (and visible to everyone) but are longer form and not necessarily memorized. People can refer back to them at any time to help make decisions on the job.
+I’ve sat at a few dinner parties listening to employees of other companies poke fun at their company’s mission statement. Creating something that your company actually lives by can be tough.
+We wanted to get input from a variety of people in the company, so we selected a group of employees from different areas. We spent a few meetings brainstorming and articulating answers to the vision and mission.
+It was tough. Most of what we ended up debating felt like semantics, or subtle variations of the same thing. It also didn’t help that our company culture tends to look down on big meetings and “fake work”. I think we all felt a bit guilty about sitting around doing something so intangible for so long.
+Eventually, we were able to draw out some major themes and I’m pretty happy with the outcome.
+We realized that digital currency will impact the world in three main areas. This is what we got excited about when we first learned of bitcoin.
+Many good ideas never happen (or don’t spread around the world as quickly) due to the high friction of payments. It is a major hurdle in launching a business.
+Imagine if anyone who had an idea for a product could have customers all over the world from day one.
+In the future, it shouldn’t matter if you’re a hot Silicon Valley startup, or a 16-year-old in Mumbai with a new idea. If you build something people want, it should be available to everyone on day one. (This goes for both sending and receiving payments — such as in a two-sided marketplace.)
+Payments can be frustratingly slow and expensive at times. Why does it take longer to wire money to Australia than to fly there? Why do U.S. bank transfers take 3 business days and not work on weekends? Why is there a 2–3% tax on almost every retail transaction in our economy (credit cards) when it is just moving bits from one data center to another?
+Each country and payment company is running its own proprietary system (which doesn’t connect seamlessly with others). And the network effects of payments leads to monopolies or oligopolies in each market (which leads to stagnation).
+If the world’s payments ran on an open protocol (that no one company or country controlled) we’d see a huge efficiency improvement, in the same way that email or SMS spread around the world as an open standard.
+Imagine if every payment in the world was as fast, cheap, and global as sending an email.
+This would lead to an order of magnitude increase in the number payments sent each day, and the very definition of what a payment is could change.
+About 1/3 of the world lives on less than $2 per day, but 90% of them don’t have access to a bank account.
+When people don’t have the ability to save money, the smallest miscalculation or setback (theft, illness, seasonal changes) can be catastrophic.
+Luckily, nearly 100% of the developing world now has a cell phone, and by 2020 about 85% of them will have a smartphone.
+Imagine if anyone with a smartphone had access to the the same financial services we enjoy in the developed world.
+The traditional banking business model (earning interest on deposits) doesn’t work for people with very little money. Our belief is that digital currency on smartphones will bring financial services to many people in the developing world, and this will help level the playing field.
+We looked at these three themes:
+And joined them into a single vision statement:
+Digital currency will bring about more innovation, efficiency, and equality of opportunity in the world by creating an open financial system.
+This is our vision of the world we want to see in ten years.
+If the above is our vision of the future, what can Coinbase do to help bring about this change in the world?
+We iterated on quite a few ideas. We tried “unlocking bitcoin’s potential”, “making bitcoin easy to use”, and “making bitcoin the most popular currency in the world”.
+Our products to date have been most successful at letting people exchange digital currency into and out of their local currency. But what we’re actually doing is helping the digital currency movement grow (providing the on and off ramps into finance 2.0, if you will) and helping the world move to an open financial system. Exchange is really just the most important first step.
+This is what we came up with to best represent this:
+The mission of Coinbase is to create an open financial system for the world.
+Companies like Netflix and Tesla post their strategy publicly for everyone to see. I thought it would be interesting to post our first version of the same thing (as it probably isn’t obvious to the outside world).
+In the short term, we want to enable access to this new open financial system. Longer term there are more things we can do to help the network grow.
+The most important thing Coinbase can do short term is to make it easy for people to convert their local currency into and out of digital currency.
+These on/off ramps to the digital currency world (or the bridge between finance 1.0 and 2.0) will help the network grow. It is a key piece of infrastructure, similar to the the role of ISPs in the early days of the internet.
+In our case, this means adding as many countries and payment methods as we can. It means building strong relationships with regulators and bank partners, and connecting to the traditional financial world (Wall St., banks, etc). It means making a product that is easy to use, secure, and trusted.
+The other reason this is a good starting place for us is that digital currency exchange has a clear business model, and we’re already the leader in many countries. The licenses and partnerships combined with difficult technology problems (security, fraud prevention) make the business defensible. This can be the revenue engine that lets us to tackle the next steps.
+Once the infrastructure behind digital currency matures, we’ll enter the next phase of adoption: apps. These are the actual products that end consumers and businesses will use.
+In the future, you’ll see Coinbase build or buy other apps in the space to help drive consumer adoption.
+When Netscape came out with their web browser, there weren’t very many people building websites. It wasn’t until they tried building one of the first web apps themselves (a shopping mall) that they realized there were a few missing pieces. This led to them inventing cookies, SSL, and javascript. Trying to build on top of your own infrastructure is a good way to improve it.
+Now you know what we’re trying to do over the next ten years, and the basics of how we’re going to get there. We wake up every morning thinking about digital currency because it has the potential to change almost everything about the way the world works.
+The digital currency space is still brand new. This can be exciting and scary at the same time. The sort of people who join a company like Coinbase are those who want to play a role in shaping this new industry. It is a very different experience to help create something new (bottom of the s-curve) vs making incremental improvements on an existing idea (top of the s-curve).
+If you’re interested in exploring opportunities at Coinbase, please visit our careers page or send us a note (talent at coinbase dot com). We are also hiring remote engineers. We’ve set up a coding challenge that you can take online in 30–45 minutes.
+We’ll continue to update our strategy (about once a year) as we make progress.

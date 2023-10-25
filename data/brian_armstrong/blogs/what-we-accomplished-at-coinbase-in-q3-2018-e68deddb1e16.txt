@@ -1,0 +1,25 @@
+This week, I sent a note to the Coinbase team about what we accomplished in Q3. I’m sharing it here with our customers and the crypto community more broadly to help provide transparency into our operations.
+***
+Dear Team,
+At the end of the last quarter, I sent out an email reflecting on all we’d been able to accomplish in a single three-month period. Given how fast we move and just how much we accomplish, I’m finding this a useful exercise and a good opportunity to pause, reflect, and celebrate our wins.
+You heard some of this last week at our All Hands meeting, but I want to share it in one digestible email that you (and I) will be able to read thoughtfully, reflect on, and use to map our journey over time.
+WE HIRED:
+In Q3, we continued to bring on amazing people. We used many of these hires as opportunities to be thoughtful about our operating structure, and how to help our teams function more efficiently as we scale. In Q3, we added:
+WE INVESTED:
+The crypto space continues to be full of fascinating startups, and this quarter, we invested in nine more companies that have great potential, including: Horizon Games, Coinmine and Public Market.
+WE ACQUIRED:
+This quarter, our acquisitions focused on teams that would bring depth, experience, and innovation to the teams and products already within Coinbase. We brought on the Distributed Systems team, who joined our Identity group, officially closed the Keystone acquisition, and are in conversations with a number of other high-potential teams.
+WE LAUNCHED:
+In Q3, we focused on launching features and policies that our customers want most, helping make Coinbase simple and easy to use, and positioning Coinbase as the destination for the next 100 million people who want to access, own, and use cryptocurrency. In Q3, we added:
+WE ADDED:
+Adding assets, support for more local currencies, new geographies, and big clients are some of the most important things we can do to help get more people involved in crypto and on board with Coinbase products. This quarter, we:
+WE PUBLISHED:
+This summer, we put a lot of great thinking and writing out into the world, building our educational authority around crypto, helping existing and new customers understand even more about the space. We published our first-ever research-based Coinbase Report on the rise of crypto in higher education. We produced our first video for the crypto curious, helping the world understand what bitcoin is. And Connie Yang wrote a great essay on why design is the killer app for crypto.
+WE HACKED:
+While Coinbase has hosted a hackathon every year, this year was our biggest yet. Vision Hack 2028 took place at the end of August — a five day, all-company hackathon, with the goal to build ideas that would reshape what an open financial system could look like in 10 years. Over 150 ideas were submitted from people and teams from throughout the company.
+RECOGNITION:
+Lastly, we are incredibly grateful to have received external validation for our efforts and for some of our amazing colleagues. Ultimately, these accolades reflect the efforts of every single employee, so thank you for making Coinbase such an amazing place to work. Top highlights include:
+SO IN CONCLUSION…
+Our business is cyclical, and it’s crucial that we continue pushing hard to ship new features, fix what’s not working, and make the customer experience better, whether the crypto market is on fire or in a slower part of the cycle. We did that well this quarter, and in Q4, we’ll need to double down — and stay humble, scrappy, and focused — to do even more.
+Before I close, I want to express my gratitude for your hard work, your thoughtfulness, and all of the conversations we’ve had over the last quarter. I’m proud to be on this journey with you.
+Brian
