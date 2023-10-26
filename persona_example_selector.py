@@ -16,7 +16,7 @@ load_dotenv()
 
 
 class DialogueExample(BaseModel):
-    type: Literal["cue", "response", "thought"]
+    type: Literal["cue", "response", "thought","style"]
     text: str
     score: Optional[float] = None
     pair: Optional[DialogueExample] = None
@@ -123,19 +123,44 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
 
                 examples.append(dialogue_example)
 
+
+
         thoughts = qdrant.search(
             collection_name="thoughtsCrypto",
             query_filter=Filter(
                 must=[
                     FieldCondition(
                             key="persona_id", match=MatchValue(value=self.persona_id),
-                            key='from',match=MatchValue(value="blogs")
+                           
+                    ),
+                    FieldCondition(
+                        key='from',match=MatchValue(value="twitter")    
                     )
                 ]
             ),
             query_vector=semantic_model.encode(
                 input_variables.get("human_input")).tolist(),
-            limit=5,
+            limit=4,
+            with_payload=True,
+            score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
+        )
+        
+        styles = qdrant.search(
+            collection_name="thoughtsCrypto",
+            query_filter=Filter(
+                must=[
+                    FieldCondition(
+                            key="persona_id", match=MatchValue(value=self.persona_id),
+                           
+                    ),
+                    FieldCondition(
+                        key='from',match=MatchValue(value="twitter")    
+                    )
+                ]
+            ),
+            query_vector=semantic_model.encode(
+                input_variables.get("human_input")).tolist(),
+            limit=3,
             with_payload=True,
             score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
         )
@@ -147,6 +172,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                 examples.append(DialogueExample(
                     type="thought", text=solo.payload["response"], score=solo.score))
 
+
         # followed by actual chunks from the thoughts collection
         if len(thoughts) > 0:
             for thought in thoughts:
@@ -157,7 +183,20 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
 
                 examples.append(DialogueExample(
                     type="thought", text=thought.payload["thought"], score=thought.score))
+                
+                
+        if len(styles) > 0:
+            for style in styles:
+                # this is a quick hacky way to handle this.. now it will be treated similarly to how a internal monologue or something a character says without a cue
+                # I just have to make a custom few shot template to handle it
+                style.payload["cue"] = style.payload["thought"]
+                style.payload["response"] = style.payload["thought"]
 
+                examples.append(DialogueExample(
+                    type="style", text=thought.payload["thought"], score=thought.score))
+                
+                
+    
         similar_content = qdrant.search(
             collection_name="responses",
             query_filter=Filter(
@@ -182,7 +221,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         debug_info = create_debug_info(
             input_variables["human_input"], examples)
         st.session_state[f"debug_info_{self.persona_id}"] = debug_info
-        print("debugexamples",examples)
+        # print("debugexamples",examples)
         return examples
 
 

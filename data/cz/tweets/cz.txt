@@ -1,0 +1,540 @@
+Will try to keep 2023 simple. Spend more time on less things. Do's and Don'ts.  1. Education 2. Compliance 3. Product & Service  4. Ignore FUD, fake news, attacks, etc.  In the future, would appreciate if you can link to this post when I tweet "4".
+much transparency in crypto.
+Technical issue with a middleware service impacting withdrawals. Funds are SAFU. Our team is on it.
+Will try to keep 2023 simple. Spend more time on less things. Do's and Don'ts.  1. Education 2. Compliance 3. Product & Service  4. Ignore FUD, fake news, attacks, etc.  In the future, would appreciate if you can link to this post when I tweet "4".
+Crypto is volatile.  Remember to exercise prudent risk management when trading. If you don't know what TP/SL means, you should learn about it.  Screen shot from a demo.
+gm to the holders. It wasn't easy, but...
+The golden ticket to train with  Ronaldo, with flights/hotel/etc covered by #Binance, still hasn't been claimed.  Get your free CR7 ForeverZone box and it could be yours. http://binance.com/en/activity/cr7-nft…
+3 years...
+Keep building. https://binance.com/en/feed/post/1415905?ref=527648310&utm_campaign=app_share_link&utm_source=twitter…
+Things to do and not do when you see me at an event.   1. Always happy to take a selfie. Let’s do it quickly. Don’t try to pitch your project (especially when there are many others waiting).  2. Please post the selfie on social media afterwards, for all to see. Please do not use…
+"I think there is a world market for maybe five computers." - Thomas Watson, president of IBM, 1943
+Earlier today, there was a hardware failure...
+They say developers like to stay in a dark room, alone, no commute, work from 2PM to 5AM...  Daily Life of Binance Developers
+Beware of phishing scams.
+You won't be able to escape inflation completely, but there are many tools you can use to shield yourself from it to a large extent. You have choices.
+Deflationary #BNB
+It feels like every crypto guy I know are in UAE or Bahrain
+If you form your opinions from other peoples opinions, especially from online, you are doomed to be poor.   Get facts, then form your own opinions.   Ps. 99% of “facts” out there are opinions, assumptions, inaccurate, wrong, or deliberately false. open your eyes.
+This is my opinion.
+Dex rising.
+"Still a fan..." Lesson: Forget about your competitors; focus on your customers. - Jack Ma
+This feature impacts some trading & cancelling behaviors. Please take note.
+here is my submission #Bin4nce
+Another Launchpool.  Keep building, and keep supporting builders.
+#BNB is a fair launch token. Ie, no one got free BNB tokens from the initial supply. The "team tokens" was never moved or used, it was only burnt.  Speaking of which, another burn coming up in a few days!
+In my world:  The more people working on a task, the slower it moves. The less people working on a task, the faster it gets done.
+Copy trading is now live on #Binance.   You can replicate the trades of some of the best traders on our platform.  Try it here: https://app.binance.com/en/copy-trading?_dp=L2NvcHlUcmFkaW5nL2hvbWU=…
+Beware of scammers. Stay #SAFU!
+#Binance added the #bitcoin halving countdown to our homepage.  And here are my thoughts around the Bitcoin Halvings...
+UK update
+#Binance Feed doesn't have an API. No bots. https://binance.com/en/feed
+Education
+Just made my first post on  Feed.  You can too.  It's a new platform. As always, we welcome your feedback to improve it.  As I have 0 followers and followings now, I will follow the early adopters aggressively. Go there and follow me.
+All KYC'ed users around the world. Hopefully, there will be less spam and bots.  (No US users. This feature is not available on ).
+Who designed this bike? If we can find the original creator (of the image), I will give him some #BNB.   Don't know why, I kinda like it.
+Just saw the interns launched a 4 photoshop contest…  We’ll give 1 #BNB to 10 of our favorite edits of this photo.  Use #Bin4nce when you share it so they can find them
+#Binance Feed will open to all content creators soon, too. Ie, all users can create content.
+Troll and earn.
+#Binance Aids Royal Thai Police in Crackdown on Criminal Networks |  Blog
+Have you used this feature on ?
+It's a direct screenshot from a demo of the Binance web interface. Not a photoshop or post marked image.
+Enough said about his new book...
+“The guys who held last week were so lucky!”
+Binance v. SEC: Paradigm Files Amicus Brief, Accuses SEC Of Regulatory Overreach
+Applies not only to X.
+月圆·币圆·人团圆  祝全球华语用户们，中秋佳节愉快！  送出一份 #Binance 键盘套装，希望大家可以hodl住幸福和快乐。  留言晒出你的月饼 / 灯笼 - Giving away this #Binance keyboard for Mid Autumn Festival.  Show me your mooncake or lantern to enter.
+Pic by .
+T&Cs apply: https://ter.li/o59m4r
+Our Chinese and Arabic ancestors figured out crypto. They both made MOON festivals! And they both land on today.  中秋快乐！
+Happy Mawlid al-Nabi!
+Fixed. Thank you for your patience and support.
+This is a display ONLY issue. Trading not affected.
+Root cause identified, some new code caused it. Need to revert and fix data.  Engineers say 1hr ETA for fix. So, expect 2hr or so.
+Futures Kline (chart) display issue on BTCUSDT. The UI aggregated Kline has issue, the raw Kline via api is working fine.  Trading not affected.  Team is fixing.
+Raw Kline is fine: https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&limit=500&interval=5m…
+UI composite Kline has issue: https://fapi.binance.com/fapi/v1/continuousKlines?pair=BTCUSDT&contractType=PERPETUAL&interval=1m&limit=1000…
+Happy Mid-Autumn Festival!
+When you give interns access to your X account...
+Got it as a gift from our local partner in Malaysia on that day. I posted a picture from this event before, with that shirt, on that day.  The only time I wear that shirt, also the only time I met with Gatita. But I have a feeling this photo will follow me around for a bit.
+This is an important announcement impacting some EUR / Paysafe users. There should also be replacement fiat channels going live soon. Please stay tuned. Important Updates for Paysafe Users | Binance Support
+Some answers about Binance/CommEx.  There will be crypto transfers between Binance & CommEx as users migrate with their funds. There are also older transactions during the testing phase of the integrations. This is expected.  A few ex-Binance CIS team members may join their team,…
+Don't believe people when they show a selfie and say they are close to CZ or Binance, etc. I am not a networker, and have a very small number of close friends. I do take a LOT of selfies with people.  I have probably taken selfies with more than 10,000 people so far.  At events,…
+Crypto is great for many things, including travel.  Keep pushing adoption. #Binance
+Everything will be done to ensure a smooth transition. All user funds are safe!  Also:  Among other things, #BNB holders will continue to enjoy a 25% trading fee discount on .
+One step at a time.
+WSJ called SBF a savior...
+The screenshot was taking just a minute ago. Not a saved image. Source:
+Too lazy to even post 4.  Focus on building.
+We're Still the Most Compliant Crypto Exchange Today: Binance's New CMO Sheds Light On Its Urgent Challenges (Exclusive)  Another interaction with CryptoPotato (inside joke).
+Education.#Binance Academy Notes 62% Increase in Usage Led by Learners from Emerging Markets
+More stablecoins coming.  Binance Japan partners with MUFJ on stablecoin development
+Another hack happened yesterday with Mixin. I am not familiar with it. It was hard to understand.  A "decentralized peer-to-peer network" had a "database", which when hacked, can lose half of the users' assets...  Not everything that claims to be decentralized is.  Stay #SAFU
+A week after you rename your exchange after FTX... Jokes aside, our security team will help in tracking hacker funds in all cases where we can.
+The strength of your hand, is determined during a dip.
+Over a million people use #BNB Chain every day.
+If markets are predictable it would cease to be markets and be without profits.
+Copied/adapted , from:  If life were predictable it would cease to be life and be without flavor. - Eleanor Roosevelt
+If you want to "buy low, sell high", then you have to act accordingly when it is low.  Not financial advice. I also don't recommend this strategy for most people. DCA then Hold is simpler.
+Feed from KOLs now appear directly on http://Binance.com homepage. Rolling out to all languages soon.
+Fuddlers don't work on weekends.
+If you want a coin to be listed on , read this
+I am stable.
+The new Elon Musk book by Walter Isaacson is pretty good.
+Interesting to learn that Elon uses a "hardcore" value. I didn't know that before, and we use the same word from 6 years ago. Admittedly, his hardcore seems to be more hardcore than ours. "Revolutionizing industries is not for the faint of heart."  He can tolerate rockets blowing…
+Binance Brings Law Enforcement Expertise to Hong Kong International Symposium on Cyber Policing | Binance Blog https://binance.com/en/blog/ecosystem/binance-brings-law-enforcement-expertise-to-hong-kong-international-symposium-on-cyber-policing-3815824125081248102…
+The top menu on http://Binance.com has changed a bit. It's simpler now.   The fact that no one complained about the change probably means we should have done it much sooner.  Keep building.
+Who did this?  (I was not there. I don't even know where it is. When you give free rein to Interns...  )
+The amount of wrong information is just...  They got the direction wrong. I loaned $250 million to BAM a while back, not the other way around. And have not taken it back.
+They fixed the article now. I was told.
+Exercise caution when using DEX, or crypto in general. Stay #SAFU.
+For the record. Binance US does not use, and have NEVER used Ceffu or Binance Custody.  You can't just make this stuff up.
+How can I get these?   The interns sends me pics to tweet, but not the actual merchandise…
+Very true! The saying:  You never get criticized by the people who do more than you; you only get criticized by people who do less.
+Guess what? You can be criticized when you donate $3 million dollars worth of crypto after an earthquake.  While we got overwhelming positive feedback from our users about the donation (as seen in the quoted tweet), and while the issues raised are typically from traditional…
+You may not know the origin of the #Binance logo.https://medium.com/binanceexchange/are-you-committed-enough-to-tattoo-ef2085b0aed5…
+Not sure why, but I like this ceiling light.
+Not sure why, but I like this ceiling light.
+Mark Cuban Confirms Getting Hacked for $870K on MetaMask. This happens to the most experienced of crypto users.  Read this article I wrote 3 years ago. There is a section about downloading software, wait 72 hrs, etc.  Stay #SAFU
+Even or especially when you manage your own wallet, there are many more security procedures you need to follow. The article above covers some of the basics.
+Not a bad meme... Out of my 20+ direct reports, only 1 left in the past year.  Moreover, while many of our ex-team members are very strong, change is not always a bad thing (even when a strong person leaves). We keep our teams dynamic to increase growth opportunities.
+I love it when people give great book recommendations.
+There has been some speculation regarding recent management changes at . Brian Shroder is taking a deserved break after accomplishing what he set out to do when he joined two years ago. Under his leadership, http://Binance.US raised capital, improved its product…
+Rachel has been with  for a while, and is a veteran in crypto before joining us. She has been driving many of our marketing initiatives for some time already. Please welcome her to her new role. I have high expectations.
+Fast, scaleable, and super-low fees.  Let's build real world applications that require billions of messages/events per day. #BNB
+Joining a session at Token 2049 virtually, not in person.
+Need a "to scale" version of this image.  ?
+One more donation today. Stay strong Libya
+UM Futures affected. CM seems to be ok. Our team is fixing.
+Experiencing a tech issue on futures. Our team is on it.
+Our hearts go out to the people in Morocco#Binance to donate $3,000,000 in #BNB to our users in MoroccoWe standby our users in times of need. Stay strong.
+I personally visited Morocco twice in the past year. Loved every bit of it. It's so sad to see this tragic event.
+. swap supports 9000 tokens.
+Or split up the big exchanges. Splitting up liquidity is not good for users. They get worse prices. Tradeoffs. Something to think about.
+Reminder to use hardware 2FA (Yubikey) for all crypto platforms.
+Vitalik's Twitter account got hacked. Use common sense when reading content on social media, even from large KOLs.  Twitter's account security is not designed as financial platforms. It needs quite a bit more features: 2FA, login id should be different from handle or email, etc.…
+The Apple iOS/iPadOS 16.6.1 updates today includes a security patch to an iMessage vulnerability that allows remote code execution WITHOUT ANY INTERACTIONS from the victim. It is being exploited in the wild by the Pegasus threat group already. Update immediately. Stay #SAFU.
+Galileo didn't have X.
+1. Education.#Binance is now on Megogo, one of Ukraine’s biggest media platforms. bringing crypto education to the masses.
+Saw some debates in the community. When you do the right thing, and there is FUD, you don't have to do anything. The community defends you.  Let me summarize. There have been a lot of negative news/rumors, bank runs, lawsuits, closing of fiat channels, product wind downs,…
+#Binance Charity  Revolutionizing Charity: How Crypto is Making a Difference  This education aspect ... as organizations are not only providing fish but teaching people how to catch their own. Recipients have access to a new financial system forever.
+Some of our team members are growing into bigger roles, some outside of #Binance. Some are doing new exciting ventures. I even made intros/references for many of them. We are supportive of everyone. We are one community.  This also creates more growth opportunities within…
+phew… saved.  Don’t believe in a photoshopped image, guys. 4
+Looking forward to this (virtual) chat with  next week at .
+. is a cool dude.
+“it is difficult to get a man to understand something, when his salary depends on his not understanding it.” - Upton Sinclair
+Bitcoin is traceable.  Cash is not.
+Live now.
+AMA later today. I guess it's called an 'X space' now, lol.
+Just saw this informative video about #BNB by BitBoy! (25) BNB Starter Pack (Biggest Coin In Crypto?) - YouTube
+Doing our little bit. #Binance
+Mehmet Buyukakarsu on LinkedIn: BNB Chain Innovation was only 2 years old with these numbers. I'm super…
+There are people who needs to wear a device on their wrist all night long and then an app to tell them if they should feel good or not.   It’s so unnecessary.  All you need is the #binance  app.
+Send cash.  Instant. Low fees.
+Attending virtually.
+We are all in it for the tech again.
+Keeping your account(s) safe is vital.  Here's a quick blog about account takeover attacks and how you can prevent them.
+Third party analytics are so much easier in Web 3 with blockchain. TradFi doesn't have this level of transparency.
+Be a leading indicator.
+One more security related incident / article you should read.  Don't install software!
+New rounds of phishing attacks already underway for the poor users of FTX, BlockFi, Genesis, as a result of the Kroll data leak, which seems to be a result of a SIM swap on an employee.Learn to protect yourself. Learn about phishing attackshttps://academy.binance.com/en/articles/what-is-phishing…
+DeFi taking over.
+Binance in Italia ha accumulato criptovalute per 385 milioni di euro in pochi mesi. Tutti i numeri del business - MilanoFinanza News
+Binance Collaborates With Taiwan's New Taipei District Prosecutors Office To Enhance Crime Fighters’ Investigative Skills | Binance Blog
+Working at #Binance isn't a typical job.
+I don’t know what AlphaGPT is. First saw it in a spam comment yesterday on Twitter.  There seems to be many bots spamming through many accounts.  They just can’t stop talking about us.
+Here we go again. Seen this before?
+Why wouldn't they?
+X should really solve the bots & spam problems before removing blocks.  Just my 0.02 #BNB.
+4 ... years ago, we were thrilled to see #BTC finally climb back to $10,000 again. And then it dropped for a bit. I got a few "comments" for the tweet below , for a while... Zoom out.
+Think what  is doing.
+Here is the English version of the article mentioned earlier.https://picapica.wtf/p/inside-binance-decoding-the-borderless…
+Interesting article about Binance.  If you wish, happy to do a call to give you more context or background, or more access to Binance internals/data. Thanks for the article. >谁在制造币安：4000 份履历里的无国界公司 https://mp.weixin.qq.com/s/qedPxj5O0rVkAchDrHU55A…
+Win a trip to Turkey! #Binance is giving away 5 trips (flights, hotel, event entry) to Binance Blockchain Week on Nov 8-9.  Retweet and reply with why you'd like to attend using the hashtag #BinanceBlockchainWeek
+Learn more about #BinanceBlockchainWeek here.
+Terms and conditions apply. https://binance.com/en/survey/3972083f752b448a871fee28dbcbd914…
+Been seeing a lot of cats on my feed from the #BinanceCat contest. Keep them coming!  This one from  is cool.
+Details here.
+I highly recommend everyone to do this, to better protect your account. Stay #SAFU!
+#Binance
+Every time I have a meeting with the product team, there are many improvements to be made. Maybe I just gotta have more meetings with the product team.
+People often seek the one big thing that changed everything.   But in reality, it's often the (consistent) little things that accumulate over time.
+The simple strategy of DCA and hold...  (not financial advice)
+We try to help stablize the defi ecosystem.
+Is this for real?
+Self custody wallets are not without risks.  I am supportive of self custody, IF you know what you are doing.  Stay #SAFU!
+This vulnerability is due to the random number generator using a 32 bit seed, which is not sufficiently random against modern cracking such as GPUs.   and  wallets do not use this for seed phrase generation.
+#Binance is pleased to announce that it has become the first fully licensed crypto exchange in El Salvador.Let’s keep making crypto more accessible.
+This issue was present in the TSS Library Binance open-sourced, which has been fixed. Thanks to Fireblocks for uncovering it!  No  user funds affected.   Even MPC custody solutions have risks. Stay #SAFU!
+TSS = Threshold Signature Scheme
+MPC = Multi Party Computation. Similar to multi-signature, but more advanced.
+Not long ago.
+This is pretty scary from a video verification perspective. Don't send people coins even if they send you a video...
+Not long ago.
+#Binance is pleased to announce that it has become the first fully licensed crypto exchange in El Salvador.Let’s keep making crypto more accessible.
+Everyone will be in crypto.
+Keep building.
+Interesting to learn internet adoption is only 60% so far.
+#BinanceBlockchainWeek is in Istanbul, Turkey this year on November 8 & 9.   Check the image alt text.  » http://binanceblockchainweek.com
+This week at #Binance (so far):  - Binance Japan officially launched - Binance secured an Operational MVP License in Dubai (first exchange in the world to do so) - 2x new Binance Launchpools - $CYBER & $SEI- Hit 150M registered Binance users  Keep building.
+The quality of research, validation, or even logical thinking in this "news" is appalling.  If it is a board vote, 1 vote holding out of 3 won't stop anything. The 2/3 wins.  If it is a shareholder vote, Brian S. is a CEO, not a VC or any other type investor.  It's just FUD. 4.
+I want to share this (luckily) unsuccessful, but very clever and close scam incident from yesterday .  Saved $20m. Hope it may also save you one day.  The scammers are so good now they generate addresses with the same starting and ending letters, which is what most people check…
+4
+Some highlights from the recent AMA.  Topics: Dubai license Binance Launchpad Binance merch Team management New blockchains
+2 Launchpools. Sorry, getting confused in my old age.
+Introducing #Binance Japan: A Dedicated Platform for Residents in Japan
+Wen Launchpool?
+Some interesting stuff here that I didn’t know before. It makes sense that stable coins increase the dominance of the underlying pegged currency.
+#Binance is the first exchange in the world to secure an Operational MVP License from Dubai's Virtual Assets Regulatory Authority (VARA).
+#Binance
+CEX price feed saves DeFi. Binance users are not affected. Our team checked on the Vyper Reentrant Vulnerability. We only use version 0.3.7 or above.   It's important to stay up-to-date with code libraries, apps and OS. And stay #SAFU
+On this 8th birthday of #Ethereum, a little throw back to May 2, 2015, in Tokyo, just before #ETH was officially born.  stayed in my apartment in Tokyo during this trip. He was already working on and talking about ETH non-stop. And I still missed (didn't buy)…
+It's a green flip flop, btw.
+Happy Birthday #Ethereum!    Among many things, Ethereum made ICOs possible, which in turn, made many other projects possible, including Binance.
+Blockchain: 0.1 seconds
+“Binance’s New General Counsel On the Cutting Edge of Crypto Regulation”
+They can't stop thinking about us.
+Q2 BNB Chain report:  "BNB Chain Dominates Q2 with an average market share of 46.5% for total Verified Smart Contracts, Ethereum Follows at 31.3%"  Keep building.
+Bitcoin is more stable than stable coins now…
+バイナンス
+Unpopular x:  "Impermanent loss" is usually "permanent loss".  Don't let a term fool you. And "stable" coins... are not always stable.  Learn risk management. Stay #SAFU.
+Japan PM reaffirms Web3 plans as Binance announces imminent launch
+1. Education.  147 graduates have secured IT-related jobs from the IT Generation project in Ukraine, a tech scholarship program supported by .  » https://binance.com/en/blog/charity/it-generation-program-empowering-ukrainians-with-tech-scholarships-1473202064819672027?ref=AZTKZ9XS&utm_source=CZTwitter&utm_medium=CZSocial&utm_campaign=CZSocial…
+Let’s X it…
+Also from 6 years ago, an article I wrote on FUD. Yes, it's a time-old concept. It hasn't changed. And sadly, it will go on for a while.
+Someone sent this to me, an article I wrote 6 years ago. The project mentioned currently has a market cap of less than $1m. It's a good group of guys, but probably distracted by too much money.  Start small and grow big, not the other way around.
+CR7 is a cool dude.
+Technology advances are always a double edged sword, some bad mostly good.
+When people see me in a restaurant, they say: “oh it’s the Binance guy.”
+#Binance France released its first audited financial statements today.   Binance France a publié aujourd’hui ses premiers états financiers audités.
+Be careful with phishing and other social engineering scams. Best to enable 2FA with a hardware device (Yubikey) on all crypto exchanges.
+They say usually, faster is better.
+The first global music tour powered by Web3.#BinanceAfterHours
+Experience it here. https://enterthedimension.com/?ref=AZTKZ9XS&utm_source=CZTwitter&utm_medium=CZSocial&utm_campaign=CZSocial…
+Positive life starts with positive energy.  Be full of positive energy in life.
+The quarterly #BNB burn is done, according to the public algorithm.   I was told there will be some more on-chain (large) transactions shortly, to further distribute/spread the coins to more addresses. Nothing to be alarmed about.
+I learned today that a guy who is constantly spreading FUD about  was just because he pitched his project to Binance Labs and we didn't invest.   Feel really sad for him. I hope he eventually finds his way out of it, and actually focus on his own project.
+If you only invest during the bull market, then you are by definition, only buying high. Not investment advice. Just saying.
+There was a tech issue with the withdrawal system just now. Lasted for about 10 min. Should be all fixed now. No need to FUD.
+still here. was just chilling on a Sunday...
+Keep building.
+The conversion is one way only. #bitcoin #BNB
+As we continuously strive to increase talent density, there are involuntary terminations. This happens in every company. The numbers reported by media are all way off. 4 FUD.   On the bright side, they just can’t resist talking about us.  We are still hiring.
+6 years ago today, a little exchange called  launched. Everyone was telling me there is no chance for another exchange. Here are some reflections over the last few years. Thank you for your unwavering support!
+. never delisted XRP. Trading link below.
+Eleanor has been in this role for a couple of months already. We don't make big splashes or emphasis title changes. However, this role is gonna have an impact on the industry as a whole. And I am confident Eleanor will continue to excel.
+She has also been with  for a few years already.
+It's less about winning or losing, it's about on the right side of the people.
+XRP
+2023 Crypto Crime Mid-year Update: Crime Down 65% Overall
+#BinanceBlockchainWeek is coming to Istanbul Turkey this year on November 8-9.Turkey has one of #Binance's strongest communities, so I'm glad we can host it here.Early bird tickets are on sale now, 85% discount. First come, first served.  Tickets: https://binanceblockchainweek.com/event/de2ec7f5-f14f-4043-b21f-7ed55f759d74/summary?ref=BBW2023&utm_source=CZTwitter&utm_medium=GlobalSocial&utm_campaign=BBW2023…
+#bitcoin doesn't have a 30-day-money-back-guarantee. Use it ONLY when you are sure.  Btw, most "30-day-money-back-guarantees" don't work.
+It should not be hard to pay or get paid by someone in a different country.
+Wen Launchpad?
+A little secret for building tight teams.  I often get asked about what’s the best way to build tight/strong teams. So, here is a little counter-intuitive “secret” on how to do that.  It’s not fancy team building dinners, outings, etc. It’s not the coaching exercises, mentors or…
+#bitcoin doesn't take sides.
+What are some books I should read?
+Powell testifies crypto 'appears to have some staying power' in U.S. economy | Monetary Brief https://monetarybrief.com/stories/645281740-powell-testifies-crypto-appears-to-have-some-staying-power-in-u-s-economy…
+Looks like another hack happened on Multichain. This DOES NOT affect users on  or  itself. We have swapped all assets out and closed deposits a while back. Regardless, we offer our assistance in helping with the situation.  Stay #SAFU.
+4. More FUD about some departures. Yes, there is turnover (at every company). But the reasons dreamed up by the “news” are completely wrong.  As an organization that has grown from 30 to 8000 people in 6 years, from 0 to the world’s largest crypto exchange in less than 5 months…
+. have made a donation to a new charity effort in Brazil. An organization that offers digital and financial inclusion to homeless people in São Paulo. The initiative allows donations through crypto to build a space for free access to computers and cell phones.  Lack of…
+GM. Logged into my Threads account. As a tiny investor in Twitter, I hope threads give twitter a good run for its money.  It will make both platforms better. Also wouldn’t mind to see some more international competition too.
+My instagram account always had a different handle, so be careful of scammers.
+Some new (and old) advanced features on  Futures: scaled orders, TP/SL (take profit / stop loss), drag and drop to adjust, one-click reverse, market headmap, and a ton more... Keep building.
+Then they join you.
+Supply vs demand. Simple.
+Good story.
+If you're like me and need some football training, who better to do it with than  You can meet and train with CR7 in person by holding the rarest NFT of his new collection. #Binance will cover flights and accommodation.   Bid here » https://binance.com/en/nft/collection/forevercr7-the-goat-rsrssr-nfts-726020713255759872?tradeType=1&collections=726020713255759872&isBack=1&order=amount_sort@1&ref=FOREVERCR7&utm_source=CZTwitter&utm_medium=GlobalSocial&utm_campaign=thecr7nftcollection2…
+The 'Forever CR7: The GOAT’' NFT collection on #Binance is now live.  » https://binance.com/en/nft/event/forevercr7?ref=FOREVERCR7&utm_source=CR7Twitter&utm_medium=GlobalSocial&utm_campaign=thecr7nftcollection2…
+This does not affect  users. We do not support deposits from this network. Our security team is assisting them in its investigations though. Stay #SAFU.
+Viewing should not be limited. Posting and commenting should be. No humans post more than 800 posts per day, maybe except me.
+Actually, only commenting need to be limited. IMO.
+A  on crypto prices1/8000
+New  and  report.  The teams talked to institutional investors to explore their views, preferences, and motivations toward crypto.
+#bitcoin price fluctuates. Its utility is steadily increasing.
+Most people I know accept crypto.
+How to meet CR7:  1) Own a SSR NFT from this drop. 2) Holders get an in-person training session with Cristiano Ronaldo, amongst other perks.  Real utility.
+We keep building.
+In crypto, education is everything.  Thanks to everyone that dedicates time to growing our ecosystem through teaching Please get your votes in for this award.
+NFTs dropping on July 3.  » https://binance.com/en/nft/event/forevercr7?ref=FOREVERCR7&utm_source=CZTwitter&utm_medium=GlobalSocial&utm_campaign=thecr7nftcollection2…
+#Binance API supports asymmetric keys. Binance won’t ever have your private keys in this case. We only use the public key. #SAFU
+Eid Adha Mubarak.
+Keeping #Binance secure at all times.
+HK moving forward.
+Good to see Japan enacting tax policy that incentivizes crypto innovation.
+1, 2, 3…
+http://Binance.US solves USD withdrawal issues but warns it won't last long
+TradFi, who would have thought?
+The color fits him, I think. #Binance
+Signing in Kazakhstan Left to right: CZ, President of Kazakhstan Kassym-Jomart Tokayev, Minister of Information Technology Bagdat Mussin  (Photo was from a while ago.)
+http://Binance.US and Its Legal Team Allege SEC Issued Misleading Statements in Lawsuit
+Binance Launches a Regulated Digital Asset Platform in Kazakhstan, with local banking support.
+1500+ people #Binance meetup in Kazakhstan now.
+Playing by the Rules: The Crypto Compliance Landscape Today | Binance Blog
+Deutsche Bank applies for digital asset license.
+Continue to invest in the industry.
+Slowly, but we keep building...
+Binance have issued cease & desist notice to the scammer entity "Binance Nigeria Limited".  Don't believe everything you read in the news.
+If you are using http://binance.com, you are not interacting with the scammer entity.
+Look on the bright side. Scrutiny provides validation.  Was just reading the court transcript.  Court: "... Similarly, you all repeat in the memo that there's no evidence, absolutely no evidence of any dissipation of assets whatsoever. And the government at this point has said…
+Look on the bright side. Scrutiny provides validation.  Was just reading the court transcript.  Court: "... Similarly, you all repeat in the memo that there's no evidence, absolutely no evidence of any dissipation of assets whatsoever. And the government at this point has said…
+Happy Father's Day!
+Although we maintain that the SEC's request for emergency relief was entirely unwarranted, we are pleased that the disagreement over this request was resolved on mutually acceptable terms.    User funds have been and always will be safe and secure on all Binance-affiliated…
+#Binance
+4. FUD.  In France, surprise (no advanced notice) on-site inspections of regulated businesses are the norm, for banks, and now for crypto too.  The surprise visit for Binance France happened a couple of weeks ago. It's not "news". Binance France cooperated fully.   Binance also…
+Currently at Layer 2. How many layers do you need?
+How risk management for crypto: prevent, identify and eliminate potential threats
+4. Binance have not sold BTC or BNB. We even still have a bag of FTT.  It is amazing they can know exactly who sold based on just a price chart involving millions of traders. FUD.
+» Bank of China issues $28M in digital structured notes on Ethereum blockchain
+According to our data, last 24hrs,  net outflow is about $392m.  Our wallet addresses are public. Some 3rd party analytics measure Change in AUM (asset under management) in USD equivalent as outflow. This would include crypto price drops (which decrease AUM) as "outflow".…
+Some even only measure outflow, not inflows.   On a sharp price movement day like today, many arbitrage traders move a lot of funds between exchanges, usually exponentially more than on normal days.
+For reference, we processed $7b net outflow in one day last Nov.
+Why is the market is going up or down? No one really knows. A lot of people claim to know, and can often pin it on a single (often wrong) reason. In reality, there are many sellers and buyers in a market, everyone may have their own reasons. A few examples.  False narrative:…
+Important dates for the industry coming up, MiCA has now been published in the official journal of the EU: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1114…   This means crypto businesses now have firm timelines to implement and be compliant with MiCA's requirements. Stablecoin rules apply from June 30,…
+As part of #Binance’s Global Law Enforcement Training Program, our team went to Taiwan to deliver a one day training program for Taiwan's Criminal Investigation Bureau.  This is part of our commitment to combating cybercrime in alliance with law enforcement agencies globally.
+More info here.
+This is simply false. Not sure if it's the journalist or the source.  To the best of my knowledge, http://Binance.US had in total roughly $2 billion in user funds. This number in USD equivalent fluctuates a little as crypto prices change. And declining as users withdraw due…
+We have to focus on recruitment and development of young talent.  Current students will be future leaders. Set them up for success, so they can help us increase crypto adoption.  Introducing our new specialized summer-intern program.
+#Binance Pay has partnered with LATAM based Credencial Payments, allowing users to pay with crypto in real time.   Binance Pay se alió con Credencial Payment para facilitar pagos digitales con criptomonedas
+I was told this is just part of the SEC compliant process. Nothing new.   Also told I won't have to appear in person. No need to FUD.
+Eleanor's tweet was accurate. Not FUD.   The FUD I was referring to was other FUD on Twitter or elsewhere, which there are plenty.
+Multiple FUDs going on. This one widely circulated in Asia, saying "there was an argument I had with an American inspection agency, and I took out a AK47. The police then opened fire first, and I got wasted..."  This is the 2nd time I got wasted imaginarily in Asia news. Last one…
+Oh, and I got shot 27 times... Who TF comes up with shit like these?
+Trust is earned through a long history of decisions and actions taken to protect users.
+Clarification: this could only affects http://Binance.US, IF granted by the court.   It does NOT affect http://Binance.com. Funds are #SAFU
+People often use their own (narrow) world views to view us. Like,  Q: You don't have debt? A: No, we don't.
+They didn't sue FTX.
+If you have to pick a fight with everyone, maybe you are the one at fault.
+又上央视了。。。
+Who protects you more?
+Wonder if he ever reads the comments under his post, from the consumers he is suppose to protect.
+Strong together.
+4.  Our team is all standing by, ensuring systems are stable, including withdrawals, and deposits.   We will issue a response once we see the complaint. Haven't seen it yet. Media gets the info before we do.
+You can access your #Binance account without a password, and without compromising on security.  How to Create a Passkey for My Binance Account | Binance Support
+#Binance has obtained the ISO 27001 (information security) and the ISO 27701 (data privacy) certifications in France, UAE, and Bahrain.
+Stay #SAFU. https://twitter.com/AtomicWallet/status/1664946301815910400…
+Nice work , ,  and all other community members that are helping to investigate and recover stolen funds.  Great to see.
+DYOR.  » https://academy.binance.com/en/start-here?ref=LPUHG39I&utm_source=CZTwitter&utm_medium=GlobalSocial&utm_campaign=GlobalSocial…
+If you prefer to read/scan. Highlights From CZ’s May 31 AMA on Twitter Spaces | Binance Blog
+Congrats!
+BUSD, a fully regulated stablecoin, was "capped" (no new minting) by NYDFS at $23b. Now at $5b market cap.  Since then, USDT has seen tremendous growth.
+First Digital, a Hong Kong licensed trust company, launches a new USD pegged stablecoin (FDUSD), on #BNB Smart Chain.
+Chilling with  in UAE. Build together.
+Stay #Safu!
+4. Another day, another FUD. On rumors of layoffs.  Binance has a "bottom out" (we should probably rename it to something else) program. We constantly say goodbye to people who are not strong fits with the company. Many of them are great people or high performers, but may not fit…
+» #Binance Launches Fanverse of Brasileirão Assaí, Brazil's Largest Football League
+One of the biggest luxuries I enjoy is being able to take a nap in the afternoon everyday, in my own bed. Then wake up fully energized to do … more calls.
+Thanks to this little startup that let me work from home.
+Welcome to Dubai!  (Not AI, just wavelength of the energy level, or what they call lighting)
+And in the background, is Ledger CEO Pascal. We had a fun conversation about their "Recovery Service".
+In the past 2 years, more than 3 people proactive give me expensive ties, saying verbatim "CZ, your tie looks too cheap, use this one."  I am like... that was a $10 investment I have only used once!  (I probably only wear a tie 3 times in the last 2 years.)
+Seeing Peter Schiff convert makes me happy.
+Binance kicks off transition to new platform in Japan
+Interesting timing on this Web 3.0 white paper from the Beijing government tech committee with the June 1st anticipation in Hong Kong.
+A few more pages (that received as pics). Not sure of authenticity. Talks a lot about NFTs, VR, AI, metaverse, etc. Looks like ByteDance, JD, Baidu each have their sections. Gavin Wood & Beeple was mentioned too. Web 3,  web 3, web 3 all over the places...
+summary of that CN web3 report. feel free to Google translate.  2023年5月27日上午，北京市科学技术委员会、中关村科技园区管理委员会在中关村论坛平行论坛“互联网3.0：未来互联网产业发展”上对外发布了《北京市互联网3.0创新发展白皮书（2023）》（以下简称《白皮书》）。…
+When launchpad?
+CCTV (China Central Television) just broadcasted crypto. It's a big deal. The Chinese speaking communities are buzzing. Historically, coverages like these led to bull runs.  Not saying past predicts the future. And not financial advice.http://tv.cctv.com/2023/05/23/VIDEbmwezecATKV1lxdQzcqu230523.shtml…
+User security and safety is a top priority at #Binance.   In this new series, we share our experience in identifying and eliminating potential threats to help keep you safe.
+13 years ago, 1 pizza for 10,000 BTC. Today, 10,000 pizza for 1 BTC. Still a legend!  That's a lot of pizza now I think about it. I assume I can have some pizza when I am in Romania again.
+My #BinancePizza creation Happy #BitcoinPizzaDay!
+The CZ was given to me, pre-cut by the interns. haha...
+Interns taking this really far...   Full disclosure, not my idea. I learned about it a couple of hours ago.
+Going live for a #BitcoinPizzaDay chat in a few mins. #BinancePizza   » https://binance.com/en/live/video?roomId=2135567…
+Had some fun making #BinancePizza with our team today. Which one is your favorite?
+Trading View chart version.
+And many others meme versions I don’t have a photo of.
+Mmm, the fiat version.
+Some complain bitcoin can’t be used for payments.  Guess what, Bitcoin was used to pay for pizza as early as 13 years ago today. And it only costed 10,000 BTC!  We made some progress since then. still building and eating.
+» #Binance Research: AI in Crypto – Exploring Use Cases and Possibilities
+Binance spot trading is now integrated with TradingView. Keep building.https://binance.com/en/support/announcement/binance-spot-is-now-integrated-with-tradingview-773fbc56cc6c4ef0b128fada9e40de6b…
+The #Binance team went to Kyiv, despite the danger, to host a 5-day training program for , , , and .  This is following multiple online events with Ukraine law enforcement too.  Educate. Protect users.
+AI can recognize when a piece of content is generated by AI. That might be a killer app already.
+Rising tide lifts all boats.  Binance invests heavily in the industry
+Happy Mother's Day!
+This beats exchanges, and may be the largest business in crypto now. (not too sure, didn't check the numbers).
+Take a long term view.
+Not sure how many people remember the events on this day in 2018. It was not positive. Now, the issue is mostly resolved, and we have grown.
+The #Binance Helpdesk AI chat is free, just saying...
+» #Binance Launches Metaverse Show to Find The Next Big Web3 Entrepreneur - Yahoo
+At Binance, we're in it for the tech.   Our risk team uses machine learning models to monitor and take action against any suspicious activity on the platform, 24/7.   More info in the blog below. Interesting stuff.
+Locked ETH at ATH. You know what follows?
+A year ago today, UST/LUNA crashed. $40 billion in value gone. BTC went from 28k to 19k. A few lessons can be learned.
+More positive news coming from Nigeria.  Their new National Blockchain Adoption policy should improve clarity & confidence in blockchain technology, and help to realize its potential to provide more competitive advantages and innovation to their economy.
+.’s full statement on the new policy here.
+As some of you suggested, instead of direct delistings, we will move "no-progress projects" to innovation zone first. IF they still don't improve, we may delist. One more intermediate step.
+While FUD flying everywhere, PayPal did a 4.
+Everyone is here.
+4. There are some FUD about BTC withdrawal issues. Here is why. Bitcoin network fees are fluctuating, 18x in a month. (the screenshot is a google translate version)
+Gas prices fluctuate and go up, transactions get stuck, fees go up, people complain. Bull market issues…    Look on the bright side though, still faster and cheaper than fiat.
+We can't solve problems by using the same kind of thinking we used when we created them. - Albert Einstein
+There is so much talent in the world, but they often don’t have access to a good financial system to support them.
+Binance Pay Partners with Yesim: Enjoy Unlimited Data When Using the Binance App & Additional Data Rewards! | Binance Support
+Binance head of Financial Crimes Compliance: Blockchain transparency has helped catch perpetrators of 'child abuse, drug trafficking, public corruption' | Austin Journal
+Meme coins (and all crypto) are high risk!  Remember, no one is forcing you to buy them. DYOR and be responsible for your own actions.
+Not everyone in crypto are long term builders. Stay with builders only.   Study Finds 36% of Top Crypto Projects Silent on Blogging This Year | CoinMarketCap
+May the 4s be with you.
+One of #Binance's biggest challenges is system stress from unpredictable traffic surges and high volume.  Our tech/product teams put in a lot of work to ensure we maintain a service that users can depend on.  Here's a look at how we manage that.
+Interesting results from ’s research on Ethereum’s energy usage pre and post merge.  It shows that post-merge, Ethereum uses much less energy.   They say the energy Ethereum uses in a year now would only power The University of Cambridge for 16 days.
+Find the full study here.https://ccaf.io/cbnsi/ethereum/comparisons…
+This #BNB incubation season, we received 1500+ applications. 12 projects were selected. Less than 1%. Congrats!
+Highlights From CZ’s May 1 AMA | Binance Blog
+Last week #Binance responded to the UK HM Treasury's consultation on the ‘future financial services regulatory regime for cryptoassets’.  Always good to see policy makers openly seek input and suggestions.  Quick thread about our response.
+5) We support introducing a Crypto Market Abuse Regime (MAR) to mitigate the risks and challenges specific to crypto.  The introduction of formal regulatory admission practices, alongside greater market surveillance and regulation in general, will help to reduce bad actors.
+Find our full response to the consultation below. https://binance.com/en/legal/home
+#Binance
+Smart!    Wondering how many others are doing this too. --- The Kingdom Of Bhutan Confirms It Has Been Mining Bitcoin For Several Years
+Got 3 questions about listing in the AMA just now. This is a guideline about listing on #Binance.
+AMA in 3 min.
+Our team told Justin, if he uses any of these to grab the LaunchPool Sui token, we will "take action against it". SMH.  Binance LaunchPool are meant as air drops for our retail users, not just for a few whales.  On the bright side, blockchains are transparent...
+We work on Sundays.
+Hong Kong’s central bank has urged banks to provide services to crypto firms before receiving a license.
+Great article by .
+User feedback is one of the main things that informs direction at #Binance.  The team recently launched a feedback site where you can submit ideas, suggestions etc. Please make use of itThis blog shows some recent improvements based on your feedback.
+Dumb question, is there a way to make the calendar app act like the alarm app? ie, notify loudly for calendar event even when the phone is in silent mode?  ie, I only want to be notified (loudly and continuously) for calendar events, and nothing else.
+4  Numbers all wrong. I don't have anywhere near as much. Don't know why they do this. Also, never viewed FTX as a rival. We welcome more (well run) exchanges in the space.
+So, we are in it for the tech again?
+Yi He y la importancia de la educación financiera
+A look at AI and Blockchain governance and an interview with CZ - http://OECD.AI https://oecd.ai/en/wonk/web3-ai-blockchain-governance…
+You should know how to spot scams so you can better avoid them.  » Know Your Scam: How to Identify and Avoid Ponzi Schemes
+A look at AI and Blockchain governance and an interview with CZ - http://OECD.AI https://oecd.ai/en/wonk/web3-ai-blockchain-governance…
+Binance integrates ChatGPT into its Web3 academy
+Meet #Binance Sensei, an AI assistant on Binance Academy that helps you learn about crypto.
+Following Dirty Crypto: Binance Investigators Talk Their Profession - DailyCoin
+Less FUD on weekends...
+Another way to reduce bots and increase revenue is to add an option “people you don’t follow need to pay $0.x to comment”. This will make it expensive for bots, and can be easily implemented with crypto. Twitter can take a cut, increased revenue. I will donate all my proceeds to…
+There apparently are groups of people trying to buy accounts I follow, then issue meme coins. I unfollow and block them.   Don’t get into those meme coins either. Understand the risks.
+I "randomly" followed a few people because they replied 4. I won't be able to follow everyone who do that, especially after I said this. I will continue to "randomly" follow positive people who are contributing to our communities.
+New Launchpad. Happy Friday!
+Eid Mubarak
+Some highlights from my talk at Hong Kong Web3 Festival last week.
+The European Parliament voted for MiCA to be implemented.  This means one of the world’s largest markets is introducing tailored regulations for crypto to protect users and support innovation.   The fine details will matter, but overall we think this is a pragmatic solution to…
+What is this "halving" they (the wizards of the magic internet money) keep talking about?
+Before & after the halving, you will hear a lot of "why didn't the price move (everyday)?"#bitcoin price: 1st halving, 2012 Nov: $12 2nd halving, 2016 Jul: $658 3rd halving, 2020 May: $8,800 4th 2024: ...  History does NOT predict the future. But zoom out...
+A quick look at our product roadmap and how we make product decisions.
+In business settings, most people are not clear with their asks, making communication 10x longer. Start with "we need/want you to...", then the reasons/gives if needed.
+Stay safe in crypto. Watch out for fake giveaways.  The team wrote some top tips on how to spot and avoid them in this blog.
+What Is a Coin Burn? | Binance Academy
+Happy Thai New Year Songkran!
+Just another way to get #Bitcoin exposure.  How it works: https://pool.binance.com/en/cloud
+Mentality difference.  No coiner: oh so much ETH is unlocked, so it must...  Hodler: I volunteered in locking some ETH for an undefined period of time a few years ago.
+lol, want to see more photos of the event, so I can feel like I attended...
+I must admit, I miss the dim sum in HK.
+Live in an hour.
+HK banks start to support crypto. We will see more funds moving there. USDT alone is $80b market cap. More stable coins to come...
+Bitcoin Goes Legit In Argentina: Securities Regulator Approves BTC Index Futures Contracts On Rofex Exchange - Benzinga
+4  Not for myself. Just really sad to see people spreading FUD in the industry. I unfollow / block them.
+We don't give "early notice" to project teams for delisting. No reason for the project teams to have a chance to act/trade before users.  We give notice to all users at the same time.
+I think I use this emoji on more than half of my tweets.
+but I could be wrong.
+We are in it for the tech, right?
+Not in HK. I am VIRTUALLY attending the HK conference. Talk to you soon.
+Happy Easter!#bitcoin doesn't stop on Easter, and neither do we.
+Systems should all be back to normal now. Some server issues before. Our team migrated off the affected servers. Thank you for your support!
+Seeing some issues with Futures UM Rest service/API, affecting UI and API. Our team is on it. Announcement coming soon. Thank you for your understanding.
+Futures CM (COIN-Margined) Contracts is not affected, only UM (USD-Margined) Contracts
+Haidilao, my favorite Chinese hot pot just opened in Dubai Mall. The owner credited me for planting the idea to him a year ago. He is ever so polite. I have always wondered how he created a system with such customer service. Learned so much from him.
+Allah yaghneek.
+Will also buy a drink for the bull who puts the #bitcoin whitepaper in every copy of Windows.Everyone should be carrying it.
+Proud of our teams that work day in and day out supporting law enforcement on the front lines.
+1. Education. More than 2 meetups per day, including weekends.
+Proud of our teams that work day in and day out supporting law enforcement on the front lines.
+Interesting article.
+Who is the guy that put the #bitcoin whitepaper on every Mac?  I want to buy him a drink in person.
+There are some misinformation (and confusion) about #Binance Australia. requested to cancel the derivatives license yesterday. The platform had exactly 104 users as of yesterday. will CONTINUE to operate the spot exchange in AU.
+Blockchain/crypto is a neutral technology to improve efficiency and reduce costs of transactions. And people worry about (regulating) that.  AI is a technology that may take over our world and make us irrelevant. And no one is worried. I am pro AI, as I am pro innovation. But…
+There are more than 56 million millionaires in the world, and only 1 million people with more than 1 bitcoin. Do the math.
+We need more DEXs. Pancake has most of the users. Uni has most of the TVL. That's still "too centralized"... (I know, imagine that coming from me. )  Need more options.  PancakeSwap v3 Now Live on BNB Chain, Ethereum
+They first write "news" about potential rumors,  then they write "news" about the rumors being false.   People choose to lose credibility over some clicks.
+There is an interesting section about #Binance in this blog post. Educashion is dumm – ListedReserve
+You will only be as rich as your credibility. Don’t destroy it.
+The Allbridge hacker has returned most of the stolen funds and received a bounty from Allbridge. Our ability to identify who he is likely helped.  A lot of work goes on behind the scenes to increase security of the industry. Stay #SAFU.
+The latest Fud was only spread by crypto news outlets and KOLs, likely planted/sponsored by another exchange. Very petty. Hurts the industry and hurts themselves. There are enough external forces attacking us. Our industry needs to unite at this juncture.
+And these poor guys expect you to counter every false information on the internet. Good luck to them…
+How FUD starts, then…
+If you panic sell on FUD or photoshopped images, well, you aren’t likely to become rich.   Block the FUD sources.
+This is a photoshopped image. 4 https://t.co/vE5XlvvuQt
+.
+Credit to the interns.
+Bitcoin started in 2009. For the entire year, there were no transactions on the Blockchain other than Satoshi himself. How much value did bitcoin blockchain facilitate last year?  Growth is never easy, or linear.
+to this man/country. The best leaders reduce taxes/fees/costs.
+1. Education.
+Sharing some public data.  (NOT including http://binance.com) weekly trading volume reached 41% of Coinbase's (global) trading volume last week. An ATH.
+The old tokens wasn't planned to be supported, but... users first.  Notice Regarding the Deposits of Old Radiant Capital (RDNT) Tokens | Binance Support
+1. Education.#Binance Ukraine has launched a new 'Crypto School' in Ukrainian language. Learn crypto and trading through online courses and tutorials for free.  Get started: https://binance.com/uk-UA/land/CryptoSchool…
+Annnnnd… voilà !   100k NFTs minted in 5 hours only (instead of 12h anticipated)!
+Blockchains' transparency make traditional media writing with false narratives look ... false.
+Binance’s On-Chain Balance Stands at $64B, Nansen Data Shows.  Blockchain is transparent.#Binance handles billions of both deposits and withdrawals daily. We saw a bit of net outflow yesterday, smaller than "BUSD" or "FTX" days.
+#BinanceBicasso is back. Mint your own AI-generated profile picture for free.  It’s first come, first served. Limited to 100,000 mints. Going live in ~ 5 minutes.  Mint here http://binance.com/en/nft/bicasso
+Here's one of mine.
+This response was sent to Senator Warren, Van Hollen, and Marshall on Mar 16th, 2023 (2 weeks ago).  It has lots of details.
+From Bloomberg. The part before the paywall says it all already. The rest of the article is inline.  Matt Levine’s Money Stuff: The CFTC Comes for Binance
+My Response to the CFTC Complaint | Binance Blog
+4
+While some were panic selling, remember, there is always a buyer on the other side of the trade.
+You are a NFT.
+Binance Opens a Regional Hub in Georgia | Binance Blog
+When one door closes, other ones open.  Chinese banks court crypto firms in Hong Kong | The Straits Times
+It's mathematically impossible to print trillions without inflation.
+Banks need crypto.
+Historically, #bitcoin's price increased by 2 digits (100x) every 4 years, so far.  Disclaimer: History does not predict the future. Not a prediction. Not financial advice.
+Zoom out. #Bitcoin price in 4 year bars/cycles  Jan 2009: $0 Jan 2013: $14 Jan 2017: $1,013 Jan 2021: $34,000 Jan 2025: _________________
+FUD doesn't just happen with western media. A couple of people were spreading FUD that they can get double deposits on Binance during the maintenance. It is not true. 4.
+Trailing stops will be disabled for the time being. Existing trailing stops will be cancelled. Users with open trailing stops order will receive a push notification + email.
+You can cancel orders now. Trading resumes in 20 min, at 6PM Dubai time.   » Binance Temporary System Maintenance Complete (2023-03-24) | Binance Support
+Est 60 min ish ETA. Our team's doing pre-trading tests now. For those new with us, our resume SOP is roughly as follows:  Announcement with exact times (soon). Deposit enabled (done now). Internal transfers enabled (done now). 30 min of cancel-only mode (not yet) Resume trading…
+Engine 1 is back online. Still need more time to do reconciliations, and for other engines to catch up.  We were a bit unlucky with this bug. Our engines take  hourly snapshots. This bug happened 57 min in. So, replay/reconciliation takes a bit longer.
+We communicate more frequently during issues.  Trading halts are P0 all-hands-on-deck issues. All internal meetings cancelled, for 8000+ people. Single focus until full recovery.  My main job is tweeting, while listening in on the dev call. No filter or proof-reads.
+When the biggest exchange halts trading, prices won't move much. If it moves on smaller exchanges, when #Binance comes back, our deeper orderbook will bring the price back, causing those guys to lose money. Traders know this.
+A little trivia while we wait. Debugging. In the 1940s, when "chip" circuits still use big transistors. Insects often get in (because it's warm) and short circuit things. Engineers have to periodically remove the bugs, thus debugging.
+Initial analysis indicates matching engine encountered a bug on a trailing stop order (a weird one). Recovering. Est 30-120 min ish. Waiting for more precise ETA.   Deposits & withdrawals are paused as a SOP (standard operating procedure). Funds are #SAFU.
+#Binance built an Customer Support Center in El Salvador from last year with about 60 staff already. Let's do more!
+Interesting article from     » Did The Government Start A Global Financial Crisis In An Attempt To Destroy Crypto?
+4
+Many things happening. I don't have a smart ass tweet. So, let's keep building.
+» America’s banks are missing hundreds of billions of dollars | The Economist
+Protect consumers. Who is doing it? and who isn't?
+Tell your loved ones to learn about #Bitcoin.  » Is Bitcoin a Store of Value? | Binance Academy
+ATH for #Binance Launchpad  » Binance Launchpad for Space ID Tokens Receives Over $2.8B in BNB Commitments
+#bitcoin has no policy change. Still 21m max supply. Stable mathematically.  What's not stable is its price, that's market/demand driven. It's a feature.
+So, doing things has risks. You could have just stayed status quo...  But, not doing things has bigger risks in the long term. You get left behind.
+“My” first computer. Dad paid $7000 CAD for this x286, a few months of his salary in 1990. It remains the most expensive computer we/I ever bought. Looking back, it definitely helped start me on the right track. I’m forever grateful.
+Would you believe me if I told you I'm the one snowboarding in this video?
+Interns took over my account… don’t get too excited.
+AMA tomorrow. Any questions?
+At #Binance, playing a positive role in the communities in which we operate is important. On that note, we’re thrilled to see the Binance Bahrain  team building event from last week, where they held a Beach Clean Up event! There were over 100 volunteers and they managed to…
+#bitcoin never fights back, but those who attack it will fail/fall.
+#BUSD, the most fiat-backed stablecoin, audited by big audit firms, regulated by the NYDFS, was forced to wind down (no new minting).  USDC is shrinking in market cap too due to bank closures.  USDT is growing.
+Every decade or so, the same banks fail. We keep them alive, then repeat. More costly each time.  Meanwhile, it is incredibly difficult for new banks (to be approved) to enter the market to compete.  New banks are also required to operate in exactly the same way as the old…
+#Binance Gift Card is available now at 5000 Kiosks in Italy through MrPay | Binance News
+If you want to see your colleagues in suits, don't join Binance. Here are some more reasons not to Join #Binance.  And we are hiring.
+They buy debt, we buy crypto.   Not financial advice.
+Based on community feedback.   » Updates on Daily BNB Balance Calculation for Binance Launchpad Subscription  | Binance Support
+#bitcoin almost died, but…
+Mindset is everything.   Don't say: I wish I got in early. Say: I wish I bought when there was FUD.  Not financial advice. Keep building.
+Holding crypto is tough. It wasn't easy for the people who held on in the past few months.
+#bitcoin is volatile, but it never needed a bailout.
+No one can print #bitcoin out of thin air.   Mining is a feature.
+I didn't see "... but #bitcoin is not a store of value..." narrative in the past week.
+1:1 reserves. Problems go away.
+a few more crazy ideas:  2. don't lend out customer money to make money. let VCs do that.  3. no revenue? charge a transparent fee for your services, like facilitating transactions(tx).  5. tx cost too high? use blockchain tech to lower your costs.  Keep business simple.
+Build.
+When launchpad?
+Choice is yours:
+Uniswap on  now.
+We add pairs and provide liquidity. #Binance aims to be an open platform.
+Important update. Given recent events, we are moving 0 fee BTC trading from BUSD to TUSD.  Let's spread the liquidity to more pairs.
+MYTH: crypto is unsafe.  Fact: the transparency of blockchain is a feature, not a bug. Trusted crypto services and platforms already have comparable, or better, security/KYC/AML than tradfi.  » https://binance.com/en/blog/community/crypto-myths--debunked-part-2-the-myth-of-crypto-being-inherently-unsafe-2121313194955587611…
+#Bitcoin.
+How to get the widget on your iPhone.
+Given the changes in stable coins and banks, #Binance will convert the remaining of the $1 billion Industry Recovery Initiative funds from BUSD to native crypto, including #BTC, #BNB and ETH. Some fund movements will occur on-chain. Transparency.
+Given the changes in stable coins and banks, #Binance will convert the remaining of the $1 billion Industry Recovery Initiative funds from BUSD to native crypto, including #BTC, #BNB and ETH. Some fund movements will occur on-chain. Transparency.
+The address:
+The transfer txid. Took 15 seconds and costs $1.29. Imagine moving $980 million through a bank before banking hours on a Monday.
+Our job: providing liquidity for you to convert.
+Banks are a risk to fiat-backed stable coins.
+Supporting multiple stablecoins, always. More to come.
+Is it time yet? Not sure.
+The article was Nov 3 last year.
+They FUD us, and banks fail.
+#Binance does not have exposure to SVB. Funds are #SAFU.

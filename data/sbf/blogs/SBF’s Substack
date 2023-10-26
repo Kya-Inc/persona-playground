@@ -1,0 +1,216 @@
+Summary
+In mid November, FTX International ran into a liquidity crisis.  The FTX saga, at the end of the day, is somewhere between that of Voyager and Celsius.
+
+Three things combined together to cause the implosion:
+
+a) Over the course of 2021, Alameda’s balance sheet grew to roughly $100b of Net Asset Value, $8b of net borrowing (leverage), and $7b of liquidity on hand.
+
+b) Alameda failed to sufficiently hedge its market exposure.  Over the course of 2022, a series of large broad market crashes came–in stocks and in crypto–leading to a ~80% decrease in the market value of its assets.
+
+c) In November 2022, an extreme, quick, targeted crash precipitated by the CEO of Binance made Alameda insolvent.
+
+And then Alameda’s contagion spread to FTX and other places, similarly to how Three Arrows etc. ultimately impacted Voyager, Genesis, Celsius, BlockFi, Gemini, and others.  
+
+Despite this, very substantial recovery remains potentially available.  FTX US remains fully solvent and should be able to return all customers’ funds.  FTX International has many billions of dollars of assets, and I am dedicating nearly all of my personal assets to customers.
+
+Notes
+This post is about FTX International’s (in)solvency.
+
+It’s not about FTX US, because FTX US is fully solvent and always has been
+
+When I passed FTX US off to Mr. Ray and the Chapter 11 team, it had around +$350m net cash on hand beyond customer balances.  Its funds and customers were segregated from FTX International.
+
+It’s ridiculous that FTX US users haven’t been made whole and gotten their funds back yet.
+
+Here is my record of FTX US’s balance sheet as of when I handed it off:
+
+
+(I believe that the same likely applies to purely spot customers of FTX International.)
+
+FTX International was a non-US exchange.  It was run outside the US, regulated outside the US, incorporated outside the US, and took non-US customers.
+
+(In fact, it was primarily headquartered, run from, and incorporated in The Bahamas, as FTX Digital Markets LTD.)
+
+US customers were onboarded to the (still solvent) FTX US exchange. 
+
+Senators have raised concerns about a potential conflict of interest from Sullivan & Crowell (S&C). Contrary to S&C’s statement that they “had a limited and largely transactional relationship with FTX”, S&C was one of FTX International’s two primary law firms prior to bankruptcy, and was FTX US’s primary law firm. FTX US’s GC came from S&C, they worked with FTX US in its most important regulatory application, they worked with FTX International on some of its most important regulatory concerns, and they worked with FTX US on its most important transaction. When I would visit NYC, I would sometimes work out of S&C’s office.
+
+S&C and the GC were the primary parties strong-arming and threatening me into naming the candidate they themselves chose as CEO of FTX--including for a solvent entity in FTX US--who then filed for Chapter 11 and chose S&C as counsel to the debtor entities.
+
+Despite its insolvency, and despite processing roughly $5b of withdrawals over its last few days of operation, FTX International retains significant assets–roughly $8b of assets of varying liquidity as of when Mr. Ray took over.
+
+In addition to that, there were numerous potential funding offers–including signed LOIs post chapter 11 filing totaling over $4b.  I believe that, had FTX International been given a few weeks, it could likely have utilized its illiquid assets and equity to raise enough financing to make customers substantially whole.
+
+Since S&C pressured FTX into Chapter 11 filings, however, I worry that those pathways may have been abandoned.  Even now, I believe that if FTX International were to reboot, there would be a real possibility of customers being made substantially whole.  And, further, I believe that all customers with purely spot trading activity should, and easily could, be made fully whole, with assets already on hand.
+
+While FTX’s liquidity had started off in 2019 as largely dependent on Alameda, by 2022 it had greatly diversified, with Alameda falling to around 2% of volume on FTX.
+
+
+I didn’t steal funds, and I certainly didn’t stash billions away.  Nearly all of my assets were and still are utilizable to backstop FTX customers.  I have, for instance, offered to contribute nearly all of my personal shares in Robinhood to customers–or 100%, if the Chapter 11 team would honor my D&O legal expense indemnification.
+
+FTX International and Alameda were both legitimately and independently profitable businesses in 2021, each making billions.
+
+
+My personal consumption was a tiny fraction of my earnings, and my consumption, donations, and investments combined were less than—and came from—earnings.  Furthermore, FTX’s sponsorships and company real estate were way less than its revenue, and way less than the amount it raised.  Nonetheless, nearly all of my personal investments are going to customers.  FTX, as a profitable private company, spent a small fraction of its revenue and the amount it had raised on branding and marketing; by contrast, Fanduels, Draft Kings, Coinbase, and Robinhood–all publicly listed, unprofitable companies–each spent far more than FTX did on marketing and branding.  And the totality of the real estate purchases made by FTX–purchases made to entice a highly competitive workforce to move from the Bay Area and New York–represent roughly 10% of the amount Coinbase spends every year on its workforce.
+
+And then Alameda lost about 80 percent of its assets’ value over the course of 2022, due to a series of market crashes–as did Three Arrows Capital (3AC) and other crypto firms last year–and after that its assets fell even more from a targeted attack.  FTX was impacted by Alameda’s decline, as Voyager and others were earlier by 3AC and others.
+
+Employees–both current and former–have been caught up in what happened, and that’s not fair to them.  A huge number of them did nothing but what they thought was right, and were–and still are–fighting for FTX’s customers every day.  And even many of those who are not–who are instead fighting against what I think the interest of customers is–are caught up in a shitstorm they didn’t ask for or create, doing what they think is right; and I wish nothing but the best for them.
+
+There are a large number of regulators and administrators who have put in a huge amount of work over the past few months trying to understand FTX and figure out what is in the best interest of customers/creditors.  My hat goes off to them. Someday, maybe someone will tell their story, even if they insist they don’t care about public recognition of the amount of energy they’ve put into doing what’s right.
+
+Note that, in many places here, I’m still forced to make approximations.  Many of my personal passwords are still being held by the Chapter 11 team–to say nothing about data.  If the Chapter 11 team wants to add their data to the conversation, I would welcome that.
+
+Also–I haven’t run Alameda for the past few years. 
+
+So much of this is pieced together post-hoc, coming from models and approximations, generally based on data that I had prior to resigning as CEO and modeling and estimations based on that data.
+
+
+Overview of what happened
+2021
+Over the course of 2021, Alameda’s Net Asset Value skyrocketed, to roughly $100b marked to market by the end of the year by my model.  Even if you ignore assets like SRM that had much larger fully diluted than circulating supplies, I think it was still roughly $50b.
+
+And over the course of 2021, Alameda’s positions grew, too.
+
+In particular, I think it had about $8b of net borrowing, which I believe was spent on:
+
+a) ~$1b interest payments to lenders
+b) ~$3b buying out Binance from FTX’s cap table
+c) ~$4b venture investments
+
+(By ‘net borrowing’, I mean, basically, borrowing minus liquid assets on hand that could be used to return the loans. This net borrowing in 2021 came primarily from third party borrow-lending desks–Genesis, Celsius, Voyager, etc., rather than from margin trading on FTX.)
+
+So by the start of 2022, I believe that Alameda’s balance sheet looked roughly like the following:
+
+
+
+a) ~$100b NAV
+b) ~$12b liquidity from 3rd party desks (Genesis, etc.)
+c) ~$10b more liquidity it likely could have gotten from them
+d) ~1.06x leverage
+
+In that context, the ~$8b illiquid position (with tens of billions of dollars of available credit/margin from third party lenders) seemed reasonable and not very risky.  I think that Alameda’s SOL alone was enough to cover the net borrowing.  And it was coming from third party borrow-lending desks, who were all–I was told–sent accurate balance sheets from Alameda.
+
+I think its position on FTX International was reasonable at the time–about $1.3b by my model, collateralized with tens of billions of dollars of assets–and FTX successfully passed a GAAP audit as of then.
+
+
+As of the end of 2021, then, it would have taken a ~94% market crash to drag Alameda underwater!  And not just in SRM and assets like it–Alameda was still massively overcollateralized if you ignore those. I think that its SOL position alone was larger than its leverage.
+
+But Alameda failed to sufficiently hedge against the risk of an extreme market crash: the hundred billion of assets had only a few billion dollars of hedges.  It had a net leverage–[net position - hedges]/NAV–of roughly 1.06x; it was long the market.
+
+As a result, Alameda was in theory exposed to an extreme market crash–but it would take something like a 94% crash to bankrupt it.
+
+2022 Market Crashes
+Alameda, then, entered 2022 with roughly:
+
+$100b NAV
+
+$8b net borrow
+
+1.06x leverage
+
+Tens of billions of dollars of liquidity
+
+Then, over the course of the year, markets crash–again and again and again.  And Alameda repeatedly fails to sufficiently hedge its position until mid summer.
+
+–BTC crashed 30%
+–BTC crashed another 30%
+–BTC crashed another 30%
+–rising interest rates curtailed global financial liquidity
+–Luna went to $0
+–3AC blew out
+–Alameda’s co-CEO quit
+–Voyager blew out
+–BlockFi almost blew out
+–Celsius blew out
+–Genesis started shutting down
+–Alameda’s borrow/lending liquidity went from ~$20b in late 2021 to ~$2b by late 2022
+
+And so Alameda’s assets get hit, again and again and again.  But this part isn’t specific to Alameda’s assets.  Bitcoin, Ethereum, Tesla, and Facebook are all down more than 60% on the year; Coinbase and Robinhood are down about 85% from their peaks last year.
+
+
+
+Remember that, at the end of 2021, Alameda had roughly $8b of net borrowing:
+
+a) ~$1b interest payments to lenders
+b) ~$3b buying out Binance from FTX’s cap table
+c) ~$4b venture investments
+
+That $8b of net borrowing, less the few billion of hedges it had on, resulted in around $6b of excess leverage/net position, backed by ~$100b of assets.
+
+And as markets crashed, so did those assets.  Alameda’s assets–a combination of altcoins, crypto companies, public equities, and venture investments–fell around 80% over the course of the year, raising its leverage bit by bit.
+
+
+
+And over the same period, liquidity dried up–in borrow-lending markets, public markets, credit, private equity, venture, and pretty much everything else.  Nearly every liquidity source in crypto–including nearly all of the borrow-lending desks–blew out over the course of the year.
+
+Which means that Alameda’s liquidity–tens of billions of dollars at the end of 2021–dropped to single digit billions by fall 2022.  Most of the other platforms in the space had already gone under or were in the process of doing so, leaving FTX as the last man standing.
+
+In the summer of 2022, Alameda finally put on substantial hedges, in some combination of BTC, ETH, and QQQ (a NASDAQ ETF).
+
+But even after all the market crashes of 2022, shortly before November Alameda still had ~$10b of net asset value; it was positive even if you excluded SRM and tokens like it, and it was finally hedged.
+
+
+Margin Trading
+Over the course of 2022, a number of crypto platforms became insolvent due to margin positions blowing out, likely including Voyager, Celsius, BlockFi, Genesis, Gemini, and ultimately FTX.
+
+This is a fairly common on margin platforms; among others, it’s happened on:
+
+Traditional Finance:
+
+LME
+
+MF Global
+
+LTCM
+
+Lehman
+
+Crypto:
+
+OKEx
+
+OKEx again, and basically every week for a year
+
+CoinFlex
+
+EMX
+
+Voyager, Celsius, BlockFi, Genesis, Gemini, etc.
+
+The November Crash
+Then came CZ’s fateful tweet, following an extremely effective months-long PR campaign against FTX–and the crash.
+
+Up until that final crash in November, QQQ had moved roughly half as much as Alameda’s portfolio, and BTC/ETH had moved roughly 80% as much–meaning that Alameda’s hedges (QQQ/BTC/ETH), to the extent they existed, had worked.  Unfortunately the hedges hadn’t been sufficiently large until after the 3AC crash–but as of October 2022, they finally were.
+
+But the November crash was a targeted attack on assets held by Alameda, not a broad market move.  Over the few days in November, Alameda’s assets fell roughly 50%; BTC fell about 15%--only 30% as much as Alameda’s assets–and QQQ didn’t move at all. As a result, the larger hedge that Alameda had finally put on that summer didn’t end up helping.  It would have for every previous crash that year–but not for this one.
+
+Over the course of November 7th and 8th, things went from stressful but mostly under control to clearly insolvent.
+
+By November 10th, 2022, Alameda’s balance sheet had only ~$8b of (only semi-liquid) assets left, versus roughly the same ~$8b of liquid liabilities:
+
+
+
+
+And a run on the bank required immediate liquidity—liquidity that Alameda no longer had.
+
+Credit Suisse fell nearly 50% this autumn on the threat of a run on the bank.  At the end of the day, its run on the bank fell short.  FTX’s didn’t.
+
+And so, as Alameda became illiquid, FTX International did as well, because Alameda had a margin position open on FTX; and the run on the bank turned that illiquidity into insolvency.
+
+Meaning that FTX joined Voyager, Celsius, BlockFi, Genesis, Gemini, and others that experienced collateral damage from the liquidity crunch of their borrowers.
+
+All of which is to say: no funds were stolen.  Alameda lost money due to a market crash it was not adequately hedged for–as Three Arrows and others have this year.  And FTX was impacted, as Voyager and others were earlier.
+
+Coda
+Even then, I think it’s likely that FTX could have made all customers whole if a concerted effort had been made to raise liquidity.
+
+There were billions of dollars of funding offers when Mr. Ray took over, and more than $4b that came in after.
+
+If FTX had been given a few weeks to raise the necessary liquidity, I believe it would have been able to make customers substantially whole.  I didn’t realize at the time that Sullivan & Cromwell—via pressure to instate Mr. Ray and file Chapter 11, including for solvent companies like FTX US–would potentially quash those efforts.  I still think that, if FTX International were to reboot today, there would be a real possibility of making customers substantially whole.  And even without that, there are significant assets available for customers.
+
+I’ve been, regrettably, slow to respond to public misperceptions and material misstatements.  It took me some time to piece together what I could–I don’t have access to much of the relevant data, much of which is for a company (Alameda) I wasn’t running at the time.
+
+I had been planning to give my first substantive account of what happened in testimony to the US House Financial Services Committee on December 13th.  Unfortunately, the DOJ moved to arrest me the night before, preempting my testimony with an entirely different news cycle.  For what it’s worth, a draft of the testimony I planned to give leaked out here.
+
+I have a lot more to say–about why Alameda failed to hedge, what happened with FTX US, what led to the Chapter 11 process, S&C, and more.  But at least this is a start.

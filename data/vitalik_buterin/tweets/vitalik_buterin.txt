@@ -1,0 +1,509 @@
+Protocol and staking pool changes that could improve decentralization and reduce consensus overhead:
+Should Ethereum be okay with enshrining more things in the protocol?
+What do I think about Community Notes?
+I went on the Seen and Unseen podcast during my trip to India:https://seenunseen.in/episodes/2023/8/14/episode-342-vitalik-buterin-fights-the-dragon-tyrant/…(3h 30m)
+What do I think about biometric proof of personhood?
+Happy tau day!https://tauday.comToday I'll take a break from my break from twittering and do another twitter AMA.  Feel free to ask questions about any crypto or non-crypto topic. People I follow can reply (to minimize spam), everyone can quote, I'll check both!
+Deeper dive on L2->L1 and cross-L2 reading. Much more technical than  the previous post, but gets into some ideas on how it could be  implemented.  There's a lot of value in identifying better strategies for L1 <-> L2 interactions and standardizing them.
+The Three Transitions:
+Last year  led by  allocated $100m to Covid research projects I wanted to fund  Sandeep and I discussed and jointly concluded these and other projects are high-impact and need follow through grants. Hence we decided to put $100m more to these projects
+Pandemics beyond Covid continue to be a large risk in the 21st century. We look forward to continuing our efforts to better live with airborne viruses and eventually live without them.
+We can do the work to understand, prevent, and cure (Long) Covid.  And we can stop airborne pathogens with clean air the same way that we stopped cholera over 100 years ago with clean water.
+We look forward to ongoing collaboration between our teams and our networks. Covid won't end on its own, and there continues to be ongoing risk that the pandemic/hyperendemic will return to a more acute state:https://nature.com/articles/s41579-022-00722-z…
+Totally random fun thing:  I took a game I made in my pre-crypto days (back in 2011) and uploaded it to IPFS.  Enjoy, and good luck beating the tutorial!https://slasha.vitalik.eth.limo
+Don't overload Ethereum's consensus:
+Travel time ~= distance ^ 0.6
+Large in-person events I'm speaking at in person in Q2:  * EDCON in Montenegro, May 19-23  http://edcon.io* EthPrague, ~Jun 11   * EthWaterloo, ~Jun 25  Also speaking online (eg.  in Apr). Apologies to all the events I couldn't come to!
+How will Ethereum's multi-client philosophy interact with ZK-EVMs?
+Self-custody is important. And social recovery and multisig is a great way to do it.  A quick reddit post on how I think about choosing guardians for social recovery and multisig wallets:https://old.reddit.com/r/ethereum/comments/11tijiv/how_i_think_about_choosing_guardians_for_multisig/…
+Some personal user experiences:
+An incomplete guide to stealth addresses:
+Happy new year, and lots of love to you too.  Wish you guys a peace with justice in 2023.  Слава Україні
+What even is an institution?https://vitalik.eth.limo/general/2022/12/30/institutions.html…Not sure I have amazing new insights, other than that this is a complicated muddle, but sometimes recognizing the muddle is the first step to stepping out of it!
+One of my favorite concepts that  taught me is defining things extensionally. See his extensional defn of high modernism:https://slatestarcodex.com/2017/03/16/book-review-seeing-like-a-state/…It often really is far more accurate than attempting a self-contained formal description that captures everything.
+Often when a word has a confusing meaning, the most viable path is to just stop using it. "Fortnightly" is too obscure; I'd probably just say "twice per month" and "every 2 months" (eg. "your salary is $2500 twice per month") directly.
+Another pattern I despise is insisting on a really important difference in meaning to words that sound like synonyms.  "complex vs complicated" "money vs currency" "decentralized vs distributed"  No. Stop. Let them be synonyms, use more specific words that clarify the difference.
+Recommend this.  Giving money directly to the poorest people in the world is a simple effective way of greatly improving people's lives that we can all get behind.
+Continue to appreciate your role in making these writings accessible to more people!
+Some smart people tell me there is an earnest smart developer community in Solana, and now that the awful opportunistic money people have been washed out, the chain has a bright future.  Hard for me to tell from outside, but I hope the community gets its fair chance to thrive
+Looking forward to seeing who the next CEO is going to be!
+I should mention that it's good not to rush the decision too much. Overly hasty executive searches can lead to ruinous results; I know this from painful personal experience.  That said, the vox populi wants a new CEO, and that wish definitely needs to be respected!
+Also, here is my favorite  decision of all time:https://tesla.com/blog/all-our-patent-are-belong-you…Personally I would love to see Twitter make more decisions in a similar spirit to *that*. IMO  ideas on transparent content moderation are a great place to start:
+Paul Graham went down with honor.
+My new socials page:https://vitalik.ca/files/misc_files/socials.txt…I'm eagerly trying out Mastodon, Farcaster, Lens and others, and I'll bow to Lord Elon and pay his $8/month too... but only when it's available on a non-iOS platform.  Let the best socials win! *  * there will be multiple winners
+https://twitter.com/Support/status/1604531261791522817…
+Really not kind to Messi to use his performance in the World Cup taking up everyone's attention as cover to release this kind of thing.
+This is really bad imo
+The problem is the way in which the policies were introduced, seeming to retrofit around Elon's views on very specific situations.  Basically "central planning as overfitting":https://radicalxchange.org/media/blog/2018-11-26-4m9b8b/…Good policy should be decided behind veil of ignorance first, applied second
+Seems like a positive step. I'm critical of Apple for many reasons (ok fine, the reasons are all basically different aspects of "being way too proprietary"), but they have done some important good things in protecting user privacy.
+It's okay to hate the fact that X is a monopoly and desperately wish for more competition to emerge, but at the same time not hate X as a whole, and even believe that X is made up of largely good people.
+Conspiracy theory: people are going to live in pods because the evil authoritarian WEF will make us  Reality: people are living in pods because of bad ultra-restrictive housing regulation, and if we legalize building proper amounts of housing, they won't have to
+Oh, and we should also tax land. Or else a big fraction of all wealth that the SV startup ecosystem creates will just keep getting gobbled up by California homeowners.
+And when we move to verkle trees, I want to replace our current storage gas accounting scheme outright with this more principled design:https://notes.ethereum.org/@vbuterin/verkle_tree_eip…https://notes.ethereum.org/@vbuterin/verkle_write_gas_extension…
+Needs a few more changes to truly work though:
+IMO the best argument against any EVM improvements is that it's much harder to remove EVM features than to add them, and so a culture where ongoing "EVM improvements" are expected means EVM keeps complexifying.  Some EVM changes are good, but that's the tradeoff to weigh against.
+If we can find a way to automatically convert older-version EVM code into newer-version EVM code, that would of course significantly reduce the tradeoff.
+I would love to see a study giving humans the SAT but adding a "prompt" at the end of every question ("imagine you are an expert mathematician", "proceed step by step").  I suspect there are prompts that would significantly improve results for people.
+One thing I don't understand is why people assume big powerful actors are static and unaffected by public discourse.  Like, I haven't seen any SBF take even mention the possibility that some NYT or gov person started off soft, but changed strategy after seeing public feedback.
+My one-sentence summary of the AI right now is that it does amazing stuff but it has a high error rate.  This is why it both impresses and frustrates: the times it does really well go viral on twitter, the times it makes a mistake frustrate people using it as a work aid.
+A particular tragedy that is totally not the   and co builders' fault, is that people's expectations (including my own) get set by the dazzling stuff that goes viral, and its average case performance inevitably can't match that.
+Sure! Happy to critique and appreciate your openness to suggestions.  I think my biggest issue with the list is that it overvalues big showy characters whose stature greatly exceeds their contribution, and undervalues people building the tech and the most meaningful applications.
+A quick GPT chatbot coding experiment: updating my blog
+Good balanced thread on levels of Russian support for the war.  "It's just Putin and maybe 87 other people who are the problem" is false, but "everyone in Russia bad" is also false.  Difficult topic but it's important to have good info to have the best chance of ending the war.
+I propose the term "alfalfa leak" for something that doesn't give you an easy path to short term profit, but is still ultimately good for you.
+What in the Ethereum application ecosystem excites me
+The case for e/acc ("effective accelerationism") for every industry *other* than AI.
+I'd add that technology for coordinating and coming to large-scale agreements (eg. https://pol.is ) is one of the industries that needs to be accelerated.
+Of all the optimistic 00s era takes, "AI will think logically from first principles so it will be free from human biases" has probably died the hardest.
+"Proof of Stake", the (physical and digital) book compiling various writings I've made over the last ~10 years, is finally out!  Orderable here:https://proofofstake.gitcoin.co/orderBig thanks to   and everyone else who helped make this happen!
+Or put another way, everyone who failed is staying silent to avoid the feeling of embarrassment.  Publicly admitting failures is an underrated and brave thing to do, because it provides society with useful information that we need in order to not get a distorted view of the world
+"Hacking" the GPT3 chatbot is not as easy as some of the twitter screenshots make it seem. I have managed to do it in some cases, but it's hard and it does take a few tries. Using tricks from 1-2 day old screenshots verbatim often does not work.
+I'd recommend increasing your distance from trading/investing circles, and getting closer to the tech and application ecosystem. Learn about ZK-SNARKs, visit a meetup in Latin America, listen to All Core Devs calls and read the notes until you've memorized all the EIP numbers...
+Is there a name for the "we know what kind of person you are, we're just haggling over the price" fallacy?  That is, the (false) idea that the only two philosophically consistent ways to behave are to hold to a principle infinitely strongly or to not have that principle at all.
+So I guess we still haven't figured out how not to give large-scale murderers and thieves unlimited opportunity to become the primary topic of public conversation...  We really need better edgelords.
+EIP-1559, the merge and wallet upgrades have _drastically_ improved the UX of sending ethereum transactions since 2020.  Now I can just send a transaction, not fiddling around at all with wallet settings, and usually see it included within a few seconds.
+Freedom is important.
+Experimenting with using GPT3 to learn Spanish.  It's not perfect, but also... not that bad!  Hablantes nativos de español, qué errores cometió el GPT3?
+The notion of "governance rights" as a narrative for why a token should be valuable is pathological. You're literally saying "I'm buying $X because later on someone might buy it from me and a bunch of other people to twist the protocol toward their special interests"
+As a regular individual, "pay $500 to get a 0.0001% chance to influence the outcome of some votes" is just not a good trade. The only people for whom it is a good trade are multimillionaires and hedge funds (including attackers).
+Q1: have you skied, snowboarded, surfed, sailed, dived or done a ≥ 10km walk or run in the last 365 days?  Q2: do you or have you worked on or significantly contributed to a crypto project?
+Have you seen or heard the term "base layer" used before *in the context of clothing*?
+. is doing an excellent job in the replies here debunking common myths about . It's actually one of the forms of charity that is *most* resistant to the usual "a few elites will just grab it up and waste it and nothing will happen" critiques!
+Question for people who argue that reading long-form books is virtuous or even necessary:  Are podcasts an acceptable substitute? If not, why not, and what even is the difference between a podcast and an audiobook?  (I frequently listen to both)
+Random fantasy novel idea: make a world where humans are one-dimensionalized and stereotyped the same way we treat orcs and elves today.  Like, there should only be one Human Nation, with one personality trait, and its capital should be called Humanton (and the main food hummus).
+One way  Helios could meaningfully improve things on user privacy and gain more adoption is by combining multiple useful features into its proxy: in addition to its current light client features, also route user requests through Tor.
+Amazing to see more good work on Long Covid!  Also big thanks to  for providing funds that helped make this possible, and of course the Shiba Inu community.
+Some charts with estimates on different min bid values for stakers using mev-boost.  A min bid of 0.05 would mean you produce nearly half the blocks yourself (very strong censorship resistance) but only sacrifice a tiny bit of profit.
+Thread summarizing amazing progress on EIP-4844 (proto-danksharding).  This is a crucial first step to massively lower fees on L2, helping to make it affordable for much larger numbers of users to directly use on-chain applications instead of relying on cefi intermediaries.
+New short-term censorship resistance strategy dropped, courtesy of Flashbots: setting a min bid for outsourcinghttps://writings.flashbots.net/the-cost-of-resilience/…Recommend stakers using mevboost take advantage of this option!
+I'm hearing through the grapevine that something important is about to happen. Please recognize the fact that my elite social connections to people who are early to know things make me cool, and please help me validate my self-image of coolness.
+You're right I'm at my best when I just make my arguments directly, and this should have just been my first response.
+I don't think @paulg is part of the crypto finance culture that does the toxic intentional manipulating and engagement farming stuff.
+Sigh, I'll explain where I am coming from in more detail.  Basically, there's "a thing" that happens on here where people give out rumors, and many people retweet them, and lots of people start trading on that info...
+Having a safe CEX: proof of solvency and beyondhttps://vitalik.ca/general/2022/11/19/proof_of_solvency.html…Big thanks to  and staff from    for discussion!
+Success?  Next target is abolishing daylight savings time (making it permanent is ok too, anything that stops the twice-a-year clock changes).  There's an effort in northeastern Can/US regions for this!https://globalnews.ca/news/7485079/ontario-daylight-saving-time-amendment-act/…And US federal:
+Reminder that most of the world doesn't do daylight savings time and gets along fine:
+Also, based Mexico https://timeanddate.com/news/time/mexico-abolishes-dst-2022.html…
+ok guys please don't beg for money in social or chat messages  I feel bad refusing as I know lots of your causes are honorable, but unfortunately it's hard for me to verify each one, and having a pattern of responding to such requests would lead to my inbox breaking completely
+My new socials page:https://vitalik.ca/files/misc_files/socials.txt…I'm eagerly trying out Mastodon, Farcaster, Lens and others, and I'll bow to Lord Elon and pay his $8/month too... but only when it's available on a non-iOS platform.  Let the best socials win! *  * there will be multiple winners
+Sometimes I wish our language had tenses or other markers for levels of epistemic confidence. A one-syllable way to say:  "I believe X because I have mathematical proof" "I'm underqualified on this topic, but my feeling is X" "My impression from observations so far is X"  etc
+The "centralized anything is evil by default, use defi and self-custody" ethos did very well this week, but remember that it too has risks: bugs in smart contract code.  Important to guard against it:  * Keep code simple * Audits, formal verification, etc * Defense in depth
+The one I worry about most is if we have $10B in a ZK-rollup 2y from now and it gets hacked because of a bug in the circuit constraint code or the EVM wrapper around it.  For the latter, keep it simple and formal-verify. For the former, my best ideas are:
+Fascinating thread.  (Not dunking. Ethereum too will have to work hard to get widespread adoption of L2s for in-person payments. Getting the UX right is very much not an easy problem, and we should learn from existing experiments)
+Automatically downgrading every single thing SBF believed in is an error. It's important to actually think and figure out which things contributed to the fraud and which things didn't.  Don't be the guy who would have tried to cancel vegetarianism in 1945.
+Honestly the EA community's reaction to the SBF collapse has been far less defensive and much more focused on trying to figure out what lessons to learn than even I would have expected.
+I talk about crypto and culture and other stuff with  and probably say things I shouldn't... great conversation!
+The less libertarian side of me sometimes kinda wishes that the EU would make it illegal to make iOS-only apps, and require companies of a certain size to either write a version for each major platform or use a cross-platform dev framework.
+Of course, the less libertarian side of me would also ban wearing suits, so maybe it's good that libertarianism exists and has had the level of influence on me that it has.  But if you're an SV dev, please remember: friends don't let friends build iOS-only apps.
+Some happy news for those who missed it: Kherson has been liberated. Ukraine now controls everything west of the Dnieper river.
+Also, it feels to me like recently nuclear sabre-rattling reduced a lot, and RU statements expressing desperation for a peaceful exit have increased.https://russian.rt.com/ussr/news/1072660-peskov-specoperaciya-peregovory…Don't trust them, of course, but still tentative good news for Ukrainians' freedom and for avoiding WW3.
+Anti-malaria, pandemic response, mitigating extreme poverty, life extension research, mitigating existential risks (including AI) and thinking about the multimillion-year future of humanity are all very important and undervalued issues and will continue to be for quite a while.
+If you make a coin, don't keep the supply for yourself and "intend" to give it later. Just issue half straight to GiveWell or OpenPhil or whoever. Don't insert your own friggin fund in the middle, just give it to them.  Much like credible neutrality, try credible benevolence!
+This is why I recommend all the dog coin / word coin people to not issue tokens to *me*. If you *must* abuse my name, give the supply directly to those orgs and market it as "X% of supply donated to Vitalik-endorsed charities". But better just talk about the causes directly.
+Amazing to see more and more companies in the Ethereum ecosystem contributing and building infrastructure!  Great work by
+Would you feel comfortable making a tweet saying "LA LA LA LA LA I AM A CAT " with no context right this moment?
+1 TB monthly ~= 400 kB/sec, or 4.8 MB per slot. Enough for proto-danksharding, but not for the scaling endgame.  We do still need full danksharding with data availability sampling to make node running viable in the long term.
+One of my minor gripes with many mainstream media publications is how unwilling they are to link directly to primary sources. Often I have to go through many different articles and search keywords to find the original document.  Linking to the primary source should be the norm!
+Withdrawals from ZK-EVMs can sometimes be done with lower latency than proof generation, because you can prove specific claims:  * past state X is valid * no txs from account A after X, therefore  * you can still withdraw coins you had in state X  Fascinating work by !
+The more complicated stuff (you had 10 ETH in state X, txdata shows you spent only 9 ETH after that, therefore...) seems tricky; it's not very account abstraction friendly. But the simple "you can withdraw immediately if you made NO txs for a while" idea is still really powerful!
+Updated roadmap diagram!
+Big changes:  * The Verge is not just about "verkle trees", it's about "verification". Endgame: fully SNARKed ethereum * The Scourge(new): ensure reliable and fair credibly neutral transaction inclusion, solve MEV issues * Single slot finality as stage 2 Merge milestone
+* More concrete milestones in every category * More explicit role for quantum-proofness as a necessary component of the "endgame" protocol  Big thanks to  and others for the help!
+How well this works depends on exactly how much due diligence is done to make sure blue checks are who they say they are. "Pay $8/month and call yourself whatever" would damage the blue check's anti-scam role. But if there's more actual verification, the result is very different.
+I don't get this critique that charging $8/month creates an economic hierarchy. The current blue check system is *far* more exclusive than even the $20/month level from yesterday.  Ideally, though, verification would be charged at-cost and separate from other premium services.
+Should I publicly blab my opinions about crypto regulation more? Feels unfair to let other people get attacked by CT but never actually poke my own head out.
+Regs on defi frontends that *could* be more helpful may include:  (i) limits on leverage (ii) requiring transparency about what audits, FV or other security checks were done on contract code (iii) usage gated by knowledge-based tests instead of plutocratic net-worth minimum rules
+Also, I would love to see rules written in such a way that requirements can be satisfied by zero knowledge proofs as much as possible. ZKPs offer lots of new opportunities to satisfy reg policy goals and preserve privacy at the same time, and we should take advantage of this!
+I generally don't like subtweeting; it's impolite to people who do not have context. When I tweet a generality instead of just talking about a particular situation directly, I typically have at least two examples in mind.  (And yes, this applies self-referentially)
+Beware the impulse to preach that "we must make sacrifices for the sake of peace" but suggest only sacrifices where other people are the ones sacrificing while you give up nothing.
+Being a pluralist requires being at peace with the fact that there are groups in the world that operate under principles very alien and uncongenial to you, and that some of those groups even have some power.
+The revenue-evil curve: a different way to think about prioritizing public goods funding
+My concern with VR is similar to some anti-crypto people's concern about crypto: a feeling that people are "in love with the idea of it" in a way that far outpaces actual applications.  Just like with crypto, I do think important apps exist! But "VR for the sake of VR" won't work
+I'm so happy that Ethereum has such a strong culture of trying hard to make all our moon math as understandable and accessible to people as possible.
+It's necessary if we want to keep our ecosystem open and welcoming to people who did not follow a traditional many-year university math education track.  Decentralization requires NOT giving up and waving a PhD around saying "it's a black box, we're smart, trust us".
+This feels like a really important metaphor for something about our present condition.
+Updated the doc on single slot finality:
+A quick note on upgrading from KZG to STARKs in danksharding. Probably the right thing to do in ~3-6 years when the tech becomes more mature!https://ethresear.ch/t/arithmetic-hash-based-alternatives-to-kzg-for-proto-danksharding-eip-4844/13863#if-we-do-kzg-now-can-we-upgrade-to-something-trusted-setup-free-later-14…
+Convex-natalism: the ideology that regardless of your opinions on how many children people should have on average, more people should have either 0 or 5+ children and fewer people should have 2.
+ok what have I done
+Designated verifier proofs are a fascinating building block.  Alice sends Bob a ZK-SNARK proof "either X is true about me and data I hold, or I am Bob"  Bob knows he did not make the proof, so he knows X is true. But if Bob sends Alice's proof to Charlie, Charlie is not convinced
+Information is copiable and wants to be free. But *credible* information, not necessarily!
+The idea (from  I believe?) of a country or zone where it's illegal to build most permanent structures, so mobile homes only, to prevent excessive lock-in effects tied to physical space fascinates me.  (Not saying I think it's a good idea, it's just fascinating!)
+Select replies to my poll on blue checks, selected for... I'm not sure what exactly. But anyway:
+Twitter's blue check mechanism is (compared to not having it at all)
+Is a "sidecar" a piece of software, a data blob that's not in the main RLP or SSZ hash structure, something else?  I've been hearing multiple meanings...
+Someone should make a project called "THE Protocol", so that their shills can say "Look, soandso mentioned THE!" pretty much any time anyone says anything.
+"We are going to enable open order flow. Open order flow means NO proprietary first party deals between users, wallets and builders or validators. These deals have been horrible in tradfi" -
+Based  using additive notation even for the pairing group.
+The Vatican: 2.2 popes per square kilometer  Bogota: 2 POAPs per square meter
+See also: https://ethresear.ch/t/pairwise-coordination-subsidies-a-new-quadratic-funding-design/5553…Highly scoring agreement if it's coming from diverse sources - an important idea in social mechanism design
+The cool thing about this idea is that it has great cross-tribal appeal.  Translated into IDW speak, for example: "50 actually independent thinkers are worth more than 1000 NPCs who all consume the same media and vote the same way". Very appealing to that group.
+At :: "... so we count a group of people less if they are all correlated with each other..." @VladZamfir: "Ooh, is that like punishing fascism?": "Kind of!"
+Omakase <-> synthetic technocracy Everyone orders for themselves <-> corporate libertarianism Family style <-> digital democracy
+Slides from my presentation on multi-provers in rollups today:
+Eli and the Starkware team have made many crucial contributions to making SNARK and STARK tech more understandable and accessible. I learned a lot from them myself!
+> made many crucial contributions  Including inventing STARKs, of course!
+Lots of people. Many are scared; repression has become very effective over the last 10 years. Some hate what is going on but have no idea what to do and end up leading to sad situations like this:
+An exploration on whether or not we could replace KZG with arithmetic hashes, eg. Poseidon, in EIP-4844 (proto-danksharding):https://ethresear.ch/t/arithmetic-hash-based-alternatives-to-kzg-for-proto-danksharding-eip-4844/13863…Summary: yeah it's possible, but there are a lot of tradeoffs.  Thanks  for suggesting this topic!
+These fancy new arithmetic hash functions look so beautiful - the way cryptography should look. Much cleaner than SHA256.  Looking forward to see these functions get more battle tested and reviewed and start to get more widely adopted over time.
+Reinforced Concrete is fun too.  The BARS permutation is a bit ugly, but I guess it's hard to come up with something really clean when you're trying to define a non-arithmetic computation over arbitrary prime fields :(https://eprint.iacr.org/2021/1038.pdf
+So many scam accounts have blue checkmarks these days.  Seems like a complete failure of blue checkmarks in their current form. I'm definitely seeing the wisdom of turning twitter into an open API and letting third parties try to make the best UIs to solve these problems.
+How much can we constrain builders without bringing back heavy burdens to block proposers?
+The big really valuable and necessary thing that ERC-4337 provides for account abstraction is a *decentralized fee market* for user operations going into smart contract wallets.https://eips.ethereum.org/EIPS/eip-4337
+The good news is that we're narrowing down toward an actual path for account abstraction, something we've always wanted but have not managed to actually have!  And with the "carrot" of cost savings in rollups with signature aggregation, there's finally an incentive to adopt it.
+Big thanks and appreciation to all the amazing people working on refining all of these proposals and actually getting them out there. Excited to keep moving this forward!
+These can't be done with an ERC. They require an actual consensus-changing EIP.  * EIP-3074 does the first * EIP-5003 does the second * No EIPs yet for the third, but see an introduction to the problem and a solution path here:
+How long until there's a scandal related to water, and some writer calls it "Watergate" because that's the correct default modern English-language way to create a name for a scandal, without even realizing what they just did there?
+I think editing should be available, but when you edit a tweet, the portion that was edited should become highlighted. Would not interfere with typo fixes etc, but would be more likely to prevent attempts to abuse the feature. https://twitter.com/premium/status/1575590534529556480…
+I built a basic implementation of a SNARK (PLONK) compiler, prover and verifier in python:https://github.com/ethereum/research/tree/master/py_plonk…Intended primarily for educational value, and for simple inputs it can exactly reproduce verification keys generated by https://zkrepl.dev
+Big thanks to   for help!
+Is the current global order deeply capitalist or deeply statist?
+I want to someday do an ethereum conference at the top of a 1km mountain with no car access. Wonder what kind of attendees and discussion that filter would lead to.
+I don't know how "horseshoe theory is false" ever managed to become such an unquestioned Very Serious Person meme. There are clearly many common traits in extremists on all sides that come from attraction to extremeness itself, which lead to lots of agreement on tangential issues
+"Proof of Stake", the (physical and digital) book compiling various writings I've made over the last ~10 years, is finally out!  Orderable here:https://proofofstake.gitcoin.co/orderBig thanks to   and everyone else who helped make this happen!
+Stuff like this is why Ukraine can't just "give up a fifth of their territory if that's what it takes to ensure peace".  This isn't a game of Risk, there's millions of people stuck in occupied territory, and it's not the sort of occupation any of you would be okay with living in.
+I've seen civilian death estimates for Mariupol everywhere in the 20k-120k range. At the higher end, that would be over a quarter of the entire city. And this is for a city with as large a population as Miami.
+16 hours left to contribute to the gitcoin grants round!https://gitcoin.co/grants/
+A logo for the Casper consensus algorithm, Stable Diffusion via https://beta.dreamstudio.ai(this one took a brush and a few prompts, it's not quite good with text yet, but getting there!)
+Think of the one person in the world who is the most ideologically aligned with you.  On what percentage of issues that are important to you do they share your view?
+People whose primary vibe is "I and my tribe are domain-expertise-endowed professionals, the people I criticize and mock are amateurs, and you should shut up" are really really uncool, and people should recognize the pattern and immediately unfollow anyone who exhibits it.
+The main exception is of course that if you find someone who has this vibe, and they accidentally demonstrate a big and relevant error in domain knowledge themselves, then it's okay to flip over your own domain expertise cards as part of exposing their hypocrisy.
+DAOs are not corporations: where decentralization in autonomous organizations matters
+I try to explain the additive vs multiplicative notation issue for elliptic curves, and get a little bit into the question of what to do with the GT group.
+It's also the anniversary of the 2016 Shanghai DoS attacks.
+Thread by , criticizing .
+The thing you do with lots of elliptic curve points and lots of scalars
+What kind of layer 3s make sense?
+One important corollary of this is better EIP 1559 performance (because fewer blocks bump up against the 2x limit). So far, the percentage of full blocks has dropped from ~20% to ~10%.https://etherscan.io/blocks?ps=100&p=1…
+And we finalized!  Happy merge all. This is a big moment for the Ethereum ecosystem. Everyone who helped make the merge happen should feel very proud today.
+"The merge will reduce worldwide electricity consumption by 0.2%" -
+Looks like the "hashrate will drop weeks before the merge due to miners rushing to sell ahead of everyone else" thesis has been proven completely false.  I'm a bit surprised! I argued against a 50% drop but definitely expected like 5-10%.
+12 hours until the merge!
+Excited to never have to hear about "ommer blocks" again.  (ok fine I know "ommer" was meant to be a gender-neutral replacement for "uncle", but come on, it just *sounds* like an insult for people who meditate)  Oh, and saving electricity. That's cool too.
+Normalize saying "dub" (instead of "double-yoo") as the name of the letter W.  All letters deserve a one-syllable name.
+This is an important disconnect that people building in the crypto space do need to be aware of. Crypto-wealthy people often join DAOs for tribal affiliation and fun and self-expression, but our long-term target audience wants DAOs designed around very pragmatic needs.
+"Rich people are grubby power trippers" is an overrated frame. "Rich people wanna have fun" is an often more accurate frame that explains well why there are rich/poor misalignments even among good people.
+Grubby power trippers of course exist and continue to be a big problem. In business and in politics.
+Modern rich-country elite politics is not about economics, it's about vibes, exhibit #247.  (Poor countries and even non-elites in rich countries definitely operate this way much less. They can't afford to)
+Big thanks to  and everyone involved for the opportunity to visit!  An amazing and brave community in Ukraine that we all have a lot to learn from.
+One thing that people don't appreciate enough about land taxes (and even property taxes) is that the existence of the tax means the property is much cheaper for you to acquire in the first place. You can put the difference into stocks and pay the tax out of the price gains.
+Using climate as an "opportunity" to go after people with the wrong vibez is harmful to the cause of mitigating climate change.
+Should there be demand-based recurring fees on ENS domains?
+Second update from Balvi! Lots more anti-covid projects funded, thanks to funds from  !  Previous update here:
+Masks that actually look really cool:
+, making better masks and testing them:
+The merge is still expected to happen around Sep 13-15. What's happening today is the Bellatrix hard fork, which *prepares* the chain for the merge. Still important though - make sure to update your clients!
+OK wow, half of yall literally think that someone should be able to lock down every five-letter word in the Scrabble dictionary (which includes exotic stuff like "ZORIL") for a hundred years for less than the price of four lambos.
+A thread of random polls about myself:
+Whom of these crypto personalities do I respect the most?  (If "none", interpret as "disrespect the least")
+Which non-Ethereum cryptocurrency do I respect the most?  (If "none", interpret as "disrespect the least")
+Quantum computers break:  * RSA and anything based on factoring * Elliptic curves * Unknown order groups  Quantum computers don't break:  * Hashes * Lattices
+Many of you got this one very wrong btw. Quantum computers with Shor's algorithm break elliptic curves completely. Hashes (like SHA256) survive quantum computers just fine, though security degrades somewhat and longer hash lengths become recommended.
+Quantum computers break:  * RSA and anything based on factoring * Elliptic curves * Unknown order groups  Quantum computers don't break:  * Hashes * Lattices
+What is a fair price that someone should have to pay to register and unconditionally guarantee ownership of a 5-letter .eth domain for 100 years?
+What is a fair price that someone should have to pay to register and unconditionally guarantee ownership of a 5-letter .eth domain for 10 years?
+Neural networks as philosophy:  Late 20th century philosophical thought was heavily influenced by intuitions from study of computers and algorithms: *we too* are algorithms, what could those insights say about us?  I wonder if the 21st century will do the same with neural nets.
+Computer programs are highly structured, they are legible, and they are either perfect or have bugs that break things horribly until fixed.  Neural nets are highly illegible, they make mistakes, but somehow even mistaken answers are... kinda reasonable?
+Computer programs are built on theory, neural nets are built on intuition and empiricism.  Different way of thinking. And different conclusions come out of that way of thinking.
+The existence of chickens is a circular argument. Chickens depend on eggs that depend on... chickens.  How any sane person could think that chickens and eggs can be a reliable part of the food supply is beyond me.
+Assuming quantum computers (so, capable of Shor and Grover with millions of qubits) are built this century, which security assumption do you think is more likely to still hold in the year 3000?
+Does P = NP? Do you believe in god?
+Assuming quantum computers turn out to be impractical, which security assumption do you think is more likely to still hold in the year 3000?  (By "hold", let's say I mean "takes more than 2^100 computational steps to crack")
+Best wishes to ETHWarsaw hackers!
+Disagree with "spend money", frugality is undervalued in elite circles imo. Having low expenses and having a 1 year savings cushion from early on helps a lot in preserving your freedom and reducing stress.
+"Proof of Stake", the (physical and digital) book compiling various writings I've made over the last ~10 years, will be out in a month!  You can get a signed digital copy and NFT here: https://proofofstake.gitcoin.coMy share of the proceeds all goes to  grants public goods!
+Thanks to   for publishing and organizing!
+Yarvin on DAOs:https://graymirror.substack.com/p/optimal-autonomous-organizations…I agree with some parts and find the sovereign vs contractual distinction valuable, but disagree with other parts: my views on DAO design are more context-dependent. I may write on this more in the future.  I appreciate the contribution!
+Podcast with  .  I talk about decentralization, international diversity, the importance of intention and agency, the technological and social nuances of protecting base layer censorship resistance and credible neutrality, and other important topics.
+RIP Gorbachev
+World economic forum initiation ceremony completed.
+Reminder: even though the merge is coming around Sep 10-20, the beacon chain hard fork is on Sep 6. Make sure to update your clients before then!
+Reminder that the war in Ukraine is not the only terrible war happening right now.
+Guy: mobile phones are great for texting and making calls!  Guy, 2 weeks later: mobile phones are great for googling random facts while on the go!  Twitter troll: told ya mobile phones are ngmi. They keep changing the narrative!
+Though I do think that the adoption and integrations that make crypto actually usable for semi-mainstream international payments ultimately depend on its credible neutrality (which censorship resistance is a part of).
+People continue to underrate how often cryptocurrency payments are superior not even because of censorship resistance but just because they're so much more convenient.  Big boost to international business and charity, and sometimes even payments within countries.
+If I had to make a bear case for Anglo civilization, this would be it.  Picked the wrong answer with more than a 2:1 ratio. Sorry guys, yall are ngmi.
+"X sounds great, mandatory X sounds horrifying" for many values of X.  It's almost like the whole "freedom" meme has a really important purpose to it!
+Sometimes nuance is a needed corrective to extremist simplicity, but sometimes nuance is a DoS attack, obscuring our ability to recognize and agree on truths that are really important and actually quite simple.  This is the most important nuance about nuance.
+Regular reminder to people trying to make things better:  It is not your responsibility to solve every problem.
+你上次喝茶或者咖啡，你喝哪个？
+В последний раз когда ты пил чай или кофе, ты пил какой из них?
+The last time you drank tea or coffee, which one did you drink?
+Glad to see Ethereum people pushing against regulations that privilege ETH over other legitimate cryptocurrencies.  (I have not dug into the details of what specifically is going on and to what extent it's a gov thing vs a compliance decision of one business, but either way...)
+Incidentally, reminder that I oppose banning PoW:
+Looks like there's going to be a web3 hackathon in Kyiv early next month.  These people are brave! (There's a remote option for people not local to the area as well)
+Regular reminder: all 5000+ of my instagram accounts are fake profiles and have nothing to do with me. Anything you see "Vitalik Buterin" (or "Bütеirn" or whatever) posting on instagram is a scam.
+Personally I think you should start with the communication layer first, and add the formal governance layer later.  If you're doing it correctly, step 1 is just defining the values and building the community, you'll only have something you actually need to govern a bit later.
+https://vitalik.ca has dark mode now!  Big thanks to  for implementing this, and to the  bounties platform for organizing.
+The terminal total difficulty has been set to 58750000000000000000000.  This means the ethereum PoW network now has a (roughly) fixed number of hashes left to mine.https://bordel.wtf predicts the merge will happen around Sep 15, though the exact date depends on hashrate.
+Idea: stealth addresses for ERC721s.  A low-tech approach to add a significant amount of privacy to the NFT ecosystem.  So you would be able to eg. send an NFT to vitalik.eth without anyone except me (the new owner) being able to see who the new owner is.
+Harberger taxes on NFTs are good.  See also, this from a year ago:https://old.reddit.com/r/ethereum/comments/mo9mw8/reminder_in_the_long_run_asset_transfer_fees_are/…
+Another great book by , this time on rollups.
+I continue to find probability distributions with infinite means fascinating. Particularly how their averages *don't converge* as you sample more values.  You can even replicate the behavior deterministically with "tan at integers" as a pseudo-RNG.
+What's even more interesting is that tan(int) is *not* a random number generator. There's fascinating patterns in the data.  One way to look at it is: if tan(x) is very high, x is very close to a 90' or 270' angle. So if tan(x) and tan(y) are high, tan(x + 2y) is also high.
+The spikes emerge from good approximations to the circle ratio:  11/7 ~= tau/4 (or pi/2) 11 ~= 7/4 * tau (one full rotation plus 270.25')  So tan(11) is high: -225.95  The spikes near 355 and 710 are "echoes" of 11/7 created because 355/113 is an *amazing* approximation of tau/2
+And if you use tan^2 you get into total crazy land.
+An explainer of the different types of ZK-EVMs and ZK-EVM-like projects out there, and the tradeoffs between them.
+Some quick theorycrafting of how much data space we can save by improving compression (especially in rollups).  ERC4337 signature aggregation ( https://github.com/eth-infinitism/account-abstraction/pull/92… ) is essential to this.
+Call out scammers. You get hate in the moment, but time vindicates you.  Even if you're some CEO with a "reputation" and need for "professionalism", do it anyway and be savage. People look up to you and your warning will be taken seriously.
+Why do maximalists keep picking heroes that turn out to be total clowns?
+The "metaverse" is going to happen but I don't think any of the existing corporate attempts to intentionally create the metaverse are going anywhere.
+Hybrid idea: optimistic + ZK, governance only adjudicates bugs between the two  1. Publish block 2. Wait 24h for fraud challenges. 3a. If no challenge, publish ZK SNARK, finalize. 3b. If there is a challenge, decide based on 2-of-3 of (challenge game, ZK SNARK, governance)
+Reducing fraud proof time to 24h is safe because an attack would require both blocking challenges for 24h *and* breaking one of the three resolution mechanisms.
+Present-day rollups are still far from optimal! Great thread by Still a lot of room to improve both fixed costs and per-transaction costs. Very much early days in terms of how many optimizations that are easy to find theoretically haven't yet actually been deployed.
+Agreeing with the proverb "those who most want to rule people are those least suited to do it" and supporting DAOs being run by transferable governance tokens is a contradiction.  Transferable governance tokens are all about giving *more* power to "those who most want to rule".
+Sometimes the task of an intellectual isn't about trying to outsmart everyone or come up with the synthesis to the world's thesis and antithesis or whatever.  Rather, it's about knowing when to just reaffirm simple dumb rules like "invading people bad".
+Also an important lesson for the crypto space. Way too much mental gymnastics goes into defending things that a 12 year old applying a simple unnuanced "if it offers 20% APR it's a Ponzi" rule would correctly reject every time.
+Merge + surge + verge + purge + splurge are not stages!  They are all happening in parallel.
+Vyper is quietly continuing to progress and become a better and better Ethereum high-level language.https://vyper.readthedocs.io/en/stable/https://vyper-by-example.orgGreat and hardworking team  and many community contributors.
+Proposals to adjust memory gas costs  Doc: https://notes.ethereum.org/@vbuterin/proposals_to_adjust_memory_gas_costs…EthMag thread for discussion: https://ethereum-magicians.org/t/proposals-to-adjust-memory-gas-costs/10036…
+Also, BitTrex should make its branding more dinosaur-themed.
+Lots of responses around consumer sentiment and investor sentiment so far, but relatively little around worker sentiment.  Surely worker sentiment is the most important here? The morale of the people actually producing stuff?
+Is there any economic research on how morale affects economic growth?  It feels like everyone agrees that in military contexts, morale is absolutely critical. So surely it should have a significant impact in regular life too. But I haven't seen anyone trying to talk about this.
+Experimenting with gitcoin bounties to crowdsource improving my blog. Goal: add dark mode.  (Note: read carefully. The requirements include actually going through the posts and making sure they look good in dark mode, and editing if they don't)
+YYYY-MM-DD is the only correct date format.  * It's an ISO standard: https://en.wikipedia.org/wiki/ISO_8601* It's unambiguous (is 03/05/22 March 5 or May 3? No such problem here!) * General-purpose sorting sorts dates correctly * East Asian countries like Japan  use it ("2022年5月3日")
+What do I think about network states?  This one somehow ended up VERY long, but.... oh well, enjoy!
+It's amazing how some PoW proponents just keep repeating the unmitigated bare-faced lie that PoS includes voting on protocol parameters (it doesn't, just like PoW doesn't) and this so often just goes unchallenged.  Nodes reject invalid blocks, in PoS and in PoW. It's not hard.
+Also, small grammar nuance: in English when talking about things like proof of stake, we don't say "it's a security", we say "it's secure". I know these suffixes are hard though, so I forgive the error.
+An underrated reason to use public blockchains is precisely the fact that the infrastructure has been so relentlessly stress tested against all kinds of attacks.
+Motivation truly is important. You can keep going longer and focus harder on the mission if you can internally narrativize your intellectual life as a glorious search for freedom, enfranchisement of the weak, human progress, etc. Such energies can't be thrown away completely.
+IMO  does this well. Very passionate libertarian, but he puts his biggest focus on libertarian ideas where he can come up with lots of evidence that they could actually do a lot of good for people. Open borders, housing reform, worrying less about education...
+There's a lot to be learned from this approach. Commit yourself to a direction that still leaves you lots of freedom to maneuver as you get more data and realize you were wrong about specific things.
+... because there are other options. A particularly important option is "data-driven choice of idea-driven ideas". Ideology generates hypotheses and provides motivation, but then you check them against reality, and be prepared to dismiss or de-emphasize some as a result.
+I just remembered a conversation with  from pre-covid times on the role of ideology in an intellectual's thinking.  The dichotomy of "idea-driven ideas" vs "data-driven ideas". Framed this way, ideology looks bad, but actually it's not so simple...
+The first law of tokenomics: don't get your tokenomics advice from people who use the word "tokenomics"
+How games are way harder (and often impossible) to stabilize once you take away the individual choice assumption.
+The "stubbornly and ideologically insist on trustlessness and decentralization" viewpoint actually did quite well these last few months.
+People who criticize "utilitarianism" are often actually criticizing something quite different, like coldness or expediency.  John Stuart Mill himself wrote quite a lot about the distinction in his original work in 1863. The whole thing is worth reading:https://utilitarianism.com/mill2.htm
+Pro-tip: if there's a long-established tradition of people debating A vs B based on deep arguments touching on math, economics and moral philosophy, and you come along saying "B is dumb because of a one-line technicality involving definitions", you're probably wrong.
+An older example of vaguely this kind of bad philosophy:
+Claim: the crypto space is weird and dumb and we should go back to mainstream institutions which are ruled by adults.  Reality: https://twitter.com/RudyGiuliani/status/1542690814458994689…
+I'm not usually a modern art appreciatooooor but I genuinely think the one on the right looks cooler.
+Some different approaches for capping the validator set size, to decrease the load of a beacon chain node and make Ethereum more ready for single-slot finality:https://notes.ethereum.org/@vbuterin/validator_set_size_capping…Thanks   for help!
+Decline of formal attire is an underrated form of social progress.
+The endgame is for plain-colored T-shirts and sweaters to pass as formal. Basically the Star Trek future.
+Correction: I hold *ethereum* to a higher standard.  Random scammy centralized chains can do whatever they want, they'll have to answer for that themselves  (though I reserve the right to use them as examples of what I stand against, much as I do with centralized institutions)
+A doc on a possible path to build on our account abstraction work with ERC-4337 (and ERC-3074 if desired) and add more protocol-enshrined features to make abstraction the default over time.https://notes.ethereum.org/@vbuterin/account_abstraction_roadmap…Thanks for comments   !
+There are far more honorable ways to burn $50m to impress people than buying a superyacht.  Like becoming a  grants matching partner! Here are the matching partners for the current round:
+As a frontier social movement, we're supposed to be trying to execute on visions like this, not just repeating unimaginative 20th century crap except with ourselves at the top.
+deserves praise imo. Cryptopunk NFTs, but with revenue going to supporting public goods. We should make a directory of other projects that are like this, so we can do more to support them!
+I want to make our world more like the Yudkowskian dath ilan utopia where instead of rich people's desire for wealth signaling going into wasteful zero sum crap, it goes into supporting public goods.
+Stock-to-flow is really not looking good now.  I know it's impolite to gloat and all that, but I think financial models that give people a false sense of certainty and predestination that number-will-go-up are harmful and deserve all the mockery they get.
+Remember who supported S2F and who mocked it even back when it looked like it was accurately describing the trendline.
+My 40-liter backpack travel guide:
+AI may well be built by shape rotators, but the current iteration of the stuff seems to be the ultimate wordcel.
+I've been thinking about *why* this is true, and I might have an explanation. Basically, I think it comes down to a confusion between terminal goals ("the things we ultimately want") and our strategies for achieving them...
+Another confusing one is "economic growth", which often gets construed as individualistic, but there are plenty of collective, and occasionally even freedom-sacrificing, ways of making it happen.  (Economic growth is really important BTW. See https://amazon.com/Stubborn-Attachments-Prosperous-Responsible-Individuals/dp/1732265135… )
+Summary: the "things we ultimately want" aren't individual or collective, but "strategies for achieving them" can be either one or a mix of the two.  Even strategies for protecting freedom can be collective (defending against aggressive wars, to give an obvious example).
+Freedom really is more of a meta-goal, basically about preserving your ability to choose which of the other goals you value more at a particular time and place.  (Though some will say autonomy is also to some extent intrinsically important to happiness)
+Rhetorical tip: you can often frame either side of a debate as being individualist or collectivist.  Example:  "Instead of worrying so much about our individual safety, we should focus more on our collective need to have a rich and enjoyable shared life that's worth living for"
+Ever wondered how specifically ZK-SNARKs are used to preserve privacy, including some of the non-obvious tricks like how to prevent double-spending, and what the limits of ZK-SNARKs are?  This post tries to explain some of these ideas:
+I think it's under-appreciated how much opposition to the Patriot Act and the copyright lobby united various subgroups of open-and-free internet enthusiasts. Once those issues receded, they not only lost that lodestar; they also have years of pent-up grievances to work through.
+The GFC too, though that was a ticking time bomb from the beginning. You only need to take 1-2 steps from "we need to build a new financial system without all that toxic junk" to "what will that system actually look like?" for the divergences in vision to start to appear.
+Where to use a blockchain in non-financial applications?https://vitalik.ca/general/2022/06/12/nonfin.html…Big thanks to @pujaohlhaver  for review! You should also check what they have to say; they have some unique important perspectives that are beyond the scope of this post.
+Gitcoin grants round 14 is ongoing!https://gitcoin.co/grants/
+Please stop using "real name" to refer to your passport name. Your government doesn't get to define who you "really" are. If you use a different name in most day-to-day interactions, that is your real name.  "Passport name", "legal name", "slave name" to be edgy are all fine.
+Go through this list (it's from https://slatestarcodex.com/2017/03/16/book-review-seeing-like-a-state/…), and keep track of how many items elicit a positive emotional gut response in you, and how many elicit a negative one (if truly neutral, count as 0.5 for both).  How many negative responses did you get? (poll in next tweet)
+Poll (see above tweet for context)
+Go through this list (it's from https://slatestarcodex.com/2017/03/16/book-review-seeing-like-a-state/…), and keep track of how many items elicit a positive emotional gut response in you, and how many elicit a negative one (if truly neutral, count as 0.5 for both).  How many positive responses did you get? (poll in next tweet)
+Poll (see above tweet for context)
+Unfriendly-AI risk continues to be probably the biggest thing that could seriously derail humanity's ascent to the stars over the next 1-2 centuries. Highly recommend more eyes on this problem.
+POAP
+"Accountability" is viewed by most people as a virtue, but it's interesting to look at cases where *lack of accountability* is an explicit goal of some system.  Examples:  * Voting (secret ballot) * Juries * Tenure * Anonymous complaints * Privacy norms/rules/laws
+One way to read  is that wants more accountability everywhere:  Voting -> prediction markets Regulation -> mandatory liability insurance  The general principle: if you sign off on something that turns out bad, you pay up. Ideally run the entire gov on that principle.
+I would say that in general the biggest evil is not accountability or unaccountability, but *imbalanced accountability* - being accountable for some types of consequences but not others.  This creates a clear imbalance, where people target only the thing that is being measured.
+Pro-tip: if you're "tired of having to explain the same thing 100 times" on the internet, write an article that explains your view clearly in long-form! Then in the future you, and others who see the issue the same way, can just keep linking to it.
+What do you disagree with me the most on?  (followees can reply, anyone else can quote tweet, I'll read both)
+Ultimately I agree with this (that is, I oppose banning PoW). The government picking and choosing which specific applications are an okay use of electricity or not is a bad idea. Better to just implement carbon pricing, and use some of the revenues to compensate low-income users.
+Of course, in the absence of perfect compensation of externalities (ie. the status quo today), we still have moral responsibilities.
+100 дней этой злобной войны.
+This is a great example of why I'm so proud of  for adding non-token governance (the Citizen House).  Optimism explicitly has goals *other* than just "make OP go up", and the only way to do that long-term is with explicit representation of non-token-holder interests.
+Overview of Optimism two-house governance:https://community.optimism.io/docs/governance/…Overview of why I'm anti token-holder-centric governance:https://vitalik.ca/general/2021/08/16/voting3.html…https://vitalik.ca/general/2022/01/26/soulbound.html…
+Some people responded "but technology HAS had few upsides and many downsides!"  I definitely agree there are important problems. But I also think much of the pessimism is narrative, not reality.  [thread] Some amazing technology successes of the last 20y:
+I do think that we need less indefinite optimism and more definite optimism - less relying on magic forces to make things better and more concerted efforts to identify specific great things that could be built and build them.
+BTW this includes a definite-optimist attitude to crypto. Hence my focus on:  * Public goods funding * Social recovery / multisig wallets * Reputation systems (could help a lot to fight scams!) * PoS (solves energy issues) * Scaling (reduces fees, makes non-financial apps viable)
+A big difference between the "new idealistic movement" scene 10-15 years ago vs today is that back then it felt possible to be on all the good-guy teams at the same time. Today, much more adversarial thinking and conflict.  I've been trying to understand.. where to from here?
+I guess the conclusion is, peacekeeping and cooperation-seeking needs to be an explicit effort rather than peace being an assumed default.
+There's an element of "we compete where we must" (eg. if your happy sunshine movement advocates making financial privacy globally illegal, then sorry but I will fight you), but I think the room for cooperation, and for cross-tribal appreciation, is larger than many people think.
+As  loves to say, "live and let live" can be upgraded to "win and help win".
+BTW I strongly agree with the sentiment.  Like, even selfishly speaking, a nuclear bunker could stop a nuke from killing me directly, but it can't stop the nuclear war from destroying the scientific ecosystem that I'm counting on to cure aging before I succumb to it in ~60 years.
+I do think that many people disagree less than they think. Eg.   fight a lot, but when I talk to them, both have a strong "we're all in this together" attitude: this century either all of humanity rises or all of humanity falls.  That's a key point of agreement!
+But we also have to keep the peace between the big groups, and navigate the reality that many of these movements really do contain, in their worst versions, threats to each other's visions of a bright future for humanity.
+Remember that you should always test your dapp with at least one non-metamask wallet (eg. Brave, Status browser). Make sure your dapp conforms to ethereum standards, and not just to accidental properties of one particular wallet!
+Fascinating discussion on ethereum's PoS design here (scroll up and down and through quote tweets, lots of good points made)
+Re: non-financial blockchain use cases.
+Deep dive on Ethereum's sharding roadmap from . It's very good!
+Two thought experiments to evaluate automated stablecoins:
+'s post on stablecoins from last year is also good and recommended!
+I'm sad to see so many people dunking on this. The guy is clearly passionate about his political values and wants to create a community space for them.  Far heathier than yelling at opponents on twitter all day.  (And no, an anti-capitalist selling things is not a contradiction)
+For anyone interested in the "current thing" discourse, the  vs  debate on "arbitrary deploring" from 2017-18 is fascinating:  Caplan: https://econlib.org/archives/2017/12/the_unbearable.html…SSC: https://slatestarcodex.com/2018/06/19/contra-caplan-on-arbitrary-deploring/…Caplan:
+Quick math explanation:  This is a blinded proof of membership. We want to prove `P(z) = y` without revealing `z` (but `y` is public). Normally, a proof is `Q = (P - y) / (X - z)`. Here, we instead do `Q = (P - y) / (rX - rz)` to blind `z`.  And prove that `z` is a root of unity.
+I love seeing people with .eth in their handles arguing with each other on twitter.  Diversity of opinions is fun, and it's even more fun when there's an in-your-face reminder that no matter how much you disagree on small stuff ultimately you still love the same cryptocurrency.
+How do we create a culture where it's harder to set (or become) the topic of public conversation by doing something terrible and easier to do so by doing something great?
+One broader sort-of-contradiction I think about is the open-mindedness vs passion tradeoff.  Is it possible to both passionately act on the world based on your current beliefs and be open minded to the possibility that those beliefs are very wrong?  How do yall handle this?
+I do notice lots of people just choosing either hyper-loyal commitment to a cause to an extent that prohibits admitting fault beyond a limited range, and lots of other people just resigning themselves to being pure ivory tower scholars.
+(Note to trolls: no, ethereum was not a mistake. Sorry, my viewpoints that PoS > PoW, reaching functionality escape velocity is important, and not-just-currency apps are good are unchanged)
+It's hard. Eventually you make a mistake in your beliefs, and (especially if you are in politics, but some other domains too) correcting that mistake means acknowledging that a previous version of yourself contributed negative value to the world.
+In a saner world the libertarians would be as excited about this stuff as we are about fireproof metal hardware wallets. Self-sovereign local community biodefense as an alternative to centralized lockdowns and quarantines.  That world is still possible!
+Is anyone else getting the feeling that the Rothschilds meme has run out of steam, and so now vaguely insinuating things about the WEF is the new current thing coming in to replace it?
+The  team honestly deserves a lot of praise for taking a year-long "don't use Prysm" campaign on the chin and not opposing or getting publicly upset by it.  Anyway, that battle is basically won now; time to switch focus to getting more diversity in execution clients.
+Thread: some still open contradictions in my thoughts and my values, that I have been thinking about but still don't feel like I've fully resolved.
+Contradiction between my desire to maximally simplify the L1 and my desire to maximally simplify the whole ecosystem (as a simple L1 often "exports" its complexity to higher layers of the stack that users have to adopt anyway)
+Contradiction between my desire to be a positive-sum mediator figure that can be everyone's friend and my desire to stand strongly with good against evil those times when true evil is what we face.
+The current practice of many wallets setting max basefee *right above* the current basefee is horrible imo; it leads to frequent long delays when the basefee spikes up right at the time you're making a transaction.  At least set max to >1.3x current, though I would prefer >2x.
+PR in the Brave wallet doing this:
+The usual excuse for why wallets use the current approach is that it looks bad in the UI to show a higher fee. I feel like there must be better ways to deal with this issue, eg. present fee not as "$4.25" but as "$3-6" .
+TIL: there's actually *lots* of spins on the fence equality/equity meme.https://google.com/search?q=fence+equality+meme+picture&hl=en&source=lnms&tbm=isch…
+Strongly support this. Coordinated sympathy and relief for the average UST smallholder who got told something dumb about "20% interest rates on the US dollar" by an influencer, personal responsibility and SFYL for the wealthy.
+The obvious precedent is FDIC insurance (up to $250k per person)  An interesting unrelated one is Singapore employment law. Stronger regulation for low-earning employees, and a more figure-it-out-yourself approach for the wealthier.  IMO things like this are good hybrid formulas.
+Speculative controversial take: we should legitimize price gouging by top stake pool providers. Like, if a stake pool controls > 15%, it should be accepted and even *expected* for the pool to keep increasing its fee rate until it goes back below 15%.
+Speaking now!
+Further work with   and myself expanding on what can be done with an ecosystem of soulbound tokens!
+Update from Balvi! (moonshot anti-covid effort funded by   ). We have our first round of funding recipients:
+Balvi is excited to support them, and many more projects will be funded soon!
+And wish everyone a happy International Star Wars Day!
+The future of bio-defense is decentralized, open, collaborative, and actually doesn't require infringing on millions of people's livelihood and freedom. But it does require dedicated smart people to be supported in their hard work on making these tech solutions happen.
+The largest consequence of Elon taking over Twitter may well be not any specific policy decision he makes, but rather the morale effect of his supporters feeling emboldened and his detractors feeling like they are arguing on enemy territory. This is happening already.
+Not sure why so many people are reading into this tweet the subtext that I'm anti-Elon. I'm not!
+Possibly the biggest attempt at non-token-holder-centric DAO governance so far. Excited to see where this goes.
+Cryptography problem: make an invertible, easy-in-both-directions function from [0...2^256 - 1] to [0...2^256 - 2] (or more generally, -k for small k) where the exceptions to the invertibility are computationally infeasible to find.  Has there been any work on this?
+Motivating use cases:
+Don't oppose Elon running twitter (at least compared to status quo), but I do disagree with the more generalized enthusiasm for wealthy people/orgs hostile-takeovering social media firms. That could easily go *very* wrong (eg. imagine an ethically-challenged foreign gov doing it)
+The "but that Saudi guy already owns 5%" point is well taken but ultimately weak imo. Control is superlinear in ownership stake. His level of ability to control policy is very low now, and would increase by *far* more than 10x if his ownership increased to 50%.
+In how many cities have you walked to or from the airport?
+In case people are wondering, public transit + walk is not allowed:
+An excellent articulation of what Virgil stands for. Yes he does have an ideology, and it's a beautiful one that I've learned a lot from.
+I've been thinking about how to better understand the "there is no neutrality, there's only different inevitably-biased perspectives" viewpoint. Here's an analogy that I found helpful:  What is the "neutral" chess move?
+You can't just keep telling a player to correct for biases and eventually end up with "as close as you can get to perfect play". At some point, you have to actually add content and depth to the strategy. And that content and depth will inevitably involve opinionated choices.
+Real life is similar, except (i) the "perfect-play" strategy is even more obviously intractable (you have to simulate the universe), and (ii) even the goals are less well-defined.
+What are some decisions or tradeoffs in Ethereum protocol design that you would want to see explained better?
+An attempt at simplified single secret leader election (SSLE) using size-2 swaps. Leads to less perfect guarantees, but is much simpler (both the cryptography and the surrounding logic) in a lot of ways:
+In defense of Bitcoin maximalism:
+Many technical and practical decisions in early Ethereum land could have turned out very differently.  For the better, for the worse? It depends on the specific case. Here's a few examples of some roads not taken (yet?):
+Looking forward to seeing more blockchain and crypto projects make an impact in Zambia and in Africa more generally!  Lots of work to be done in scalability, easy-to-use wallets and other important areas, but many unique opportunities as well.
+Last 30 hours of  grants round 13!https://gitcoin.co/grants/
+My own EIP-4844 (aka. proto-danksharding) technical FAQ:
+Amazing resource by  on EIP-4844 (aka. proto-danksharding):
+The quote tweets on the new time article about me are truly amazing.  These are barely even cherry picked, it's pretty much one piece of awesome after another. Highly recommend scrolling.
+I didn't even know who Tom Brady is, had to ask people around me. My best guess was that he was the actor from Mission Impossible.
+gm!  Here is a picture of a beautiful field full of flowers.
+How do trusted setups work?
+Ukraine things:  * Plea to give Russian deserters asylum (important!): https://twitter.com/glenweyl/status/1501697320206798851…* Gitcoin Ukraine round: http://shorturl.at/bfpyT* Fundraiser from  and Mila: https://twitter.com/aplusk/status/1499530816384159755?s=21…* "Do Russians want war?" insightful+nuanced thread:
+* Belarusian people really don't support the war (only 13% do apparently!): https://dw.com/en/sviatlana-tsikhanouskaya-people-of-belarus-dont-want-to-fight-in-ukraine/a-60923917…* My dad regularly retweets important stuff: https://twitter.com/BlockGeekDima* More insightful analysis every day: https://twitter.com/kamilkazani/status/1498377757536968711…* Ukrainian memes: https://twitter.com/uamemesforces
+Ukrainians are far from the only ones suffering from war. Also people in Yemen, Ethiopia... just as human as Ukrainians and you are.  This is NOT a valid excuse to not care about Ukrainians today. But it does mean we should self-reflect and extend our compassion to others too.
+说一个国家的人必须支持自己国家的政府并不是爱国，而是一种奴隶制。真正的爱国有时候需要对抗自己国家发出的邪恶，因为这样才能帮自己国家变得更美
+First priority is supporting Ukrainians. Second, and also really important, priority is supporting those Russians and Belarusians who refuse to let Putin's Z-ombie regime represent them and take action to oppose it.
+A quick tutorial on how barycentric evaluation of polynomials works (useful in ZK-SNARK protocols, data availability sampling and many other Ethereum-related use cases):
+Encapsulated vs systemic complexity in protocol design
+An opportunity to support Ukrainians here! Proceeds go to civilian efforts helping Ukrainians suffering from the war.
+Getting some confirmations from a couple sources that it's legit. Deleting my warning for now. But continue to be vigilant, and always be slow and careful when sending irreversible crypto transactions.
+Reminder: Ethereum is neutral, but I am not.
+Очень расстроен решением Путина отказаться от возможности мирного решения спора с Украиной и вместо этого начать войну. Это преступление против украинского и русского народа.  Хочу желать всем безопасности, хотя знаю, что не какой безопасности не будет.  Слава Украине.
+Danksharding workshop is live-streaming now!
+Нападение на Украину может только навредить России, Украине и человечеству.  Вернется ли ситуация на мирный путь или будет война, сейчас может решить не Зеленский, не нато, а Надеюсь что выберут мудро.
+Ethereum community should do more to be friendly to anon contributors.
+A quick post explaining the current choice of block times (both pre- and post-merge) and the tradeoff between speed and decentralization/safety.https://old.reddit.com/r/ethereum/comments/slzfsd/why_wouldnt_proof_of_stake_drastically_reduce/hvu9ekc/…
+1. Thinking about this tweet lately. Here we have someone with a "tech people vs word people" dichotomy, but unlike  and all the others who do this, crypto ends up on the side of... the word people.  This is not my image of what crypto is! So what's going on?
+18. Many are inclined to dismiss this whole shape rotator and wordcel thing because it came from 4chan, and "everyone knows" 4chan is icky and hateful or whatever.  But I take it seriously. It's a new internet-native culture trying to understand the human world on its own terms.
+19. Perhaps even a lowbrow but still important part of the "post-liberal Western ideology" that @palladiummag keeps talking about. Not anti-liberal, but just... weird. Which is fine, because the underlying reality that it's trying to understand is weird and only getting weirder.
+17. BTW apparently the way noun declension works in this internet language is that if you respect someone being called a -cel, then the ending becomes -chad, so perhaps we should be talking about theorychads (and even wordchads)?
+EIP by  to deactivate SELFDESTRUCT: https://github.com/ethereum/EIPs/pull/4758…Alternate version: https://github.com/ethereum/EIPs/pull/4760…See also, my earlier piece on why removing or neutering the SELFDESTRUCT opcode is a good idea: https://hackmd.io/@vbuterin/selfdestruct…
+Some proposals to add "blob-carrying transactions" in a near-future hard fork, bringing higher scalability to rollups before full sharding is complete.
+See also: an excellent explainer by  on how the whole scaling thing is going to happen.https://old.reddit.com/r/ethereum/comments/skb5h6/how_ethereum_scales_eli12/…
+I'm speaking in 10 min!  我10分钟后演讲！
+I'm speaking now!
+A quick reminder of what "shared security" means and why it's so important.https://old.reddit.com/r/ethereum/comments/sgd3zt/a_quick_reminder_of_what_shared_security_means/…
+CryptoRelief sending $100m of the $SHIBA funds back to me. I plan to personally deploy these funds with the help of science advisors to complement CryptoRelief's existing excellent work with some higher-risk higher-reward covid science and relief projects worldwide.
+Projects will include vaccine R&D, innovative approaches to air filtration and ventilation, testing and much more. More info coming soon!
+You can also follow along CryptoRelief's existing and future excellent work at their transparency page:
+"The rules to make the rules", an important post by :https://paulfrazee.medium.com/the-rules-to-make-the-rules-be0c3b9d92b6…Along similar themes to 's writing about "The World Game":https://brunomacaes.substack.com/p/geopolitics-and-world-building…The most important game is the massively multiplayer game of co-creating the rules of the game.
+Soulbound
+A state-of-research document showing the technical challenges to moving Ethereum to single-slot (~16 seconds) finality, and some paths to solving them:https://notes.ethereum.org/@vbuterin/single_slot_finality…Thanks     and others for review and discussion!
+I'm speaking in 3 min!
+Excellent paper by some researchers at Peking University and Duke University on the consequences of EIP 1559. Particularly appreciate the confirmation that EIP 1559 has greatly decreased average waiting times for transactions.https://arxiv.org/pdf/2201.05574.pdf…
+My favorite thing about arguments against vaccine passports is that they usually work even better verbatim as arguments against regular passports. Seriously, look at these maps. This is unfair apartheid and we should be resisting it more.
+Poll for Ethereum community. You wake up in 2035, and 80% of all transactions + savings in the world are in one currency that is not ETH. Which would you prefer it to be?
+Poll for Ethereum community. You wake up in 2035, and 80% of all transactions + savings in the world are in one currency that is not ETH. Which would you prefer it to be?
+What are the craziest and most unhinged criticisms of me you've seen on twitter or elsewhere? Here are a few good ones, I wonder what else people have seen that I haven't!
+The old-but-still-relevant Serenity Design Rationale doc:https://notes.ethereum.org/@vbuterin/serenity_design_rationale…I updated some important bits today, and of course it will get updated further as new spec details (eg. new sharding https://github.com/ethereum/consensus-specs/pull/2792… ; PBS https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance… ) come into play!
+Has anyone noticed how at least among some communities Japanese seems to be slowly replacing Latin as the go-to "cool language" for names and slogans?  (random example: Ethereum's recent Kintsugi testnet; I was *not* involved in naming that)
+See also:
+Responded!  I think the status quo comes from a present-day "missing middle" where we have centralized-but-easy things and decentralized-but-hard things, but new tech (w lots of cryptography!) actually is on the cusp of giving us the best of both worlds.https://reddit.com/r/ethereum/comments/ryk3it/my_first_impressions_of_web3/hrrz15r/…
+My argument for why the future will be *multi-chain*, but it will not be *cross-chain*: there are fundamental limits to the security of bridges that hop across multiple "zones of sovereignty". From https://old.reddit.com/r/ethereum/comments/rwojtk/ama_we_are_the_efs_research_team_pt_7_07_january/hrngyk8/…:
+Note that cross-rollup apps within one zone of sovereignty are still fine. Not also that this also is a limit to the "modular blockchains" vision: you can't just pick and choose a separate data layer and security layer. Your data layer must be your security layer.
+Multidimensional EIP 1559:
+Favorite Abe
+Paradox of diversity: if every organization within society must fully reflect the diversity of that society's members, then there can be no diversity *between* organizations in that society.
+Paradox of authority: you can't be consistent and believe authority too much, because different authorities frequently have low opinions of each other. So either you end up half-skeptical toward all, or you (intentionally or not) make your own choice of which authority to follow.
+Paradox of freedom: you can't be consistent and too dogmatic about freedom. Eventually you see how in the real world, many people often give up their freedom for little in return. So you either accept their judgement, or decide you know better than them what's good for them...
+In 2021 I mostly stuck to a self-imposed twitter quarantine, only using this site to post links to my long-form content.  Q1: in retrospect, do you think this was a good idea? Q2: what should I do in 2022?  (replies followees-only to ensure quality)
+Happy new year!  Today, a mini-tweetstorm of some of the things I've said and written over the past decade, and what I think about those subjects today.
+* I did have good instincts early on for avoiding the craziest parts of bitcoin maximalist thinking. A couple early mistakes, but I corrected quickly * But X being wrong does not imply that any specific rebellion against X will go well! Yet another way in which politics is hard
+* On tech, I was more often right on abstract ideas than on production software dev issues. Had to learn to understand the latter over time * I have a deeper appreciation now of the need for even more simplicity than I thought we needed
+Conclusions:  * My thinking about politics and large-scale human organization was more naive then. Too focused on simple and complete formal models; I did not appreciate challenges of culture and https://vitalik.ca/general/2021/03/23/legitimacy.html… then; I do now.
+I'm more pessimistic about this now especially because of the PoS switch. We will need oracles. And if we want to make stablecoins robust to USD collapse (by switching to their own native CPI if that happens) we'll need more active governance.
+12. A more detailed opinion on stablecoins from 2014: https://blog.ethereum.org/2014/11/11/search-stable-cryptocurrency/…A big part of this post tried to tackle the question of whether or not you could have a stablecoin without oracles, by using blockchain data (eg. PoW diff) as a pseudo-price-oracle.
+A lot correct (basically predicted "defi"), though incentivized file storage + compute hasn't taken off that much (yet?), and of course I completely missed NFTs.  I would say the biggest thing I missed in the details is collusion issues in DAO governance:
+11. Applications envisioned in the Ethereum whitepaper:https://ethereum.org/en/whitepaper/* ERC20-style tokens * Algorithmic stablecoins * Domain name systems (like ENS) * Decentralized file storage and computing * DAOs * Wallets with withdrawal limits * Oracles * Prediction markets
+Obviously feel proud of this oneThough it's interesting how I got the "do something really simple and dumb even if it's suboptimal" concept so right here, but it took me so long to get there in the proof of stake and sharding designs.
+10. These posts from 2016-17 basically advocating for someone to build Uniswap.https://vitalik.ca/general/2017/06/22/marketmakers.html…https://reddit.com/r/ethereum/comments/55m04x/lets_run_onchain_decentralized_exchanges_the_way/…
+Today, I would call BCH mostly a failure. My main takeaway: communities formed around a rebellion, even if they have a good cause, often have a hard time long term, because they value bravery over competence and are united around resistance rather than a coherent way forward.
+9. I was optimistic about Bitcoin Cash specifically, because I agreed with the big-blocker arguments in the scaling war more than the small-blocker arguments.
+The bulldozer vs vetocracy political axis:
+OK fine here's an alternate link to the post that doesn't rely on my crappy server:https://vitalik.eth.limo/general/2021/12/06/endgame.html…And another mirror:https://cloudflare-ipfs.com/ipfs/QmZf7E1McjSFdgamgJf9UxnRwubsFpTWf7tdTTNThBGfa6/general/2021/12/06/endgame.html…Also added a much-deserved mention to 's StarkNet (see:
+Endgame
+Happy birthday beacon chain!  Here's an updated roadmap diagram for where Ethereum protocol development is at and what's coming in what order.  (I'm sure this is missing a lot, as all diagrams are, but it covers a lot of the important stuff!)
+Some links:  PoS specs: https://github.com/ethereum/consensus-specs#phase-0…Sharding: https://notes.ethereum.org/@vbuterin/data_sharding_roadmap…Verkle trees: https://notes.ethereum.org/Yn_mwNa2SeeQHnKsRgekKg…Expiry: https://eips.ethereum.org/EIPS/eip-4444 (history) + https://notes.ethereum.org/@vbuterin/state_expiry_eip… (state) EVM simplification: https://hackmd.io/@vbuterin/evm_feature_removing…EVM obj format: https://eips.ethereum.org/EIPS/eip-3540
+EVM modular ops: https://notes.ethereum.org/@axic/evm384Account abstraction: https://eips.ethereum.org/EIPS/eip-4337EIP 3074: https://eips.ethereum.org/EIPS/eip-3074Single slot confirmations: https://ethresear.ch/t/a-model-for-cumulative-committee-based-finality/10259…Address space extension: https://ethereum-magicians.org/t/thoughts-on-address-space-extension-ase/6779…DAS: https://hackmd.io/@vbuterin/dasPBS: https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance…
+A roadmap for how data space available to rollups can be greatly expanded (and hence rollup fees greatly reduced) progressively, starting from calldata gas cost reduction and continuing with step-by-step rollout of sharding:
+A doc on the state of research of censorship resistance under proposer/builder separation (PBS), and some techniques that could increase it.https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance…Thanks for feedback and contributions     and others!
+Review of Optimism retroactive funding round 1, an exciting new mechanism-design experiment which distributed $1 million among 58 Ethereum ecosystem public-good projects in recognition of their good work for the ecosystem so far.
+An introduction to some of the cryptographic techniques used in Halo (going into #Zcash) and other recent protocols. No pairings, no trusted setups!
+Crypto cities!
+A new account abstraction proposal! This time without requiring any ethereum consensus-layer protocol changes.  Work by , , Dror Tirosh, Namra Patel, , myself and others.
+Responding to (and largely agreeing with) Nathan Schneider 's piece on blockchain governance and moving beyond financialization:https://vitalik.ca/general/2021/09/26/limits.html…Also a good opportunity to expand on the language of collusion prevention.
+We need to move NFTs onto the layer 2 ecosystem to cut fees. However, doing that *right* requires good cross-rollup portability standards, so the ecosystem can avoid getting locked into one particular L2.  I make a cross-rollup portability proposal here:
+Doing a random twitter experiment just on this day. Only the 268 people I follow can reply to this tweet. Feel free to ask things and I'll talk about anything crypto or non-crypto related.
+Some thoughts on mechanism design for sales of limited-supply items (NFTs, tokens, but also not-inherently-blockchainy items), and how to do better than the current sales that sell out quickly and create big annoying splats on the gas market.
+A proposed alternative to CBC-ification for long-term hardening+simplification of the consensus mechanism: moving to committee-based single-slot finality. My proposal and some discussion-here:
+Decentralized governance is necessary, but coin voting governance in its current form has many acknowledged and unacknowledged dangers. Augmenting or moving beyond coin voting is a key part of the solution:
+Another fun analysis: why is post-London chain capacity ~9% higher than it was before?  Turns out the effect is evenly split between three causes: (i) ice age delay, (ii) not-always-full pre-London blocks, (iii) mathematical artefacts of EIP 1559 formula.https://reddit.com/r/ethereum/comments/p4nloh/why_has_the_chain_capacity_increased_by_9_after/…
+this seems like a fun coincidental counterexample to the usual "fear multifactorial explanations" rule. The effect has three causes all pointing in the same direction, and even *with almost exactly the same magnitude*!
+How full blocks are in a range of EIP 1559 blocks from today, versus in a simulation from two months ago that assumes fairly uniform but random tx activity and realistic block production.  It actually looks pretty similar!
+Against overuse of the Gini coefficient:
+Retroactive public goods funding!  Collaboration with the  team. Big thanks to them for also being willing to be the  first to implement the mechanism!
+During the last few weeks there has been a lot of discussion around the possibility of miners running custom software that accepts bribes to reorg the chain. and I explain how this will become harder after the proof of stake merge:
+The http://MEV.wtf online summit has started!  I will be speaking on block space markets in Ethereum sharding and then on a panel on MEV minimization and democratization in ~4 hours.
+EF research team AMA has started!
+I attempt to explain Verkle trees:
+I wrote up some much more detailed plans (including proto-EIPs) for Verkle trees and state expiry!  Verkle trees: https://notes.ethereum.org/@vbuterin/verkle_tree_eip…State expiry: https://notes.ethereum.org/@vbuterin/state_expiry_eip…Intro:
+Blockchain voting is overrated among uninformed people but underrated among informed people:
+The limits to blockchain scalability (or, why you can't "just increase the block size by 10x"):
+Response to the most common response: no, I have not "changed" from being a "big blocker" to being a "small blocker"! I've been quite consistently a "medium blocker" all along!  See also:
+I'm speaking about what happens after the merge in 15 minutes!https://ethglobal.tv
+Why sharding is great: demystifying the technical properties
+My review of Gitcoin Grants round 9 is out!  A major success, but also a lot of interesting challenges in this round that will continue being relevant long into the future.
+The most important scarce resource is legitimacy.
+An attempt at an explanation-in-pictures for how bulletproof-style polynomial commitments work (relevant to Halo and potentially future ethereum upgrades for better scalability)  I welcome feedback! I'm trying to experiment with new approaches to make crypto math more intuitive.
+Thanks   for help in guiding me through the various papers!
+AMA with Japanese community happening now!
+A cross-L2 DEX solution that I proposed a few days ago that only requires one side to be smart contract-capable (the other side can just be a simple coin-sending-only rollup or plasma):
+Some reflections on my experiences participating in the prediction markets in this last election, and the nature and limits of rationality, market efficiency, arbitrage and mechanism design:
+A doc detailing a proposal for the first hard fork (tentatively named "HF1", better name pending) of the Ethereum beacon chain. Adds light client support, simplifies the spec, improves efficiency and introduces a less punitive inactivity leak mechanism.
+A "Peep and EIP" session with myself and  organized by  where we talk about EIP 2929:https://youtube.com/watch?v=qQpvkxKso2E&feature=youtu.be…EIP 2929 and state size management are important work paving the way for making high gas limits (and so lower fees) more safe and sustainable.
+Happy Chinese/Lunar New Year all! 新年快乐, 恭喜发财!  Looking forward to a bullish year of the 0x. In the meantime, here's a doc I wrote with some of my current thinking around state size management (including rent and statelessness) proposals.https://hackmd.io/@HWeNw8hNRimMm2m2GH56Cw/state_size_management…
+I sent some! https://etherscan.io/tx/0x1d700574aea0c3f8a3509e9eb83f9f5bdd7ca4f4c40e1f57fc9e2137efb9c851…You should too! GiveDirectly is doing great work in distributing funds directly to the world's poorest.  They take crypto: https://donate.givedirectly.org (they don't yet take DOGE directly but maybe that can change)
+I make another attempt to explain how zk-SNARKs work, for those who are at least somewhat mathematically inclined but do not yet understand them.
+Temporarily breaking out of my Twitter-minimization for a short thread on issues around free speech and the mass deplatformings of the last week.  Obviously the riots were terrible, people still supporting DT are crazy, so moving on to some things that have not yet been said...
+Another is to try some cool ideas at combining anonymity with persistent reputations, eg. see here: https://ethresear.ch/t/anonymous-reputation-risking-and-burning/3926…Basically get the benefits of privacy while still keeping a way to hold people accountable, in zero knowledge.
+This is a dangerous moment in a lot of ways, but there's a lot of work to be done!
+The crypto space can also participate here.  is a great experiment. Another cool experiment would be to try decentralized forums moderated by Kleros. Kleros has already shown its sanity by correctly deciding that Biden has won the election: http://klerosboard.com/dispute/?id=532
+I credit  for experimenting here already: tweets with limits on who can reply to them were a great idea. The "quote-tweet-by-default" experiment was a nice try. I wonder what else we can do. Or maybe we just need less tweeting and more long-form (as I am doing in 2021).
+But clearly GIFT is not so simple. Plenty of online interactions are civil, and plenty of non-anonymous interactions are not. Are there ways to tweak the ways that we interact with the internet to make us more pro-social? I think so!
+It's a well-known phenomenon that people just act *worse* on the internet than they do in person; it even has a name: Greater Internet Fuckwad Theory.
+9. There are ways to improve the quality of online discourse without content-specific restrictions (which are hard to make credibly neutral: https://nakamoto.com/credible-neutrality/…)
+8. Twitter banning  is sad. You should definitely NOT click this link to SciHub's telegram bot https://telegram.me/scihubot and violate the publishing cartels' god-given right to massive profits.
+7. The attempts at bringing down Parler are very worrying. Apple, Google, AWS are much more like "common infrastructure providers" than a social media site is. Parler has a right to exist, full stop.
+I credit @VladZamfir for trying to strike out a productive path in this direction, even if I disagree on some of the details of his proposals specifically.
+Crypto may actually have a role to play here: it's a non-state-centric ecosystem that has had to grapple with tough political philosophy questions already. But to achieve its potential it needs to get its head out of its sand and admit that certain challenges exist.
+6. I think a global conversation medium is a valuable thing to have. I worry that "default" political philosophy (both liberal-democratic and otherwise) will push social media governance in a very state-centric direction, which risks rupturing any semblance of such a thing.

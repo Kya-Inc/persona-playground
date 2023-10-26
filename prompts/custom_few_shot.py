@@ -14,6 +14,8 @@ class CustomFewShotChatMessagePromptTemplate(FewShotChatMessagePromptTemplate):
         examples = self._get_examples(**kwargs)
         cues = [ex for ex in examples if ex.type == "cue"]
         thoughts = [ex for ex in examples if ex.type == "thought"]
+        styles = [ex for ex in examples if ex.type == "style"]
+        
         print("thoughts are",thoughts)
         messages = []
         if len(cues) > 0:
@@ -32,13 +34,23 @@ class CustomFewShotChatMessagePromptTemplate(FewShotChatMessagePromptTemplate):
                         messages.extend(
                             self.single_prompt.format_messages(**response.dict()))
 
-        if len(thoughts) > 0:
-            messages.extend(self.system_prompt.format_messages(
-                text="The following example messages are independant thoughts semantically matching the user's last message."))
+        # if len(styles) > 0:
+        #     messages.extend(self.system_prompt.format_messages(
+        #     text =  "Please utilize the following example messages, including tweets or Reddit posts, to better grasp and replicate the writing style, punctuation, syntax, choice of words, and rhythm of the {identified_character}. Pay special attention to their use of language, informal vs. formal tones, emoji or slang usage, and overall communicative approach. These examples are essential for accurately capturing the authentic tone and typical online interaction style of the character."))
 
-            for thought in thoughts:
-                messages.extend(
-                    self.single_prompt.format_messages(**thought.dict()))
+        #     for style in styles:
+        #         messages.extend(
+        #             self.single_prompt.format_messages(**style.dict()))
+
+
+        # if len(thoughts) > 0:
+        #     messages.extend(self.system_prompt.format_messages(
+        #         text="Additional thoughts, including insights from blogs and YouTube transcripts, are provided below. These are aligned with the user's last message to enrich the conversation with relevant knowledge for the {identified_character}."))
+
+        #     for thought in thoughts:
+        #         messages.extend(
+        #             self.single_prompt.format_messages(**thought.dict()))
+
 
         print(messages)
         return messages
