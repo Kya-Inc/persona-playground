@@ -33,16 +33,10 @@ show_pages([
     *persona_pages
 ])
 
-# st.text_input("OpenAI API Key", type="password", key="openai_api_key")
+st.text_input("OpenAI API Key", type="password", key="openai_api_key")
 st.text_input("Your Name", value="Anon", key="user_name")
-
-
-# if not st.session_state.openai_api_key:
-    # hide_pages(persona_names)
-
-print(os.getenv("OPENAI_API_KEY"))
-st.session_state.openai_api_key= os.getenv("OPENAI_API_KEY")
-
+if not st.session_state.openai_api_key:
+    hide_pages(persona_names)
 
 if st.session_state.openai_api_key:
     st.sidebar.success("Select a character above")

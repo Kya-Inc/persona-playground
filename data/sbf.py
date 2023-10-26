@@ -120,13 +120,13 @@ if __name__ == "__main__":
     
     semantic_model = SentenceTransformer("thenlper/gte-large")
 
-    # create_upload_clusters(data_dir='data/brian_armstrong/blogs',
-    #                        persona_id=brian_id,
-    #                        semantic_model=semantic_model,
-    #                        type='blogs')
-    
-    # Twitter
-    create_upload_clusters(data_dir='data/sbf/tweets',
+    create_upload_clusters(data_dir='data/brian_armstrong/blogs',
                            persona_id=SBF_ID,
                            semantic_model=semantic_model,
-                           type='twitter')
+                           type='blogs')
+    
+    # Twitter
+    # create_upload_clusters(data_dir='data/sbf/tweets',
+    #                        persona_id=SBF_ID,
+    #                        semantic_model=semantic_model,
+    #                        type='twitter')

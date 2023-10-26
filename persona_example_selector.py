@@ -70,61 +70,6 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         )
 
         examples = []
-        deferred = []
-
-        cues = qdrant.search(
-            collection_name="cues",
-            query_filter=Filter(
-                must=[
-                    FieldCondition(
-                        key="persona_id", match=MatchValue(value=self.persona_id)
-                    )
-                ]
-            ),
-            query_vector=semantic_model.encode(
-                input_variables.get("human_input")
-            ).tolist(),
-            limit=10,
-            with_payload={"exclude": ["precontext", "postcontext"]},
-            score_threshold=0.75,
-        )
-
-        for cue in cues:
-
-            if cue.payload["cue"] == cue.payload["response"]:
-                deferred.append(cue)
-            else:
-
-                dialogue_example = DialogueExample(
-                    type="cue", text=cue.payload["cue"], score=cue.score)
-                dialogue_example.pair = DialogueExample(
-                    type="response", text=cue.payload["response"])
-
-                responses = qdrant.search(
-                    collection_name="responses",
-                    query_filter=Filter(
-                        must=[
-                            FieldCondition(
-                                key="persona_id", match=MatchValue(value=self.persona_id)
-                            )
-                        ]
-                    ),
-                    query_vector=semantic_model.encode(
-                        cue.payload["response"]).tolist(),
-                    limit=3,
-                    score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
-                )
-
-                for response in responses:
-                    # we only want responses that aren't included,  there will always be at least one exact match.
-                    if response.payload["response"] != cue.payload["response"]:
-                        dialogue_example.pair.similar.append(DialogueExample(
-                            type="response", text=response.payload["response"], score=response.score))
-
-                examples.append(dialogue_example)
-
-
-
         thoughts = qdrant.search(
             collection_name="thoughtsCrypto",
             query_filter=Filter(
@@ -165,15 +110,6 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
             score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
         )
 
-        # now let's move internal dialogue, monologues, etc to the end
-        if len(deferred) > 0:
-            for solo in deferred:
-                print(solo)
-                examples.append(DialogueExample(
-                    type="thought", text=solo.payload["response"], score=solo.score))
-
-
-        # followed by actual chunks from the thoughts collection
         if len(thoughts) > 0:
             for thought in thoughts:
                 # this is a quick hacky way to handle this.. now it will be treated similarly to how a internal monologue or something a character says without a cue
@@ -187,13 +123,11 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                 
         if len(styles) > 0:
             for style in styles:
-                # this is a quick hacky way to handle this.. now it will be treated similarly to how a internal monologue or something a character says without a cue
-                # I just have to make a custom few shot template to handle it
                 style.payload["cue"] = style.payload["thought"]
                 style.payload["response"] = style.payload["thought"]
 
                 examples.append(DialogueExample(
-                    type="style", text=thought.payload["thought"], score=thought.score))
+                    type="style", text=style.payload["thought"], score=style.score))
                 
                 
     

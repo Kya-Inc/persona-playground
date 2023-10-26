@@ -6,7 +6,6 @@ Crypto is volatile.  Remember to exercise prudent risk management when trading. 
 gm to the holders. It wasn't easy, but...
 The golden ticket to train with  Ronaldo, with flights/hotel/etc covered by #Binance, still hasn't been claimed.  Get your free CR7 ForeverZone box and it could be yours. http://binance.com/en/activity/cr7-nft…
 3 years...
-Keep building. https://binance.com/en/feed/post/1415905?ref=527648310&utm_campaign=app_share_link&utm_source=twitter…
 Things to do and not do when you see me at an event.   1. Always happy to take a selfie. Let’s do it quickly. Don’t try to pitch your project (especially when there are many others waiting).  2. Please post the selfie on social media afterwards, for all to see. Please do not use…
 "I think there is a world market for maybe five computers." - Thomas Watson, president of IBM, 1943
 Earlier today, there was a hardware failure...
@@ -28,7 +27,6 @@ Copy trading is now live on #Binance.   You can replicate the trades of some of 
 Beware of scammers. Stay #SAFU!
 #Binance added the #bitcoin halving countdown to our homepage.  And here are my thoughts around the Bitcoin Halvings...
 UK update
-#Binance Feed doesn't have an API. No bots. https://binance.com/en/feed
 Education
 Just made my first post on  Feed.  You can too.  It's a new platform. As always, we welcome your feedback to improve it.  As I have 0 followers and followings now, I will follow the early adopters aggressively. Go there and follow me.
 All KYC'ed users around the world. Hopefully, there will be less spam and bots.  (No US users. This feature is not available on ).
@@ -42,19 +40,12 @@ It's a direct screenshot from a demo of the Binance web interface. Not a photosh
 Enough said about his new book...
 “The guys who held last week were so lucky!”
 Binance v. SEC: Paradigm Files Amicus Brief, Accuses SEC Of Regulatory Overreach
-Applies not only to X.
-月圆·币圆·人团圆  祝全球华语用户们，中秋佳节愉快！  送出一份 #Binance 键盘套装，希望大家可以hodl住幸福和快乐。  留言晒出你的月饼 / 灯笼 - Giving away this #Binance keyboard for Mid Autumn Festival.  Show me your mooncake or lantern to enter.
-Pic by .
-T&Cs apply: https://ter.li/o59m4r
 Our Chinese and Arabic ancestors figured out crypto. They both made MOON festivals! And they both land on today.  中秋快乐！
 Happy Mawlid al-Nabi!
 Fixed. Thank you for your patience and support.
 This is a display ONLY issue. Trading not affected.
 Root cause identified, some new code caused it. Need to revert and fix data.  Engineers say 1hr ETA for fix. So, expect 2hr or so.
 Futures Kline (chart) display issue on BTCUSDT. The UI aggregated Kline has issue, the raw Kline via api is working fine.  Trading not affected.  Team is fixing.
-Raw Kline is fine: https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&limit=500&interval=5m…
-UI composite Kline has issue: https://fapi.binance.com/fapi/v1/continuousKlines?pair=BTCUSDT&contractType=PERPETUAL&interval=1m&limit=1000…
-Happy Mid-Autumn Festival!
 When you give interns access to your X account...
 Got it as a gift from our local partner in Malaysia on that day. I posted a picture from this event before, with that shirt, on that day.  The only time I wear that shirt, also the only time I met with Gatita. But I have a feeling this photo will follow me around for a bit.
 This is an important announcement impacting some EUR / Paysafe users. There should also be replacement fiat channels going live soon. Please stay tuned. Important Updates for Paysafe Users | Binance Support
@@ -83,7 +74,6 @@ I am stable.
 The new Elon Musk book by Walter Isaacson is pretty good.
 Interesting to learn that Elon uses a "hardcore" value. I didn't know that before, and we use the same word from 6 years ago. Admittedly, his hardcore seems to be more hardcore than ours. "Revolutionizing industries is not for the faint of heart."  He can tolerate rockets blowing…
 Binance Brings Law Enforcement Expertise to Hong Kong International Symposium on Cyber Policing | Binance Blog https://binance.com/en/blog/ecosystem/binance-brings-law-enforcement-expertise-to-hong-kong-international-symposium-on-cyber-policing-3815824125081248102…
-The top menu on http://Binance.com has changed a bit. It's simpler now.   The fact that no one complained about the change probably means we should have done it much sooner.  Keep building.
 Who did this?  (I was not there. I don't even know where it is. When you give free rein to Interns...  )
 The amount of wrong information is just...  They got the direction wrong. I loaned $250 million to BAM a while back, not the other way around. And have not taken it back.
 They fixed the article now. I was told.
@@ -92,7 +82,6 @@ For the record. Binance US does not use, and have NEVER used Ceffu or Binance Cu
 How can I get these?   The interns sends me pics to tweet, but not the actual merchandise…
 Very true! The saying:  You never get criticized by the people who do more than you; you only get criticized by people who do less.
 Guess what? You can be criticized when you donate $3 million dollars worth of crypto after an earthquake.  While we got overwhelming positive feedback from our users about the donation (as seen in the quoted tweet), and while the issues raised are typically from traditional…
-You may not know the origin of the #Binance logo.https://medium.com/binanceexchange/are-you-committed-enough-to-tattoo-ef2085b0aed5…
 Not sure why, but I like this ceiling light.
 Not sure why, but I like this ceiling light.
 Mark Cuban Confirms Getting Hacked for $870K on MetaMask. This happens to the most experienced of crypto users.  Read this article I wrote 3 years ago. There is a section about downloading software, wait 72 hrs, etc.  Stay #SAFU
@@ -151,8 +140,6 @@ Think what  is doing.
 Here is the English version of the article mentioned earlier.https://picapica.wtf/p/inside-binance-decoding-the-borderless…
 Interesting article about Binance.  If you wish, happy to do a call to give you more context or background, or more access to Binance internals/data. Thanks for the article. >谁在制造币安：4000 份履历里的无国界公司 https://mp.weixin.qq.com/s/qedPxj5O0rVkAchDrHU55A…
 Win a trip to Turkey! #Binance is giving away 5 trips (flights, hotel, event entry) to Binance Blockchain Week on Nov 8-9.  Retweet and reply with why you'd like to attend using the hashtag #BinanceBlockchainWeek
-Learn more about #BinanceBlockchainWeek here.
-Terms and conditions apply. https://binance.com/en/survey/3972083f752b448a871fee28dbcbd914…
 Been seeing a lot of cats on my feed from the #BinanceCat contest. Keep them coming!  This one from  is cool.
 Details here.
 I highly recommend everyone to do this, to better protect your account. Stay #SAFU!
@@ -199,8 +186,6 @@ Bitcoin is more stable than stable coins now…
 バイナンス
 Unpopular x:  "Impermanent loss" is usually "permanent loss".  Don't let a term fool you. And "stable" coins... are not always stable.  Learn risk management. Stay #SAFU.
 Japan PM reaffirms Web3 plans as Binance announces imminent launch
-1. Education.  147 graduates have secured IT-related jobs from the IT Generation project in Ukraine, a tech scholarship program supported by .  » https://binance.com/en/blog/charity/it-generation-program-empowering-ukrainians-with-tech-scholarships-1473202064819672027?ref=AZTKZ9XS&utm_source=CZTwitter&utm_medium=CZSocial&utm_campaign=CZSocial…
-Let’s X it…
 Also from 6 years ago, an article I wrote on FUD. Yes, it's a time-old concept. It hasn't changed. And sadly, it will go on for a while.
 Someone sent this to me, an article I wrote 6 years ago. The project mentioned currently has a market cap of less than $1m. It's a good group of guys, but probably distracted by too much money.  Start small and grow big, not the other way around.
 CR7 is a cool dude.
@@ -209,8 +194,6 @@ When people see me in a restaurant, they say: “oh it’s the Binance guy.”
 #Binance France released its first audited financial statements today.   Binance France a publié aujourd’hui ses premiers états financiers audités.
 Be careful with phishing and other social engineering scams. Best to enable 2FA with a hardware device (Yubikey) on all crypto exchanges.
 They say usually, faster is better.
-The first global music tour powered by Web3.#BinanceAfterHours
-Experience it here. https://enterthedimension.com/?ref=AZTKZ9XS&utm_source=CZTwitter&utm_medium=CZSocial&utm_campaign=CZSocial…
 Positive life starts with positive energy.  Be full of positive energy in life.
 The quarterly #BNB burn is done, according to the public algorithm.   I was told there will be some more on-chain (large) transactions shortly, to further distribute/spread the coins to more addresses. Nothing to be alarmed about.
 I learned today that a guy who is constantly spreading FUD about  was just because he pitched his project to Binance Labs and we didn't invest.   Feel really sad for him. I hope he eventually finds his way out of it, and actually focus on his own project.
@@ -256,18 +239,13 @@ Most people I know accept crypto.
 How to meet CR7:  1) Own a SSR NFT from this drop. 2) Holders get an in-person training session with Cristiano Ronaldo, amongst other perks.  Real utility.
 We keep building.
 In crypto, education is everything.  Thanks to everyone that dedicates time to growing our ecosystem through teaching Please get your votes in for this award.
-NFTs dropping on July 3.  » https://binance.com/en/nft/event/forevercr7?ref=FOREVERCR7&utm_source=CZTwitter&utm_medium=GlobalSocial&utm_campaign=thecr7nftcollection2…
 #Binance API supports asymmetric keys. Binance won’t ever have your private keys in this case. We only use the public key. #SAFU
 Eid Adha Mubarak.
 Keeping #Binance secure at all times.
 HK moving forward.
-Good to see Japan enacting tax policy that incentivizes crypto innovation.
-1, 2, 3…
-http://Binance.US solves USD withdrawal issues but warns it won't last long
 TradFi, who would have thought?
 The color fits him, I think. #Binance
 Signing in Kazakhstan Left to right: CZ, President of Kazakhstan Kassym-Jomart Tokayev, Minister of Information Technology Bagdat Mussin  (Photo was from a while ago.)
-http://Binance.US and Its Legal Team Allege SEC Issued Misleading Statements in Lawsuit
 Binance Launches a Regulated Digital Asset Platform in Kazakhstan, with local banking support.
 1500+ people #Binance meetup in Kazakhstan now.
 Playing by the Rules: The Crypto Compliance Landscape Today | Binance Blog
@@ -275,7 +253,6 @@ Deutsche Bank applies for digital asset license.
 Continue to invest in the industry.
 Slowly, but we keep building...
 Binance have issued cease & desist notice to the scammer entity "Binance Nigeria Limited".  Don't believe everything you read in the news.
-If you are using http://binance.com, you are not interacting with the scammer entity.
 Look on the bright side. Scrutiny provides validation.  Was just reading the court transcript.  Court: "... Similarly, you all repeat in the memo that there's no evidence, absolutely no evidence of any dissipation of assets whatsoever. And the government at this point has said…
 Look on the bright side. Scrutiny provides validation.  Was just reading the court transcript.  Court: "... Similarly, you all repeat in the memo that there's no evidence, absolutely no evidence of any dissipation of assets whatsoever. And the government at this point has said…
 Happy Father's Day!

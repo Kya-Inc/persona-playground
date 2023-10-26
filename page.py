@@ -84,13 +84,7 @@ def page_template(character_data):
             ("system", SYSTEM_NOTE_TEMPLATE),
             ("system", NSFW_TEMPLATE),
             ("system", MAIN_TEMPLATE.format(**character_data)),
-            (
-                "system",
-                EXAMPLES_PREFACE_TEMPLATE.format(
-                    user_name=st.session_state.user_name_p,
-                    character_name=character_first_name,
-                ),
-            ),
+
             examples_prompt,
             (
                 "system",

@@ -15,41 +15,40 @@ class CustomFewShotChatMessagePromptTemplate(FewShotChatMessagePromptTemplate):
         cues = [ex for ex in examples if ex.type == "cue"]
         thoughts = [ex for ex in examples if ex.type == "thought"]
         styles = [ex for ex in examples if ex.type == "style"]
-        
-        print("thoughts are",thoughts)
+        # print("stylesare",styles)
         messages = []
-        if len(cues) > 0:
+        # if len(cues) > 0:
+        #     messages.extend(self.system_prompt.format_messages(
+        #         text="The following cues are similar to the user's last message and show the character's response and other semantically similar responses."))
+
+        #     for cue in cues:
+        #         messages.extend(
+        #             self.example_prompt.format_messages(cue=cue.text, response=cue.pair.text))
+        #         # cue=cue.text, response=cue.pair.text))
+
+        #         if len(cue.pair.similar) > 0:
+        #             messages.extend(self.system_prompt.format_messages(
+        #                 text="The following responses, don't necessarily respond to the same cue, but are semantically similar to the response to the above cue."))
+        #             for response in cue.pair.similar:
+        #                 messages.extend(
+        #                     self.single_prompt.format_messages(**response.dict()))
+
+        if len(styles) > 0:
             messages.extend(self.system_prompt.format_messages(
-                text="The following cues are similar to the user's last message and show the character's response and other semantically similar responses."))
+            text =  "Please utilize the following example messages, including tweets or Reddit posts, to better grasp and replicate the writing style, punctuation, syntax, choice of words, and rhythm of the {identified_character}. Pay special attention to their use of language, informal vs. formal tones, emoji or slang usage, and overall communicative approach. These examples are essential for accurately capturing the authentic tone and typical online interaction style of the character."))
 
-            for cue in cues:
+            for style in styles:
                 messages.extend(
-                    self.example_prompt.format_messages(cue=cue.text, response=cue.pair.text))
-                # cue=cue.text, response=cue.pair.text))
-
-                if len(cue.pair.similar) > 0:
-                    messages.extend(self.system_prompt.format_messages(
-                        text="The following responses, don't necessarily respond to the same cue, but are semantically similar to the response to the above cue."))
-                    for response in cue.pair.similar:
-                        messages.extend(
-                            self.single_prompt.format_messages(**response.dict()))
-
-        # if len(styles) > 0:
-        #     messages.extend(self.system_prompt.format_messages(
-        #     text =  "Please utilize the following example messages, including tweets or Reddit posts, to better grasp and replicate the writing style, punctuation, syntax, choice of words, and rhythm of the {identified_character}. Pay special attention to their use of language, informal vs. formal tones, emoji or slang usage, and overall communicative approach. These examples are essential for accurately capturing the authentic tone and typical online interaction style of the character."))
-
-        #     for style in styles:
-        #         messages.extend(
-        #             self.single_prompt.format_messages(**style.dict()))
+                    self.single_prompt.format_messages(**style.dict()))
 
 
-        # if len(thoughts) > 0:
-        #     messages.extend(self.system_prompt.format_messages(
-        #         text="Additional thoughts, including insights from blogs and YouTube transcripts, are provided below. These are aligned with the user's last message to enrich the conversation with relevant knowledge for the {identified_character}."))
+        if len(thoughts) > 0:
+            messages.extend(self.system_prompt.format_messages(
+                text="Additional thoughts, including insights from blogs and YouTube transcripts, are provided below. These are aligned with the user's last message to enrich the conversation with relevant knowledge for the {identified_character}."))
 
-        #     for thought in thoughts:
-        #         messages.extend(
-        #             self.single_prompt.format_messages(**thought.dict()))
+            for thought in thoughts:
+                messages.extend(
+                    self.single_prompt.format_messages(**thought.dict()))
 
 
         print(messages)
