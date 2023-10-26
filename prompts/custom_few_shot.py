@@ -14,7 +14,7 @@ class CustomFewShotChatMessagePromptTemplate(FewShotChatMessagePromptTemplate):
         examples = self._get_examples(**kwargs)
         cues = [ex for ex in examples if ex.type == "cue"]
         thoughts = [ex for ex in examples if ex.type == "thought"]
-
+        print("thoughts are",thoughts)
         messages = []
         if len(cues) > 0:
             messages.extend(self.system_prompt.format_messages(
@@ -32,13 +32,13 @@ class CustomFewShotChatMessagePromptTemplate(FewShotChatMessagePromptTemplate):
                         messages.extend(
                             self.single_prompt.format_messages(**response.dict()))
 
-            if len(thoughts) > 0:
-                messages.extend(self.system_prompt.format_messages(
-                    text="The remaining example messages are independant thoughts semantically matching the user's last message."))
+        if len(thoughts) > 0:
+            messages.extend(self.system_prompt.format_messages(
+                text="The following example messages are independant thoughts semantically matching the user's last message."))
 
-                for thought in thoughts:
-                    messages.extend(
-                        self.single_prompt.format_messages(**thought.dict()))
+            for thought in thoughts:
+                messages.extend(
+                    self.single_prompt.format_messages(**thought.dict()))
 
         print(messages)
         return messages

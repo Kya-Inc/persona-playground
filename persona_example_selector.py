@@ -124,11 +124,12 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                 examples.append(dialogue_example)
 
         thoughts = qdrant.search(
-            collection_name="thoughts",
+            collection_name="thoughtsCrypto",
             query_filter=Filter(
                 must=[
                     FieldCondition(
-                            key="persona_id", match=MatchValue(value=self.persona_id)
+                            key="persona_id", match=MatchValue(value=self.persona_id),
+                            key='from',match=MatchValue(value="blogs")
                     )
                 ]
             ),
@@ -181,7 +182,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         debug_info = create_debug_info(
             input_variables["human_input"], examples)
         st.session_state[f"debug_info_{self.persona_id}"] = debug_info
-
+        print("debugexamples",examples)
         return examples
 
 
@@ -211,7 +212,10 @@ def create_debug_info(human_input, examples):
         for thought in thoughts:
             output += f"    - thought: \"{thought.text}\"\n"
             output += f"      score: \"{thought.score}\"\n"
-
+            
+    print("**")
+    print(output)
+    print("**")
     return output
 
 

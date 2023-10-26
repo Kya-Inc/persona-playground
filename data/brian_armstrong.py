@@ -7,6 +7,7 @@ from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
 from utils import cluster_text
 from dotenv import load_dotenv
+from persona_ids import BRIAN_ARMSTRONG_ID
 import os
 import logging
 import uuid
@@ -118,10 +119,16 @@ if __name__ == "__main__":
 
     load_dotenv()
     # print(uuid.uuid1())
-    brian_id = "a084cbe2-735f-11ee-a82a-26eb57454550"
+    
     semantic_model = SentenceTransformer("thenlper/gte-large")
 
-    create_upload_clusters(data_dir='data/brian_armstrong/blogs',
-                           persona_id=brian_id,
+    # create_upload_clusters(data_dir='data/brian_armstrong/blogs',
+    #                        persona_id=brian_id,
+    #                        semantic_model=semantic_model,
+    #                        type='blogs')
+    
+    # Twitter
+    create_upload_clusters(data_dir='data/brian_armstrong/tweets',
+                           persona_id=BRIAN_ARMSTRONG_ID,
                            semantic_model=semantic_model,
-                           type='blogs')
+                           type='twitter')
