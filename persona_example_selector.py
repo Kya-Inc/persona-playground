@@ -1,22 +1,30 @@
 from __future__ import annotations
+from re import I
 from typing import Dict, List, Optional, ForwardRef
 from typing_extensions import Literal  # just to be safe
 from types import SimpleNamespace
+from altair import Field
 from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
+from qdrant_client.models import Filter, FieldCondition, MatchValue, MatchText
 from sentence_transformers import SentenceTransformer
 from langchain.prompts.example_selector.base import BaseExampleSelector
 import streamlit as st
 from pydantic import BaseModel
 import os
 
+from langchain.chains import LLMChain
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import BasePromptTemplate, PromptTemplate
+
 from dotenv import load_dotenv
+
+import prompt_templates
 
 load_dotenv()
 
 
 class DialogueExample(BaseModel):
-    type: Literal["cue", "response", "thought"]
+    type: Literal["cue", "response", "thought", "keyword"]
     text: str
     score: Optional[float] = None
     pair: Optional[DialogueExample] = None
@@ -157,13 +165,29 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                 examples.append(DialogueExample(
                     type="thought", text=thought.payload["thought"], score=thought.score))
 
-        similar_content = qdrant.search(
+        keyword_extraction = LLMChain(
+            llm=ChatOpenAI(
+                openai_api_key=st.session_state.openai_api_key_p,
+                model="gpt-3.5-turbo",
+                temperature=0,
+            ),
+            prompt=PromptTemplate.from_template(
+                prompt_templates.KEYWORD_EXTRACTION),
+            verbose=True,
+        )
+
+        keyword = keyword_extraction.run(input_variables.get("human_input"))
+
+        print("\n\n\nKEYWORD: ", keyword, "\n\n\n")
+        keyword_matches = qdrant.search(
             collection_name="responses",
             query_filter=Filter(
                 must=[
                     FieldCondition(
                             key="persona_id", match=MatchValue(value=self.persona_id)
-                    )
+                    ),
+                    FieldCondition(
+                        key="response", match=MatchText(text=keyword))
                 ]
             ),
             query_vector=semantic_model.encode(
@@ -173,10 +197,10 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
             score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
         )
 
-        if len(similar_content) > 0:
-            for content in similar_content:
+        if len(keyword_matches) > 0:
+            for match in keyword_matches:
                 examples.append(DialogueExample(
-                    type="thought", text=content.payload["response"], score=content.score))
+                    type="keyword", text=match.payload["response"], score=match.score))
 
         debug_info = create_debug_info(
             input_variables["human_input"], examples)
@@ -188,6 +212,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
 def create_debug_info(human_input, examples):
     cues = [ex for ex in examples if ex.type == "cue"]
     thoughts = [ex for ex in examples if ex.type == "thought"]
+    keyword_matches = [ex for ex in examples if ex.type == "keyword"]
 
     output = f"- human input: {human_input.strip()}\n"
     output += "  retrieval_results:\n"
@@ -211,6 +236,11 @@ def create_debug_info(human_input, examples):
         for thought in thoughts:
             output += f"    - thought: \"{thought.text}\"\n"
             output += f"      score: \"{thought.score}\"\n"
+
+    if len(keyword_matches) > 0:
+        output += "\n    # The remaining example messages are responses from the full-text match filtering over the response collection\n"
+        for response in keyword_matches:
+            output += f"    - response: \"{response.text}\"\n"
 
     return output
 

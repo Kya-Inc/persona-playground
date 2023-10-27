@@ -42,3 +42,29 @@ based on the OCEAN traits and other provided information. Reminder: The examples
 TASK_TEMPLATE = "[Write {character_name}'s next reply in the fictional chat between {character_name} and {user_name} presented below. Always stay in character and avoid repetition. Stylize the response to reflect how the character would type and use punctiation only if they would when typing. Punctuation, grammar, and spelling should only be perfect if their OCEAN scores indicate high intelligence or meticulousness. If their OCEAN scores indicate low intelligence, the way you present their response should reflect that through lack of punctuation and typos.]"
 
 EXAMPLES_PREFACE_TEMPLATE = "[Note: The following examples are not between {character_name} and {user_name}, but they are between {character_name} and other people, so they are representative of the character's word choices, semantic content, and contain facts about {character_name}. You must extrapolate the character's typing style from the OCEAN traits, perceived intelligence, and other provided information.]"
+
+
+KEYWORD_EXTRACTION = """
+Extract the key topic word from the following questions/sentences:
+
+Input: What is your email address?
+Output: email
+
+Input: Can you provide me your electronic mail to contact you?  
+Output: email
+
+Input: So... interesting cat purse you have there
+Output: cat purse
+
+Input: I wanted to send you an email, what address should I use?
+Output: email
+
+Input: What is the best way to get in touch with you via email?
+Output: email
+
+Input: Can I reach you via electronic mail?
+Output: email
+
+Input: {human_input}
+Output:
+"""
