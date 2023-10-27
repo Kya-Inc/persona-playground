@@ -150,7 +150,6 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
         # now let's move internal dialogue, monologues, etc to the end
         if len(deferred) > 0:
             for solo in deferred:
-                print(solo)
                 examples.append(DialogueExample(
                     type="thought", text=solo.payload["response"], score=solo.score))
 
@@ -178,10 +177,9 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
 
         keyword = keyword_extraction.run(input_variables.get("human_input"))
 
-        print("\n\n\nKEYWORD: ", keyword, "\n\n\n")
-        keyword_matches = qdrant.search(
+        keyword_matches, _ = qdrant.scroll(
             collection_name="responses",
-            query_filter=Filter(
+            scroll_filter=Filter(
                 must=[
                     FieldCondition(
                             key="persona_id", match=MatchValue(value=self.persona_id)
@@ -190,17 +188,14 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                         key="response", match=MatchText(text=keyword))
                 ]
             ),
-            query_vector=semantic_model.encode(
-                input_variables.get("human_input")).tolist(),
             limit=5,
-            with_payload=True,
-            score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
+            with_payload=True
         )
 
         if len(keyword_matches) > 0:
             for match in keyword_matches:
                 examples.append(DialogueExample(
-                    type="keyword", text=match.payload["response"], score=match.score))
+                    type="keyword", text=match.payload["response"]))
 
         debug_info = create_debug_info(
             input_variables["human_input"], examples)
