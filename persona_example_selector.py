@@ -92,7 +92,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
             query_vector=semantic_model.encode(
                 input_variables.get("human_input")
             ).tolist(),
-            limit=10,
+            limit=5,
             with_payload={"exclude": ["precontext", "postcontext"]},
             score_threshold=0.75,
         )
@@ -119,7 +119,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
                     ),
                     query_vector=semantic_model.encode(
                         cue.payload["response"]).tolist(),
-                    limit=3,
+                    limit=2,
                     score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
                 )
 
@@ -142,7 +142,7 @@ class PersonaExampleSelector(BaseExampleSelector, BaseModel):
             ),
             query_vector=semantic_model.encode(
                 input_variables.get("human_input")).tolist(),
-            limit=5,
+            limit=4,
             with_payload=True,
             score_threshold=0.75,  # this definitely needs to be higher, just not sure how high yet
         )
