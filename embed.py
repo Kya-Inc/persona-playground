@@ -34,7 +34,7 @@ def embed_character_dialogue(
 
     # semantic_model = SentenceTransformer("thenlper/gte-large")
     # semantic_model = SentenceTransformer("all-MiniLM-L6-v2")
-    semantic_model = SentenceTransformer("BAAI/bge-small-en-v1.5")
+    semantic_model = SentenceTransformer("BAAI/bge-base-en-v1.5")
 
     cue_records = []
     response_records = []
@@ -159,10 +159,10 @@ def embed_character_dialogue(
         print("total lines: ", len(cue_records) +
               len(thought_records) + len(concat_rows))
 
-        qdrant.upload_records(collection_name="cues-384", records=cue_records)
-        qdrant.upload_records(collection_name="responses-384",
+        qdrant.upload_records(collection_name="cues-768", records=cue_records)
+        qdrant.upload_records(collection_name="responses-768",
                               records=response_records)
-        qdrant.upload_records(collection_name="thoughts-384",
+        qdrant.upload_records(collection_name="thoughts-768",
                               records=thought_records)
     else:
         print(json.dumps({
