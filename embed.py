@@ -33,7 +33,8 @@ def embed_character_dialogue(
                           api_key=os.environ.get("QDRANT_API_KEY"))
 
     # semantic_model = SentenceTransformer("thenlper/gte-large")
-    semantic_model = SentenceTransformer("all-MiniLM-L6-v2")
+    # semantic_model = SentenceTransformer("all-MiniLM-L6-v2")
+    semantic_model = SentenceTransformer("BAAI/bge-small-en-v1.5")
 
     cue_records = []
     response_records = []
