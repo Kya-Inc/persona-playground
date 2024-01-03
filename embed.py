@@ -7,8 +7,38 @@ from pandas import DataFrame
 from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
+from icecream import ic
 
 load_dotenv()
+
+
+def preprocess_dataframe(df, speaker_name_col: str = "speaker", line_col: str = "line"):
+    # Ensure 'speaker_name_col' and 'line_col' exists in df to avoid KeyErrors
+    if speaker_name_col not in df.columns or line_col not in df.columns:
+        raise KeyError(
+            f"Column names {speaker_name_col} or {line_col} not found in DataFrame")
+
+    # Forward fill the 'speaker_name_col' column to associate lines with their speakers
+    df[speaker_name_col] = df[speaker_name_col].ffill()
+
+    # Drop rows where 'line_col' is NaN (non-speaking lines)
+    df = df.dropna(subset=[line_col])
+
+    # Create a grouping key that changes each time the 'speaker_name_col' changes
+    df['group_key'] = (df[speaker_name_col] !=
+                       df[speaker_name_col].shift(1)).cumsum()
+
+    # Group by 'speaker_name_col' and 'group_key' and concatenate the 'line_col' values
+    grouped_df = df.groupby(['group_key', speaker_name_col])[
+        line_col].agg(' '.join).reset_index()
+
+    # Remove the 'group_key' as it is no longer needed
+    grouped_df.drop('group_key', axis=1, inplace=True)
+
+    # All lines in the output DataFrame are speaking lines, so we can safely add a column with True values
+    grouped_df['speaking_line'] = True
+
+    return grouped_df
 
 
 def embed_character_dialogue(
@@ -23,6 +53,10 @@ def embed_character_dialogue(
     dry_run: bool = False,
 ):
     # filter out non-speaking lines
+
+    df = preprocess_dataframe(df, speaker_name_col, line_col)
+    print(df)
+
     lines: DataFrame = df[df[is_spoken_line_col]]
 
     # filter out non-character lines (this includes lines that they say outloud and internally)
@@ -34,7 +68,7 @@ def embed_character_dialogue(
 
     # semantic_model = SentenceTransformer("thenlper/gte-large")
     # semantic_model = SentenceTransformer("all-MiniLM-L6-v2")
-    semantic_model = SentenceTransformer("BAAI/bge-small-en-v1.5")
+    semantic_model = SentenceTransformer("BAAI/bge-base-en-v1.5")
 
     cue_records = []
     response_records = []
@@ -122,7 +156,8 @@ def embed_character_dialogue(
                 "meta": {k: v for k, v in row.items() if not pd.isna(v) or not pd.isnull(v)}
             }
 
-            if not dry_run:
+            # if not dry_run:
+            if True:
                 try:
                     cue_vec = semantic_model.encode(cue)
                     response_vec = semantic_model.encode(response)
@@ -134,13 +169,15 @@ def embed_character_dialogue(
 
             cue_record = models.Record(
                 id=id,
-                vector=cue_vec.tolist() if not dry_run else None,
+                # vector=cue_vec.tolist() if not dry_run else None,
+                vector=cue_vec.tolist(),
                 payload=payload,
             )
 
             response_record = models.Record(
                 id=id,
-                vector=response_vec.tolist() if not dry_run else None,
+                # vector=response_vec.tolist() if not dry_run else None,
+                vector=response_vec.tolist(),
                 payload=payload,
             )
 
@@ -159,12 +196,13 @@ def embed_character_dialogue(
         print("total lines: ", len(cue_records) +
               len(thought_records) + len(concat_rows))
 
-        qdrant.upload_records(collection_name="cues-384", records=cue_records)
-        qdrant.upload_records(collection_name="responses-384",
+        qdrant.upload_records(collection_name="cues-768", records=cue_records)
+        qdrant.upload_records(collection_name="responses-768",
                               records=response_records)
-        qdrant.upload_records(collection_name="thoughts-384",
+        qdrant.upload_records(collection_name="thoughts-768",
                               records=thought_records)
     else:
+
         print(json.dumps({
             "cues": [x.dict() for x in cue_records],
             "responses": [x.dict() for x in response_records],
